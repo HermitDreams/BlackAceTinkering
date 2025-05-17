@@ -1,0 +1,1012 @@
+MEGA MAN STAR FORCE 3: BLACK ACE
+
+Starting Addresses:
+
+Battle Cards: 0x000D7274
+Folder Cards: 0x000D745D
+
+Byte 1 = Variant (High Bits), Power / Rarity Grade (Low Bits)
+Byte 2 = Lock-On Methods
+Byte 3 = ?
+Byte 4 = Effect
+Bytes 5 & 6 = Entity Health / EM Body to Summon / Healing Amount
+Byte 7 = ? (possibly cooldown?)
+Byte 8 = ?
+
+- Power / Rarity Grades come in 0-A
+- Changing this does not seem to affect Noise Reward pools
+
+Lock-On Methods:
+- 34 = Guns (elaborate later)
+- 51 = Punch
+
+Effect List:
+- 01 = Indefinite Lockout
+- 02 = Camera Change
+- 03 = Nothing
+- 04 = Uncharged Buster
+- 05 = Charged Buster
+- 06 = Purple Flamethrower
+- 07 = Cygnus Wing Feathers
+- 08 = Explosive Shot
+- 09 = Queen Virgo Wave
+- 0A = Crown Thunder Plasma
+- 0B = Wolf Woods Slash
+- 0C = Clone of 3A
+- 0D = Cannon Shot
+- 0E = Spread Shot
+- 0F = Lob Bumpy Grenade
+- 10 = Small Sword
+- 11 = Long Sword
+- 12 = Wide Sword
+- 13 = Damage-Syncing Punch
+- 14 = Rain Meteors
+- 15 = Shock Wave
+- 16 = Hammer
+- 17 = Rain Coins
+- 18 = Ku'i Stamp
+- 19 = Uppercut
+- 1A = Wide Wave
+- 1B = Bubble Hook
+- 1C = Stealth Gunfire
+- 1D = Hand Rising From Tiles
+- 1E = Pull Enemies In
+- 1F = Plasma Shot
+- 20 = Swing Non-Elemental Axe
+- 21 = Place Time Bomb
+- 22 = HP-based Deletion
+- 23 = Spin Attack
+- 24 = Spawn Rocks
+- 25 = Blow Up Obstacles
+- 26 = Destroy Front Panels
+- 27 = Beast Slap
+- 28 = Dash Attack
+- 29 = Gatling Gun
+- 2A = Shark Rampage
+- 2B = Drop Spiders
+- 2C = Throw Boomerang
+- 2D = Throw Buzz Saw
+- 2E = Upgradable Sword Slash
+- 2F = Throw a Spinning Scythe
+- 30 = Spreading Flamethrower
+- 31 = Rolling Snowball
+- 32 = Lob Arrows at Back Panels
+- 33 = Throw an Unlit Bomb
+- 34 = Elemental Wide Slash
+- 35 = Cut Forward and Left
+- 36 = Lob a Spreading Grenade
+- 37 = Shoot Pollen
+- 38 = Counterattacking Fireball
+- 39 = Missile All Null-Elements
+- 3A = Panel-cracking Flamethrower
+- 3B = Status Effect Punch
+- 3C = Twenty Kicks
+- 3D = Place a Breaking Time Bomb
+- 3E = Rain Fiery Meteors
+- 3F = Twister
+- 40 = Turn Panels Into Damage
+- 41 = Countering Uppercut
+- 42 = Spreading Seed Gatling
+- 43 = Bloodied Long Slash
+- 44 = Ink Shot
+- 45 = Piranha Swarm
+- 46 = Missile Barrage
+- 47 = Hole-powered Laser
+- 48 = Panic Cloud
+- 49 = Spinning Penguin
+- 4A = Sequential Sword Slashes
+- 4B = Place Thunder Dragon
+- 4C = Swing Flame Axe
+- 4D = Sharp Blade Cuts Triangle
+- 4E = Thunderballs From Holes
+- 4F = Drop Puffballs
+- 50 = Mega Crusher
+- 51 = Rapid Blinding Stabs
+- 52 = Fan Smack
+- 53 = Drill
+- 54 = Place a Mirror
+- 55 = Acorn Bomb
+- 56 = Swing Wood Axe
+- 57 = Restore Health
+- 58 = Improve Buster
+- 59 = Summon a Barrier
+- 5A = Go Invisible
+- 5B = Activate Mu Barrier
+- 5C = Alter Gauge Speed
+- 5D = Nothing?
+- 5E = Change Panels
+- 5F = Summon Wizard
+- 60 = Revive Wizards
+- 61 = Total Game Crash
+- 64 = Noise Force Big Bang
+- 65 = Apply Effect to Previous Card
+- 66 = Server Access
+
+Rank Groups
+
+= Rank 0 =
+
+Cannon
+PlasmaGun
+AirSpread1
+MiniGrnade
+DrillArm1
+BeastSlap1
+WindyAtk1
+PanicCloud
+Sword
+WideSwrd
+LongSwrd
+SyncHook1
+GrandWave1
+JetAttack1
+Buki1
+SmileCoin1
+BigDrop1
+TimeBomb1
+HeatUppr1
+MechFlame1
+MadFire1
+WideWave1
+BubblHook1
+SharkAtk1
+IceSpin1
+StlthLzr1
+MummyHand1
+ThndrHead1
+FlashStrk1
+ArachAtk1
+Shuriken1
+PollnShot1
+AcornBomb1
+BuzzSaw1
+Bushido1
+SkullArrw1
+MadVulcn1
+MuTech1
+NoiseWzrd1
+MalWizard1
+BlackHole1
+DivideLine
+GravityPls
+Recover10
+Recover30
+Recover50
+Barrier
+Invisible
+Whistle
+GrassStage
+IceStage
+AtkPanel
+ParlyzPlus
+Attack+10
+Scythe1
+DanceFire1
+KiloBomb1
+SnoBall1
+PiranKss1
+Squall1
+PuffBlst1
+VulcnSeed1
+
+= Rank 1 =
+
+PlusCannon
+AirSpread2
+DrillArm2
+BeastSlap2
+WindyAtk2
+SyncHook2
+WhtMeteor
+GrandWave2
+JetAttack2
+Buki2
+SmileCoin2
+BigDrop2
+TimeBomb2
+HeatUppr2
+MechFlame2
+MadFire2
+WideWave2
+BubblHook2
+SharkAtk2
+IceSpin2
+StlthLzr2
+MummyHand2
+ThndrHead2
+FlashStrk2
+ArachAtk2
+Shuriken2
+PollnShot2
+AcornBomb2
+BuzzSaw2
+Bushido2
+SkullArrw2
+MadVulcn2
+MuTech2
+NoiseWzrd2
+MalWizard2
+BlackHole2
+TyphnDance
+Recover80
+Recover120
+PrlyzeStg
+HeatGrnde
+RdrMissile
+Earthundr1
+SwrdFghtr1
+SpinBlade1
+
+= Rank 2 =
+
+HevyCannon
+AirSpread3
+DrillArm3
+BeastSlap3
+WindyAtk3
+GreatAxe
+SyncHook3
+SilvMeteor
+BlackInk
+DblEater
+GrandWave3
+JetAttack3
+Buki3
+SmileCoin3
+BigDrop3
+TimeBomb3
+HeatUppr3
+MechFlame3
+MadFire3
+WideWave3
+BubblHook3
+SharkAtk3
+IceSpin3
+StlthLzr3
+MummyHand3
+ThndrHead3
+FlashStrk3
+ArachAtk3
+Shuriken3
+PollnShot3
+AcornBomb3
+BuzzSaw3
+Bushido3
+SkullArrw3
+MadVulcn3
+MuTech3
+NoiseWzrd3
+MalWizard3
+BlackHole3
+TrnadoDnce
+DblStone
+Bombalizer
+PanlFormat
+FlameAxe
+MegaCrushr
+Recover150
+Recover200
+SprBarrier
+SpadMagns
+DiamndIce
+ClubStrng
+QueenVrgo
+JackCorvs
+DreadJokr
+AcidAce
+TaursFire
+CygnsWing
+WolfWoods
+DrkPhntm
+Rogue
+MoonDstry
+ApolloFlm
+Sirius
+Scythe2
+DanceFire2
+KiloBomb2
+SnoBall2
+PiranKss2
+Squall2
+PuffBlst2
+StunKnukle
+GreenInk
+BlueInk
+PurpleInk
+VulcnSeed2
+
+= Rank 3 =
+
+Recover300
+SpiritFury
+AntiSword
+PoisnApple
+DoublCross
+GigaMine
+SpadMagns[V2]
+DiamndIce[V2]
+ClubStrng[V2]
+QueenVrgo[V2]
+JackCorvs[V2]
+DreadJokr[V2]
+AcidAce[V2]
+TaursFire[V2]
+CygnsWing[V2]
+WolfWoods[V2]
+DrkPhntm[V2]
+Rogue[V2]
+MoonDstry[V2]
+ApolloFlm[V2]
+Sirius[V2]
+JngleStorm
+SnoStorm
+PoisnStorm
+WoodGrnde
+IceGrnde
+PoisKnukle
+ElecSlash
+WoodSlash
+FireSlash
+Earthundr2
+SwrdFghtr2
+SpinBlade2
+
+= Rank 4 =
+
+Aura
+HolyPanel
+SpadMagns[V3]
+DiamndIce[V3]
+ClubStrng[V3]
+QueenVrgo[V3]
+JackCorvs[V3]
+DreadJokr[V3]
+AcidAce[V3]
+TaursFire[V3]
+CygnsWing[V3]
+WolfWoods[V3]
+DrkPhntm[V3]
+Rogue[V3]
+MoonDstry[V3]
+ApolloFlm[V3]
+Sirius[V3]
+WingBlade
+DrknssHole
+MilliKick
+BrkTmeBmb
+MuBarrier
+DreadLaser
+DstryMissl
+BusterMAX
+OxTackle
+MirrorsEdg
+CrmsnMteor
+AcidArrest
+Scythe3
+DanceFire3
+KiloBomb3
+SnoBall3
+PiranKss3
+Squall3
+PuffBlst3
+FrezKnukle
+VulcnSeed3
+Fire+30
+Aqua+30
+Elec+30
+Wood+30
+QuickGauge
+NormlGauge
+SlowGauge
+
+= Rank 5 =
+
+BreakSabre
+DstryUpper
+WrriorSoul
+Muramasa
+ExtiMeteor
+AllPoison
+Earthundr3
+SwrdFghtr3
+SpinBlade3
+
+= Rank 6 =
+
+CardRevive
+MegaBoost
+
+= Rank 7 =
+
+YetiBlzrd
+PlesioSrf
+TerraCndr
+QnOphiuca
+GeminSprk
+CancrBubl
+GenAuriga
+LibraScls
+CrwnThndr
+RocktLnch
+IceHammrB
+StrngSwng
+
+= Rank 8 =
+
+YetiBlzrd[V2]
+PlesioSrf[V2]
+TerraCndr[V2]
+QnOphiuca[V2]
+GeminSprk[V2]
+CancrBubl[V2]
+GenAuriga[V2]
+LibraScls[V2]
+CrwnThndr[V2]
+RocktLnch[V2]
+IceHammrB[V2]
+StrngSwng[V2]
+
+= Rank 9 =
+
+YetiBlzrd[V3]
+PlesioSrf[V3]
+TerraCndr[V3]
+QnOphiuca[V3]
+GeminSprk[V3]
+CancrBubl[V3]
+GenAuriga[V3]
+LibraScls[V3]
+CrwnThndr[V3]
+RocktLnch[V3]
+IceHammrB[V3]
+StrngSwng[V3]
+
+= Rank 10 =
+
+272: ImpctCanon
+273: PlasmaGunX
+274: AirSpreadX
+275: BigGrenade
+276: DrillArmX
+277: BeastSlapX
+278: WindyAtkX
+279: GiantAxe
+280: SyncHookX
+281: PlatMeteor
+282: GrandWaveX
+283: JetAttackX
+284: BukiX
+285: SmileCoinX
+286: BigDropX
+287: TimeBombX
+288: HeatUpprX
+289: MechFlameX
+290: MadFireX
+291: WideWaveX
+292: BubblHookX
+293: SharkAtkX
+294: IceSpinX
+295: StlthLzrX
+296: MummyHandX
+297: ThndrHeadX
+298: FlashStrkX
+299: ArachAtkX
+300: ShurikenX
+301: PollnShotX
+302: AcornBombX
+303: BuzzSawX
+304: BushidoX
+305: SkullArrwX
+306: MadVulcnX
+307: MuTechX
+308: NoiseWzrdX
+309: MadWizardX
+310: BlackHoleX
+311: HrrcnDance
+312: ScytheX
+313: DanceFireX
+314: KiloBombX
+315: SnoBallX
+316: PiranKssX
+317: SquallX
+318: PuffBlastX
+319: VulcnSeedX
+320: EarthundrX
+321: SwrdFghtrX
+322: SpinBladeX
+323: BreakSabrX
+360: SpadMgnesX
+361: DiamndIceX
+362: ClubStrngX
+363: QueenVrgoX
+364: JackCorvsX
+365: DreadJokrX
+366: AcidAceX
+367: TaursFireX
+368: CygnsWingX
+369: WolfWoodsX
+370: DrkPhntmX
+371: RogueX
+372: MoonDstryX
+373: ApolloFlmX
+374: SiriusX
+375: YetiBlzrdX
+376: PlesioSrfX
+377: TerraCndrX
+378: QnOphiucaX
+379: GeminSprkX
+380: CancrBublX
+381: GenAurigaX
+382: LibraSclsX
+383: CrwnThndrX
+384: RocktLnchX
+385: IceHammrBX
+386: StrngSwngX
+387: PegasuMgc[GX]
+388: LeoKingdm[GX]
+389: DragonSky[GX]
+390: GorgonEye
+391: GeminThndr
+392: RogueBreak
+393: Avalanche
+394: FlyngImpct
+395: TrrntWave
+396: HolyLight
+397: WickdFlame
+
+00 00 00 00 00 00 00 00
+00 00 00 66 00 00 00 00 (Meteor Server)
+00 00 00 00 00 00 00 00
+00 00 00 00 00 00 00 00
+00 00 00 00 00 00 00 00
+00 00 00 00 00 00 00 00
+2B 00 00 5F 2C 00 00 00 (AreaEater)
+00 00 00 00 00 00 00 00 (Special0)
+00 00 00 00 00 00 00 00 (Special1)
+00 00 00 64 00 00 00 00 (MteorLight)
+10 00 00 64 00 00 00 00 (AtomBlazer)
+20 00 00 64 00 00 00 00 (DynaWave)
+30 00 00 64 00 00 00 00 (TB Blade)
+40 00 00 64 00 00 00 00 (ElemCycln)
+50 00 00 64 00 00 00 00 (BlkEndGlxy)
+60 00 00 64 00 00 00 00 (RdGaiaErsr)
+A0 00 00 5E 00 00 00 00 (hack panel)
+40 00 00 5F 01 00 00 00 (SpadMagns[GA])
+40 00 00 5F 02 00 00 00 (DiamndIce[GA])
+40 00 00 5F 03 00 00 00 (ClubStrng[GA])
+40 00 00 5F 04 00 00 00 (QueenVrgo[GA])
+40 00 00 5F 0F 00 00 00 (JackCorvs[GA])
+40 00 00 5F 06 00 00 00 (DreadJokr[GA])
+40 00 00 5F 07 00 00 00 (AcidAce[GA])
+40 00 00 5F 09 00 00 00 (TaursFire[GA])
+40 00 00 5F 0A 00 00 00 (CygnsWing[GA])
+40 00 00 5F 0B 00 00 00 (WolfWoods[GA])
+40 00 00 5F 0C 00 00 00 (DrkPhntm[GA])
+40 00 00 5F 0D 00 00 00 (Rogue[GA])
+40 00 00 5F 0E 00 00 00 (MoonDstry[GA])
+10 00 00 22 00 00 00 00 (DrknsHole[GA])
+00 00 00 46 00 00 00 00 (DestrMisl[GA])
+00 00 00 3D F4 01 00 00 (BrkTmeBmb[GA])
+40 00 00 5F 12 00 00 00 (OxTackle[GA])
+40 00 00 5F 1D 00 00 00 (YetiBlzrd[GA])
+40 00 00 5F 1F 00 00 00 (PlesioSrf[GA])
+40 00 00 5F 17 00 00 00 (TerraCndr[GA])
+40 00 00 5F 1B 00 00 00 (QnOphiuca[GA])
+40 00 00 5F 1C 00 00 00 (GeminSprk[GA])
+40 00 00 5F 18 00 00 00 (CancrBubl[GA])
+40 00 00 5F 1A 00 00 00 (GenAuriga[GA])
+40 00 00 5F 19 00 00 00 (LibraScls[GA])
+40 00 00 5F 1E 00 00 00 (CrwnThndr[GA])
+40 00 00 5F 15 00 00 00 (RocktLnch[GA])
+40 00 00 5F 14 00 00 00 (IceHammrB[GA])
+40 00 00 5F 16 00 00 00 (StrngSwng[GA])
+40 00 00 5F 24 00 00 00 (GorgonEye[GA])
+40 00 00 5F 22 00 00 00 (GmniThndr[GA])
+40 00 00 5F 23 00 00 00 (RogueBrk[GA])
+40 00 00 5F 28 00 00 00 (Avalanche[GA])
+40 00 00 5F 21 00 00 00 (FlygImpct[GA])
+40 00 00 5F 2A 00 00 00 (TrrntWave[GA])
+40 00 00 5F 2B 00 00 00 (HolyLight[GA])
+40 00 00 5F 29 00 00 00 (WickdFlam[GA])
+50 00 00 64 00 00 00 00 (BlkEndGlxy)
+60 00 00 64 00 00 00 00 (RdGaiaErsr)
+00 00 00 64 00 00 00 00 (MteorLight)
+10 00 00 64 00 00 00 00 (AtomBlazer)
+
+00 34 06 0D 00 00 10 00 (Cannon)
+11 34 06 0D 00 00 10 00
+22 34 06 0D 00 00 10 00
+00 34 06 1F 00 00 08 00 (PlasmaGun)
+00 34 06 0E 00 00 08 00 (AirSpread)
+11 44 06 0E 00 00 08 00
+22 44 06 0E 00 00 08 00
+00 34 06 0F 00 00 10 00 (MiniGrnade)
+00 03 06 53 00 00 08 00 (DrillArm)
+01 03 06 53 00 00 08 00
+02 03 06 53 00 00 08 00
+00 00 06 27 00 00 00 00 (BeastSlap)
+11 00 06 27 00 00 00 00
+22 00 06 27 00 00 00 00
+00 02 06 52 00 00 08 00 (WindyAtk)
+01 02 06 52 00 00 08 00
+02 02 06 52 00 00 08 00
+00 00 06 48 00 00 00 00 (PanicCloud)
+00 01 06 10 00 00 08 00 (Sword)
+00 02 06 12 00 00 08 00 (WideSword)
+00 03 06 11 00 00 08 00 (LongSword)
+02 16 06 56 00 00 10 00 (GreatAxe)
+00 51 06 13 00 00 08 00 (SyncHook)
+01 51 06 13 00 00 08 00
+02 51 06 13 00 00 08 00
+01 00 28 14 00 00 00 00 (WhtMeteor)
+02 00 28 14 00 00 00 00 (SilvMeteor)
+32 34 06 44 00 00 10 00 (BlackInk)
+A2 00 00 5F 2C 00 00 00 (DblEater)
+00 34 06 15 00 00 08 00 (GrandWave)
+11 34 06 15 00 00 08 00
+22 34 06 15 00 00 08 00
+00 35 06 28 00 00 08 00 (JetAttack)
+01 35 06 28 00 00 08 00
+02 35 06 28 00 00 08 00
+00 11 06 16 00 00 10 00 (Buki)
+01 11 06 16 00 00 10 00
+02 11 06 16 00 00 10 00
+00 00 06 17 00 00 08 00 (SmileCoin)
+11 00 06 17 00 00 08 00
+22 00 06 17 00 00 08 00
+00 44 06 18 00 00 10 00 (BigDrop)
+11 44 06 18 00 00 10 00
+22 44 06 18 00 00 10 00
+00 00 00 21 3C 00 00 00 (TimeBomb)
+01 00 00 21 78 00 00 00
+02 00 00 21 96 00 00 00
+00 61 06 19 00 00 08 00 (HeatUppr)
+01 61 06 19 00 00 08 00
+02 61 06 19 00 00 08 00
+00 74 06 3A 00 00 10 00 (MechFlame)
+11 74 06 3A 00 00 10 00
+22 74 06 3A 00 00 10 00
+00 44 06 38 00 00 10 00 (MadFire)
+01 44 06 38 00 00 10 00
+02 44 06 38 00 00 10 00
+00 44 06 1A 00 00 08 00 (WideWave)
+01 44 06 1A 00 00 08 00
+02 44 06 1A 00 00 08 00
+00 16 06 1B 00 00 08 00 (BubblHook)
+01 16 06 1B 00 00 08 00
+02 16 06 1B 00 00 08 00
+00 00 06 2A 00 00 08 00 (SharkAtk)
+11 00 06 2A 00 00 08 00
+22 00 06 2A 00 00 08 00
+00 00 06 49 00 00 08 00 (IceSpin)
+11 00 06 49 00 00 08 00
+22 00 06 49 00 00 08 00
+00 00 0A 1C 00 00 00 00 (StlthLzr)
+11 00 0A 1C 00 00 00 00
+22 00 0A 1C 00 00 00 00
+00 00 06 1D 00 00 08 00 (MummyHand)
+11 00 06 1D 00 00 08 00
+22 00 06 1D 00 00 08 00
+00 00 0A 4B 50 00 00 00 (ThndrHead)
+11 00 0A 4B 78 00 00 00
+22 00 0A 4B A0 00 00 00
+00 23 06 51 00 00 08 00 (FlashStrk)
+01 23 06 51 00 00 08 00
+02 23 06 51 00 00 08 00
+00 00 14 2B 00 00 10 00 (ArachAtk)
+11 00 14 2B 00 00 10 00
+22 00 14 2B 00 00 10 00
+00 00 1E 2C 00 00 00 00 (Shuriken)
+01 00 1E 2C 00 00 00 00
+02 00 1E 2C 00 00 00 00
+00 44 06 37 00 00 10 00 (PollnShot)
+11 44 06 37 00 00 10 00
+22 44 06 37 00 00 10 00
+00 34 0A 55 00 00 10 00 (AcornBomb)
+01 34 0A 55 00 00 10 00
+02 34 0A 55 00 00 10 00
+00 34 06 2D 00 00 08 00 (BuzzSaw)
+01 34 06 2D 00 00 08 00
+02 34 06 2D 00 00 08 00
+00 01 06 2E 00 00 04 00 (Bushido)
+01 01 06 2E 00 00 04 00
+02 01 06 2E 00 00 04 00
+00 00 06 32 00 00 10 00 (SkullArrw)
+01 00 06 32 00 00 10 00
+02 00 06 32 00 00 10 00
+00 34 06 29 00 00 08 00 (MadVulcn)
+11 34 06 29 00 00 08 00
+22 34 06 29 00 00 08 00
+00 00 06 47 00 00 10 00 (MuTech)
+11 00 06 47 00 00 10 00
+22 00 06 47 00 00 10 00
+00 00 06 5F 2D 00 00 00 (NoiseWzrd)
+11 00 06 5F 2D 00 00 00
+22 00 06 5F 2D 00 00 00
+00 00 06 5F 2E 00 00 00 (MalWizard)
+11 00 06 5F 2E 00 00 00
+22 00 06 5F 2E 00 00 00
+00 00 00 22 00 00 00 00 (BlackHole)
+01 00 00 22 00 00 00 00
+02 00 00 22 00 00 00 00
+01 02 06 23 00 00 10 00 (TyphnDance)
+12 02 06 23 00 00 10 00 (TrnadoDnce)
+02 00 00 24 00 00 00 00 (DblStone)
+02 00 00 25 00 00 00 00 (Bombalizer)
+20 00 00 26 00 00 00 00 (DivideLine)
+C2 00 00 5E 00 00 00 00 (PanlFormat)
+02 16 06 4C 00 00 10 00 (FlameAxe)
+02 00 00 50 00 00 00 00 (MegaCrushr)
+00 00 00 65 00 00 00 00 (GravtyPlus)
+00 00 06 57 0A 00 00 00 (Recover)
+00 00 06 57 1E 00 00 00
+00 00 06 57 32 00 00 00
+01 00 06 57 50 00 00 00
+01 00 06 57 78 00 00 00
+02 00 06 57 96 00 00 00
+02 00 06 57 C8 00 00 00
+03 00 06 57 2C 01 00 00
+00 00 00 59 00 00 00 00 (Barrier)
+02 00 00 59 01 00 00 00
+04 00 00 59 02 00 00 00
+00 00 00 5A 00 00 00 00 (Invis)
+00 00 00 1E 00 00 00 00 (Whistle)
+53 00 00 5E 00 00 00 00 (SpiritFury)
+63 00 00 5E 00 00 00 00 (AntiSword)
+73 00 00 5E 00 00 00 00 (PoisnApple)
+83 00 00 5E 00 00 00 00 (DoublCross)
+93 00 00 5E 00 00 00 00 (GigaMine)
+00 00 00 5E 00 00 00 00 (GrassStage)
+10 00 00 5E 00 00 00 00 (IceStage)
+21 00 00 5E 00 00 00 00 (PrlyzeStg)
+44 00 00 5E 00 00 00 00 (HolyPanel)
+30 00 00 5E 00 00 00 00 (AtkPanel)
+00 00 00 65 00 00 00 00 (ParlyzPlus)
+00 00 00 65 00 00 00 00 (Attack+10)
+02 00 00 5F 00 00 00 00 (SpadMagns)
+13 00 00 5F 00 00 00 00
+24 00 00 5F 00 00 00 00
+02 00 00 5F 01 00 00 00 (DiamndIce)
+13 00 00 5F 01 00 00 00
+24 00 00 5F 01 00 00 00
+02 00 00 5F 02 00 00 00 (ClubStrng)
+13 00 00 5F 02 00 00 00
+24 00 00 5F 02 00 00 00
+02 00 00 5F 03 00 00 00 (QueenVrgo)
+13 00 00 5F 03 00 00 00
+24 00 00 5F 03 00 00 00
+02 00 00 5F 08 00 00 00 (JackCorvs)
+13 00 00 5F 08 00 00 00
+24 00 00 5F 08 00 00 00
+02 00 00 5F 04 00 00 00 (DreadJokr)
+13 00 00 5F 04 00 00 00
+24 00 00 5F 04 00 00 00
+02 00 00 5F 0F 00 00 00 (AcidAce)
+13 00 00 5F 0F 00 00 00
+24 00 00 5F 0F 00 00 00
+02 00 00 5F 06 00 00 00 (TaursFire)
+13 00 00 5F 06 00 00 00
+24 00 00 5F 06 00 00 00
+02 00 00 5F 07 00 00 00 (CygnsWing)
+13 00 00 5F 07 00 00 00
+24 00 00 5F 07 00 00 00
+02 00 00 5F 09 00 00 00 (WolfWoods)
+13 00 00 5F 09 00 00 00
+24 00 00 5F 09 00 00 00
+02 00 00 5F 0A 00 00 00 (DrkPhntm)
+13 00 00 5F 0A 00 00 00
+24 00 00 5F 0A 00 00 00
+02 00 00 5F 0B 00 00 00 (Rogue)
+13 00 00 5F 0B 00 00 00
+24 00 00 5F 0B 00 00 00
+02 00 00 5F 0C 00 00 00 (MoonDstry)
+13 00 00 5F 0C 00 00 00
+24 00 00 5F 0C 00 00 00
+02 00 00 5F 0D 00 00 00 (ApolloFlm)
+13 00 00 5F 0D 00 00 00
+24 00 00 5F 0D 00 00 00
+02 00 00 5F 0E 00 00 00 (Sirius)
+13 00 00 5F 0E 00 00 00
+24 00 00 5F 0E 00 00 00
+04 00 00 5F 10 00 00 00 (WingBlade?)
+14 00 00 22 00 00 00 00 (DrknssHole?)
+04 01 06 3C 00 00 10 00 (MilliKick?)
+04 00 00 3D F4 01 00 00 (BrkTmeBmb)
+04 00 00 5B 00 00 00 00 (MuBarrier)
+04 00 00 5F 11 00 00 00 (DreadLaser)
+04 00 00 46 00 00 00 00 (DstryMissl)
+14 00 00 58 00 00 00 00 (BusterMAX)
+04 00 00 5F 12 00 00 00 (OxTackle)
+04 00 00 54 00 00 00 00 (MirrorsEdg)
+04 00 00 5F 13 00 00 00 (CrmsnMteor?)
+04 00 00 5F 20 00 00 00 (AcidArrest?)
+00 00 06 2F 00 00 08 00 (Scythe)
+02 00 06 2F 00 00 08 00
+04 00 06 2F 00 00 08 00
+00 84 06 30 00 00 10 00 (DanceFire)
+12 84 06 30 00 00 10 00
+24 84 06 30 00 00 10 00
+00 00 06 33 3C 00 10 00 (KiloBomb)
+02 00 06 33 5A 00 10 00
+04 00 06 33 78 00 10 00
+00 00 00 31 00 00 00 00 (SnoBall)
+12 00 00 31 00 00 00 00
+24 00 00 31 00 00 00 00
+00 00 00 45 00 00 00 00 (PiranKss)
+12 00 00 45 00 00 00 00
+24 00 00 45 00 00 00 00
+00 07 06 3F 00 00 10 00 (Squall)
+02 07 06 3F 00 00 10 00
+04 07 06 3F 00 00 10 00
+00 00 14 4F 00 00 08 00 (PuffBlst)
+12 00 14 4F 00 00 08 00
+24 00 14 4F 00 00 08 00
+03 00 00 40 00 00 00 00 (JngleStorm)
+13 00 00 40 00 00 00 00 (SnoStorm)
+23 00 00 40 00 00 00 00 (PoisnStorm)
+01 44 06 36 00 00 10 00 (HeatGrnde)
+13 44 06 36 00 00 10 00 (WoodGrnde)
+23 44 06 36 00 00 10 00 (IceGrnde)
+01 00 06 39 00 00 00 00 (RdrMissile)
+02 01 06 3B 00 00 10 00 (StunKnukle)
+13 01 06 3B 00 00 10 00 (PoisKnukle)
+24 01 06 3B 00 00 10 00 (FrezKnukle)
+03 02 06 34 00 00 08 00 (ElecSlash)
+13 02 06 34 00 00 08 00 (WoodSlash)
+23 02 06 34 00 00 08 00 (FireSlash)
+05 01 06 35 00 00 10 00 (BreakSabre)
+02 44 06 44 00 00 08 00 (GreenInk)
+12 44 06 44 00 00 08 00 (BlueInk)
+22 44 06 44 00 00 08 00 (PurpleInk)
+00 34 06 42 00 00 10 00 (VulcnSeed)
+02 34 06 42 00 00 10 00
+04 34 06 42 00 00 10 00
+05 01 06 41 00 00 10 00 (DstryUpper)
+05 00 00 58 00 00 00 00 (WrriorSoul)
+05 03 06 43 00 00 10 00 (Muramasa)
+05 00 00 3E 00 00 00 00 (ExtiMeteor)
+B5 00 00 5E 00 00 00 00 (AllPoison)
+04 00 00 65 00 00 00 00 (Fire+30)
+04 00 00 65 00 00 00 00 (Aqua+30)
+04 00 00 65 00 00 00 00 (Elec+30)
+04 00 00 65 00 00 00 00 (Wood+30)
+01 00 0A 4E 00 00 00 00 (Earthundr)
+03 00 0A 4E 00 00 00 00
+05 00 0A 4E 00 00 00 00
+01 02 06 4A 00 00 08 00 (SwrdFghtr)
+13 02 06 4A 00 00 08 00
+25 02 06 4A 00 00 08 00
+01 00 06 4D 00 00 00 00 (SpinBlade)
+03 00 06 4D 00 00 00 00
+05 00 06 4D 00 00 00 00
+04 00 00 5C 00 00 00 00 (QuickGauge)
+14 00 00 5C 00 00 00 00 (NormlGauge)
+24 00 00 5C 00 00 00 00 (SlowGauge)
+06 00 00 60 00 00 00 00 (CardRevive)
+26 00 00 58 00 00 00 00 (MegaBoost)
+3A 34 06 0D 00 00 10 00 (ImpctCanon)
+3A 34 06 1F 00 00 08 00 (PlasmaGunX)
+4A 34 06 0E 00 00 08 00 (AirSpreadX)
+3A 34 06 0F 00 00 10 00 (BigGrenade)
+0A 03 06 53 00 00 08 00 (DrillArmX)
+3A 00 06 27 00 00 00 00 (BeastSlapX)
+0A 02 06 52 00 00 08 00 (WindyAtkX)
+0A 16 06 20 00 00 10 00 (GiantAxe)
+0A 51 06 13 00 00 08 00 (SyncHookX)
+0A 00 28 14 00 00 00 00 (PlatMeteor)
+3A 34 06 15 00 00 08 00 (GrandWaveX)
+0A 35 06 28 00 00 08 00 (JetAttackX)
+0A 11 06 16 00 00 10 00 (BukiX)
+3A 00 06 17 00 00 08 00 (SmileCoinX)
+3A 44 06 18 00 00 10 00 (BigDropX)
+0A 00 00 21 C8 00 00 00 (TimeBombX)
+0A 61 06 19 00 00 08 00 (HeatUpprX)
+3A 74 06 3A 00 00 10 00 (MechFlameX)
+0A 44 06 38 00 00 10 00 (MadFireX)
+0A 44 06 1A 00 00 08 00 (WideWaveX)
+0A 16 06 1B 00 00 08 00 (BubblHookX)
+3A 00 06 2A 00 00 08 00 (SharkAtkX)
+3A 00 06 49 00 00 08 00 (IceSpinX)
+3A 00 0A 1C 00 00 00 00 (StlthLzrX)
+3A 00 06 1D 00 00 08 00 (MummyHandX)
+3A 00 0A 4B C8 00 00 00 (ThndrHeadX)
+0A 23 06 51 00 00 08 00 (FlashStrkX)
+3A 00 14 2B 00 00 10 00 (ArachAtkX)
+0A 00 1E 2C 00 00 00 00 (ShurikenX)
+3A 44 06 37 00 00 10 00 (PollnShotX)
+0A 34 0A 55 00 00 10 00 (AcornBombX)
+0A 34 06 2D 00 00 08 00 (BuzzSawX)
+0A 01 06 2E 00 00 04 00 (BushidoX)
+0A 00 06 32 00 00 10 00 (SkullArrwX)
+3A 34 06 29 00 00 08 00 (MadVulcnX)
+3A 00 06 47 00 00 10 00 (MuTechX)
+3A 00 06 5F 2D 00 00 00 (NoiseWzrdX)
+3A 00 06 5F 2E 00 00 00 (MalWizardX)
+0A 00 00 22 00 00 00 00 (BlackHoleX)
+2A 02 06 23 00 00 10 00 (HrrcnDance)
+0A 00 06 2F 00 00 08 00 (ScytheX)
+3A 84 06 30 00 00 10 00 (DanceFireX)
+0A 00 06 33 96 00 10 00 (KiloBombX)
+3A 00 00 31 00 00 00 00 (SnoBallX)
+3A 00 00 45 00 00 00 00 (PiranKssX)
+0A 07 06 3F 00 00 10 00 (SquallX)
+3A 00 14 4F 00 00 08 00 (PuffBlstX)
+0A 34 06 42 00 00 10 00 (VulcnSeedX)
+0A 00 0A 4E 00 00 00 00 (EarthundrX)
+2A 02 06 4A 00 00 08 00 (SwrdFghtrX)
+0A 00 06 4D 00 00 00 00 (SpinBladeX)
+0A 01 06 35 00 00 10 00 (BreakSabrX)
+07 00 00 5F 1D 00 00 00 (YetiBlzrd)
+18 00 00 5F 1D 00 00 00
+29 00 00 5F 1D 00 00 00
+07 00 00 5F 1F 00 00 00 (PlesioSrf)
+18 00 00 5F 1F 00 00 00
+29 00 00 5F 1F 00 00 00
+07 00 00 5F 17 00 00 00 (TerraCndr)
+18 00 00 5F 17 00 00 00
+29 00 00 5F 17 00 00 00
+07 00 00 5F 1B 00 00 00 (QnOphiuca)
+18 00 00 5F 1B 00 00 00
+29 00 00 5F 1B 00 00 00
+07 00 00 5F 1C 00 00 00 (GeminSprk)
+18 00 00 5F 1C 00 00 00
+29 00 00 5F 1C 00 00 00
+07 00 00 5F 18 00 00 00 (CancrBubl)
+18 00 00 5F 18 00 00 00
+29 00 00 5F 18 00 00 00
+07 00 00 5F 1A 00 00 00 (GenAuriga)
+18 00 00 5F 1A 00 00 00
+29 00 00 5F 1A 00 00 00
+07 00 00 5F 19 00 00 00 (LibraScls)
+18 00 00 5F 19 00 00 00
+29 00 00 5F 19 00 00 00
+07 00 00 5F 1E 00 00 00 (CrwnThndr)
+18 00 00 5F 1E 00 00 00
+29 00 00 5F 1E 00 00 00
+07 00 00 5F 15 00 00 00 (RocktLnch)
+18 00 00 5F 15 00 00 00
+29 00 00 5F 15 00 00 00
+07 00 00 5F 14 00 00 00 (IceHammrB)
+18 00 00 5F 14 00 00 00
+29 00 00 5F 14 00 00 00
+07 00 00 5F 16 00 00 00 (StrngSwng)
+18 00 00 5F 16 00 00 00
+29 00 00 5F 16 00 00 00
+3A 00 00 5F 00 00 00 00 (SpadMagnsX)
+3A 00 00 5F 01 00 00 00 (DiamndIceX)
+3A 00 00 5F 02 00 00 00 (ClubStrngX)
+3A 00 00 5F 03 00 00 00 (QueenVrgoX)
+3A 00 00 5F 08 00 00 00 (JackCorvsX)
+3A 00 00 5F 04 00 00 00 (DreadJokrX)
+3A 00 00 5F 0F 00 00 00 (AcidAceX)
+3A 00 00 5F 06 00 00 00 (TaursFireX)
+3A 00 00 5F 07 00 00 00 (CygnsWingX)
+3A 00 00 5F 09 00 00 00 (WolfWoodsX)
+3A 00 00 5F 0A 00 00 00 (DrkPhntmX)
+3A 00 00 5F 0B 00 00 00 (RogueX)
+3A 00 00 5F 0C 00 00 00 (MoonDstryX)
+3A 00 00 5F 0D 00 00 00 (ApolloFlmX)
+3A 00 00 5F 0E 00 00 00 (SiriusX)
+3A 00 00 5F 1D 00 00 00 (YetiBlzrdX)
+3A 00 00 5F 1F 00 00 00 (PlesioSrfX)
+3A 00 00 5F 17 00 00 00 (TerraCndrX)
+3A 00 00 5F 1B 00 00 00 (QnOphiucaX)
+3A 00 00 5F 1C 00 00 00 (GeminSprkX)
+3A 00 00 5F 18 00 00 00 (CancrBublX)
+3A 00 00 5F 1A 00 00 00 (GenAurigaX)
+3A 00 00 5F 19 00 00 00 (LibraSclsX)
+3A 00 00 5F 1E 00 00 00 (CrwnThndrX)
+3A 00 00 5F 15 00 00 00 (RocktLnchX)
+3A 00 00 5F 14 00 00 00 (IceHammrBX)
+3A 00 00 5F 16 00 00 00 (StrngSwngX)
+0A 00 00 5F 25 00 00 00 (PegasuMgc)
+0A 00 00 5F 26 00 00 00 (LeoKngdm)
+0A 00 00 5F 27 00 00 00 (DragonSky)
+0A 00 00 5F 24 00 00 00 (GorgonEye)
+0A 00 00 5F 22 00 00 00 (GeminThndr)
+0A 00 00 5F 23 00 00 00 (RogueBrk)
+0A 00 00 5F 28 00 00 00 (Avalanche)
+0A 00 00 5F 21 00 00 00 (FlyngImpct)
+0A 00 00 5F 2A 00 00 00 (TrrntWave)
+0A 00 00 5F 2B 00 00 00 (HolyLight)
+0A 00 00 5F 29 00 00 00 (WickdFlame)

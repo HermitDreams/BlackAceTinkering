@@ -1,0 +1,7630 @@
+MEGA MAN STAR FORCE 3: BLACK ACE CHIP DATA
+
+Table starts at 0x000D58CC
+(0x000D18CC in arm9)
+
+Byte0: Element and Class
+Byte1: Game Exclusivity
+Byte2: Traits
+Byte3: Effects
+
+Byte4 & Byte5: Portrait
+Byte6 & Byte7: Palette
+Byte8 & Byte9: Damage
+
+ByteA - ByteF: Animation Keyframes
+
+== BYTE0 ==
+
+Bit1 nor Bit2: White Card
+Bit1: Yellow Card
+Bit2: Blue Card
+Bit1 and Bit2: Red Card
+Bit3 only: Fire
+Bit4 only: Aqua
+Bit3 and Bit4: Elec
+Bit5 only: Wood
+Bit3 and Bit5: "F" Icon
+Bit4 and Bit5: "*" Icon
+Bit3, Bit4, and Bit5: Sword Icon
+Bit6: Mega Class
+Bit7: Giga Class
+
+== BYTE1 ==
+
+Most Cards are FF
+Gigas in Black Ace Library are 00
+Gigas in Red Joker Library are 01
+
+== BYTE2 ==
+
+Bit1: Hits Enemy? Display Damage?
+Bit2: Stop Time / Dimming
+Bit3: Unused?
+Bit4: Blue Text / Illegal
+Bit5: Shows up in Megas
+Bit6: Interrupt / Counterattack
+Bit8: Sword-type
+
+== BYTE3 ==
+
+Bit1: Breaks Guard
+Bit2: Ignores I-frames
+Bit3: Applies Wind
+Bit4: Induces I-frames
+Bit5: Flinches
+Bit6: Summons EM Body
+
+= Cannon =
+
+01 FF 01 18 03 00 A7 00 28 00 0A 14 28 32 3C 50
+
+Byte0: 00000001 / 1
+Byte1: 11111111 / 255
+Byte2: 00000001 / 1
+Byte3: 00011000 / 24
+
+Byte4: 00000011 / 3
+Byte5: 00000000 / 0
+Byte6: 10100111 / 167
+Byte7: 00000000 / 0
+Byte8: 00101000 / 40
+Byte9: 00000000 / 0
+
+ByteA: 00001010 / 10
+ByteB: 00010100 / 20
+ByteC: 00101000 / 40
+ByteD: 00110010 / 50
+ByteE: 00111100 / 60
+ByteF: 01010000 / 80
+
+Colour: Yellow
+Element: None
+Class: Standard
+- Display Damage
+- Induce I-Frames
+- Flinch
+Portrait: #003
+Palette: #167
+Damage: 40
+
+= PlusCannon =
+
+01 FF 01 18 03 00 A8 00 64 00 0A 14 28 32 3C 50
+
+Byte0: 00000001 / 1
+Byte1: 11111111 / 255
+Byte2: 00000001 / 1
+Byte3: 00011000 / 24
+
+Byte4: 00000011 / 3
+Byte5: 00000000 / 0
+Byte6: 10101000 / 168
+Byte7: 00000000 / 0
+Byte8: 01100100 / 100
+Byte9: 00000000 / 0
+
+ByteA: 00001010 / 10
+ByteB: 00010100 / 20
+ByteC: 00101000 / 40
+ByteD: 00110010 / 50
+ByteE: 00111100 / 60
+ByteF: 01010000 / 80
+
+Colour: Yellow
+Element: None
+Class: Standard
+- Display Damage
+- Induce I-Frames
+- Flinch
+Portrait: #003
+Palette: #168
+Damage: 100
+
+= HevyCannon =
+
+01 FF 01 18 03 00 A9 00 A0 00 0A 14 28 32 3C 50
+
+Byte0: 00000001 / 1
+Byte1: 11111111 / 255
+Byte2: 00000001 / 1
+Byte3: 00011000 / 24
+
+Byte4: 00000011 / 3
+Byte5: 00000000 / 0
+Byte6: 10101001 / 169
+Byte7: 00000000 / 0
+Byte8: 10100000 / 160
+Byte9: 00000000 / 0
+
+ByteA: 00001010 / 10
+ByteB: 00010100 / 20
+ByteC: 00101000 / 40
+ByteD: 00110010 / 50
+ByteE: 00111100 / 60
+ByteF: 01010000 / 80
+
+Colour: Yellow
+Element: None
+Class: Standard
+- Display Damage
+- Induce I-Frames
+- Flinch
+Portrait: #003
+Palette: #169
+Damage: 160
+
+= PlasmaGun =
+
+0D FF 01 00 04 00 AA 00 1E 00 0A 14 28 32 3C 46
+
+Byte0: 00001101 / 13
+Byte1: 11111111 / 255
+Byte2: 00000001 / 1
+Byte3: 00000000 / 0
+
+Byte4: 00000100 / 4
+Byte5: 00000000 / 0
+Byte6: 10101010 / 170
+Byte7: 00000000 / 0
+Byte8: 00011110 / 30
+Byte9: 00000000 / 0
+
+ByteA: 00001010 / 10
+ByteB: 00010100 / 20
+ByteC: 00101000 / 40
+ByteD: 00110010 / 50
+ByteE: 00111100 / 60
+ByteF: 01000110 / 70
+
+Colour: Yellow
+Element: Elec
+Class: Standard
+- Display Damage
+Portrait: #004
+Palette: #170
+Damage: 30
+
+= AirSpread1 =
+
+01 FF 01 04 05 00 AB 00 0A 00 0A 0F 14 1E 28 32
+
+Byte0: 00000001 / 1
+Byte1: 11111111 / 255
+Byte2: 00000001 / 1
+Byte3: 00000100 / 4
+
+Byte4: 00000101 / 5
+Byte5: 00000000 / 0
+Byte6: 10101011 / 171
+Byte7: 00000000 / 0
+Byte8: 00001010 / 10
+Byte9: 00000000 / 0
+
+ByteA: 00001010 / 10
+ByteB: 00001111 / 15
+ByteC: 00010100 / 20
+ByteD: 00011110 / 30
+ByteE: 00101000 / 40
+ByteF: 00110010 / 50
+
+Colour: Yellow
+Element: None
+Class: Standard
+- Display Damage
+- Wind
+Portrait: #005
+Palette: #171
+Damage: 10
+
+= AirSpread2 =
+
+01 FF 01 04 05 00 AC 00 14 00 0A 0F 14 1E 28 32
+
+Byte0: 00000001 / 1
+Byte1: 11111111 / 255
+Byte2: 00000001 / 1
+Byte3: 00000100 / 4
+
+Byte4: 00000101 / 5
+Byte5: 00000000 / 0
+Byte6: 10101100 / 172
+Byte7: 00000000 / 0
+Byte8: 00010100 / 20
+Byte9: 00000000 / 0
+
+ByteA: 00001010 / 10
+ByteB: 00001111 / 15
+ByteC: 00010100 / 20
+ByteD: 00011110 / 30
+ByteE: 00101000 / 40
+ByteF: 00110010 / 50
+
+Colour: Yellow
+Element: None
+Class: Standard
+- Display Damage
+- Wind
+Portrait: #005
+Palette: #172
+Damage: 20
+
+= AirSpread3 =
+
+01 FF 01 04 05 00 AD 00 1E 00 0A 0F 14 1E 28 32
+
+Byte0: 00000001 / 1
+Byte1: 11111111 / 255
+Byte2: 00000001 / 1
+Byte3: 00000100 / 4
+
+Byte4: 00000101 / 5
+Byte5: 00000000 / 0
+Byte6: 10101101 / 173
+Byte7: 00000000 / 0
+Byte8: 00011110 / 30
+Byte9: 00000000 / 0
+
+ByteA: 00001010 / 10
+ByteB: 00001111 / 15
+ByteC: 00010100 / 20
+ByteD: 00011110 / 30
+ByteE: 00101000 / 40
+ByteF: 00110010 / 50
+
+Colour: Yellow
+Element: None
+Class: Standard
+- Display Damage
+- Wind
+Portrait: #005
+Palette: #173
+Damage: 30
+
+= MiniGrnade =
+
+01 FF 01 18 06 00 AE 00 0A 00 14 1E 28 32 3C 50
+
+Byte0: 00000001 / 1
+Byte1: 11111111 / 255
+Byte2: 00000001 / 1
+Byte3: 00011000 / 24
+
+Byte4: 00000110 / 6
+Byte5: 00000000 / 0
+Byte6: 10101110 / 174
+Byte7: 00000000 / 0
+Byte8: 00001010 / 10
+Byte9: 00000000 / 0
+
+ByteA: 00010100 / 20
+ByteB: 00011110 / 30
+ByteC: 00101000 / 40
+ByteD: 00110010 / 50
+ByteE: 00111100 / 60
+ByteF: 01010000 / 80
+
+Colour: Yellow
+Element: None
+Class: Standard
+- Display Damage
+- Induce I-Frames
+- Flinch
+Portrait: #006
+Palette: #174
+Damage: 10
+
+= DrillArm1 =
+
+01 FF 01 19 07 00 AF 00 28 00 0A 0F 14 19 1E 28
+
+Byte0: 00000001 / 1
+Byte1: 11111111 / 255
+Byte2: 00000001 / 1
+Byte3: 00011001 / 25
+
+Byte4: 00000111 / 7
+Byte5: 00000000 / 0
+Byte6: 10101111 / 175
+Byte7: 00000000 / 0
+Byte8: 00101000 / 40
+Byte9: 00000000 / 0
+
+ByteA: 00001010 / 10
+ByteB: 00001111 / 15
+ByteC: 00010100 / 20
+ByteD: 00011001 / 25
+ByteE: 00011110 / 30
+ByteF: 00101000 / 40
+
+Colour: Yellow
+Element: None
+Class: Standard
+- Display Damage
+- Break
+- Induce I-Frames
+- Flinch
+Portrait: #007
+Palette: #175
+Damage: 40
+
+= DrillArm2 =
+
+01 FF 01 19 07 00 B0 00 32 00 0A 0F 14 19 1E 28
+
+Byte0: 00000001 / 1
+Byte1: 11111111 / 255
+Byte2: 00000001 / 1
+Byte3: 00011001 / 25
+
+Byte4: 00000111 / 7
+Byte5: 00000000 / 0
+Byte6: 10110000 / 176
+Byte7: 00000000 / 0
+Byte8: 00110010 / 50
+Byte9: 00000000 / 0
+
+ByteA: 00001010 / 10
+ByteB: 00001111 / 15
+ByteC: 00010100 / 20
+ByteD: 00011001 / 25
+ByteE: 00011110 / 30
+ByteF: 00101000 / 40
+
+Colour: Yellow
+Element: None
+Class: Standard
+- Display Damage
+- Break
+- Induce I-Frames
+- Flinch
+Portrait: #007
+Palette: #176
+Damage: 50
+
+= DrillArm3 =
+
+01 FF 01 19 07 00 B1 00 3C 00 0A 0F 14 19 1E 28
+
+Byte0: 00000001 / 1
+Byte1: 11111111 / 255
+Byte2: 00000001 / 1
+Byte3: 00011001 / 25
+
+Byte4: 00000111 / 7
+Byte5: 00000000 / 0
+Byte6: 10110001 / 177
+Byte7: 00000000 / 0
+Byte8: 00111100 / 60
+Byte9: 00000000 / 0
+
+ByteA: 00001010 / 10
+ByteB: 00001111 / 15
+ByteC: 00010100 / 20
+ByteD: 00011001 / 25
+ByteE: 00011110 / 30
+ByteF: 00101000 / 40
+
+Colour: Yellow
+Element: None
+Class: Standard
+- Display Damage
+- Break
+- Induce I-Frames
+- Flinch
+Portrait: #007
+Palette: #177
+Damage: 60
+
+= BeastSlap1 =
+
+01 FF 81 18 08 00 B2 00 64 00 0A 14 1E 28 32 46
+
+Byte0: 00000001 / 1
+Byte1: 11111111 / 255
+Byte2: 10000001 / 129
+Byte3: 00011000 / 24
+
+Byte4: 00001000 / 8
+Byte5: 00000000 / 0
+Byte6: 10110010 / 178
+Byte7: 00000000 / 0
+Byte8: 01100100 / 100
+Byte9: 00000000 / 0
+
+ByteA: 00001010 / 10
+ByteB: 00010100 / 20
+ByteC: 00011110 / 30
+ByteD: 00101000 / 40
+ByteE: 00110010 / 50
+ByteF: 01000110 / 70
+
+Colour: Yellow
+Element: None
+Class: Standard
+- Display Damage
+- Sword
+- Induce I-Frames
+- Flinch
+Portrait: #008
+Palette: #178
+Damage: 100
+
+= BeastSlap2 =
+
+01 FF 81 18 08 00 B3 00 8C 00 0A 14 1E 28 32 46
+
+Byte0: 00000001 / 1
+Byte1: 11111111 / 255
+Byte2: 10000001 / 129
+Byte3: 00011000 / 24
+
+Byte4: 00001000 / 8
+Byte5: 00000000 / 0
+Byte6: 10110011 / 179
+Byte7: 00000000 / 0
+Byte8: 10001100 / 140
+Byte9: 00000000 / 0
+
+ByteA: 00001010 / 10
+ByteB: 00010100 / 20
+ByteC: 00011110 / 30
+ByteD: 00101000 / 40
+ByteE: 00110010 / 50
+ByteF: 01000110 / 70
+
+Colour: Yellow
+Element: None
+Class: Standard
+- Display Damage
+- Sword
+- Induce I-Frames
+- Flinch
+Portrait: #008
+Palette: #179
+Damage: 140
+
+= BeastSlap3 =
+
+01 FF 81 18 08 00 B4 00 C8 00 0A 14 1E 28 32 46
+
+Byte0: 00000001 / 1
+Byte1: 11111111 / 255
+Byte2: 10000001 / 129
+Byte3: 00011000 / 24
+
+Byte4: 00001000 / 8
+Byte5: 00000000 / 0
+Byte6: 10110100 / 180
+Byte7: 00000000 / 0
+Byte8: 11001000 / 200
+Byte9: 00000000 / 0
+
+ByteA: 00001010 / 10
+ByteB: 00010100 / 20
+ByteC: 00011110 / 30
+ByteD: 00101000 / 40
+ByteE: 00110010 / 50
+ByteF: 01000110 / 70
+
+Colour: Yellow
+Element: None
+Class: Standard
+- Display Damage
+- Sword
+- Induce I-Frames
+- Flinch
+Portrait: #008
+Palette: #180
+Damage: 200
+
+= WindyAtk1 =
+
+01 FF 01 04 09 00 B5 00 5A 00 0A 14 28 32 3C 50
+
+Byte0: 00000001 / 1
+Byte1: 11111111 / 255
+Byte2: 00000001 / 1
+Byte3: 00000100 / 4
+
+Byte4: 00001001 / 9
+Byte5: 00000000 / 0
+Byte6: 10110101 / 181
+Byte7: 00000000 / 0
+Byte8: 01011010 / 90
+Byte9: 00000000 / 0
+
+ByteA: 00001010 / 10
+ByteB: 00010100 / 20
+ByteC: 00101000 / 40
+ByteD: 00110010 / 50
+ByteE: 00111100 / 60
+ByteF: 01010000 / 80
+
+Colour: Yellow
+Element: None
+Class: Standard
+- Display Damage
+- Wind
+Portrait: #009
+Palette: #181
+Damage: 90
+
+= WindyAtk2 =
+
+01 FF 01 04 09 00 B6 00 78 00 0A 14 28 32 3C 50
+
+Byte0: 00000001 / 1
+Byte1: 11111111 / 255
+Byte2: 00000001 / 1
+Byte3: 00000100 / 4
+
+Byte4: 00001001 / 9
+Byte5: 00000000 / 0
+Byte6: 10110110 / 182
+Byte7: 00000000 / 0
+Byte8: 01111000 / 120
+Byte9: 00000000 / 0
+
+ByteA: 00001010 / 10
+ByteB: 00010100 / 20
+ByteC: 00101000 / 40
+ByteD: 00110010 / 50
+ByteE: 00111100 / 60
+ByteF: 01010000 / 80
+
+Colour: Yellow
+Element: None
+Class: Standard
+- Display Damage
+- Wind
+Portrait: #009
+Palette: #182
+Damage: 120
+
+= WindyAtk3 =
+
+01 FF 01 04 09 00 B7 00 96 00 0A 14 28 32 3C 50
+
+Byte0: 00000001 / 1
+Byte1: 11111111 / 255
+Byte2: 00000001 / 1
+Byte3: 00000100 / 4
+
+Byte4: 00001001 / 9
+Byte5: 00000000 / 0
+Byte6: 10110111 / 183
+Byte7: 00000000 / 0
+Byte8: 10010110 / 150
+Byte9: 00000000 / 0
+
+ByteA: 00001010 / 10
+ByteB: 00010100 / 20
+ByteC: 00101000 / 40
+ByteD: 00110010 / 50
+ByteE: 00111100 / 60
+ByteF: 01010000 / 80
+
+Colour: Yellow
+Element: None
+Class: Standard
+- Display Damage
+- Wind
+Portrait: #009
+Palette: #183
+Damage: 150
+
+= PanicCloud =
+
+01 FF 00 00 0A 00 B8 00 00 00 00 00 00 00 00 00
+
+Colour: Yellow
+Element: None
+Class: Standard
+Portrait: #010
+Palette: #184
+Damage: 0
+
+= Sword =
+
+01 FF 81 18 0B 00 B9 00 50 00 14 1E 32 3C 50 64
+
+Byte0: 00000001 / 1
+Byte1: 11111111 / 255
+Byte2: 10000001 / 129
+Byte3: 00011000 / 24
+
+ByteA: 00010100 / 20
+ByteB: 00011110 / 30
+ByteC: 00110010 / 50
+ByteD: 00111100 / 60
+ByteE: 01010000 / 80
+ByteF: 01100100 / 100
+
+Colour: Yellow
+Element: None
+Class: Standard
+- Display Damage
+- Sword
+- Induce I-Frames
+- Flinch
+Portrait: #011
+Palette: #185
+Damage: 80
+
+= WideSword =
+
+01 FF 81 18 0C 00 BA 00 50 00 14 1E 32 3C 50 64
+
+Byte0: 00000001 / 1
+Byte1: 11111111 / 255
+Byte2: 10000001 / 129
+Byte3: 00011000 / 24
+
+ByteA: 00010100 / 20
+ByteB: 00011110 / 30
+ByteC: 00110010 / 50
+ByteD: 00111100 / 60
+ByteE: 01010000 / 80
+ByteF: 01100100 / 100
+
+Colour: Yellow
+Element: None
+Class: Standard
+- Display Damage
+- Sword
+- Induce I-Frames
+- Flinch
+Portrait: #012
+Palette: #186
+Damage: 80
+
+= LongSword =
+
+01 FF 81 18 0D 00 BB 00 50 00 14 1E 32 3C 50 64
+
+Byte0: 00000001 / 1
+Byte1: 11111111 / 255
+Byte2: 10000001 / 129
+Byte3: 00011000 / 24
+
+ByteA: 00010100 / 20
+ByteB: 00011110 / 30
+ByteC: 00110010 / 50
+ByteD: 00111100 / 60
+ByteE: 01010000 / 80
+ByteF: 01100100 / 100
+
+Colour: Yellow
+Element: None
+Class: Standard
+- Display Damage
+- Sword
+- Induce I-Frames
+- Flinch
+Portrait: #013
+Palette: #187
+Damage: 80
+
+= GreatAxe =
+
+11 FF 81 10 0E 00 BC 00 8C 00 0A 14 28 46 50 64
+
+Byte0: 00010001 / 17
+Byte1: 11111111 / 255
+Byte2: 10000001 / 129
+Byte3: 00010000 / 16
+
+ByteA: 00001010 / 10
+ByteB: 00010100 / 20
+ByteC: 00101000 / 40
+ByteD: 01000110 / 70
+ByteE: 01010000 / 80
+ByteF: 01100100 / 100
+
+Colour: Yellow
+Element: Wood
+Class: Standard
+- Display Damage
+- Sword
+- Flinch
+Portrait: #014
+Palette: #188
+Damage: 140
+
+= SyncHook1 =
+
+01 FF 01 18 0F 00 BD 00 64 00 0A 1E 28 32 3C 50
+
+Byte0: 00000001 / 1
+Byte1: 11111111 / 255
+Byte2: 00000001 / 1
+Byte3: 00011000 / 24
+
+ByteA: 00001010 / 10
+ByteB: 00011110 / 30
+ByteC: 00101000 / 40
+ByteD: 00110010 / 50
+ByteE: 00111100 / 60
+ByteF: 01010000 / 80
+
+Colour: Yellow
+Element: None
+Class: Standard
+- Display Damage
+- Induce I-Frames
+- Flinch
+Portrait: #015
+Palette: #189
+Damage: 100
+
+= SyncHook2 =
+
+01 FF 01 18 0F 00 BE 00 82 00 0A 1E 28 32 3C 50
+
+Byte0: 00000001 / 1
+Byte1: 11111111 / 255
+Byte2: 00000001 / 1
+Byte3: 00011000 / 24
+
+ByteA: 00001010 / 10
+ByteB: 00011110 / 30
+ByteC: 00101000 / 40
+ByteD: 00110010 / 50
+ByteE: 00111100 / 60
+ByteF: 01010000 / 80
+
+Colour: Yellow
+Element: None
+Class: Standard
+- Display Damage
+- Induce I-Frames
+- Flinch
+Portrait: #015
+Palette: #190
+Damage: 130
+
+= SyncHook3 =
+
+01 FF 01 18 0F 00 BF 00 96 00 0A 1E 28 32 3C 50
+
+Byte0: 00000001 / 1
+Byte1: 11111111 / 255
+Byte2: 00000001 / 1
+Byte3: 00011000 / 24
+
+ByteA: 00001010 / 10
+ByteB: 00011110 / 30
+ByteC: 00101000 / 40
+ByteD: 00110010 / 50
+ByteE: 00111100 / 60
+ByteF: 01010000 / 80
+
+Colour: Yellow
+Element: None
+Class: Standard
+- Display Damage
+- Induce I-Frames
+- Flinch
+Portrait: #015
+Palette: #191
+Damage: 150
+
+= WhtMeteor =
+
+01 FF 01 10 10 00 C0 00 32 00 0A 0F 14 1E 28 32
+
+Byte0: 00000001 / 1
+Byte1: 11111111 / 255
+Byte2: 00000001 / 1
+Byte3: 00010000 / 16
+
+ByteA: 00001010 / 10
+ByteB: 00001111 / 15
+ByteC: 00010100 / 20
+ByteD: 00011110 / 30
+ByteE: 00101000 / 40
+ByteF: 00110010 / 50
+
+Colour: Yellow
+Element: None
+Class: Standard
+- Display Damage
+- Flinch
+Portrait: #016
+Palette: #192
+Damage: 50
+
+= SilvMeteor =
+
+01 FF 01 10 10 00 C1 00 46 00 0A 0F 14 1E 28 32
+
+Byte0: 00000001 / 1
+Byte1: 11111111 / 255
+Byte2: 00000001 / 1
+Byte3: 00010000 / 16
+
+ByteA: 00001010 / 10
+ByteB: 00001111 / 15
+ByteC: 00010100 / 20
+ByteD: 00011110 / 30
+ByteE: 00101000 / 40
+ByteF: 00110010 / 50
+
+Colour: Yellow
+Element: None
+Class: Standard
+- Display Damage
+- Flinch
+Portrait: #016
+Palette: #193
+Damage: 70
+
+= BlackInk =
+
+01 FF 01 18 11 00 C2 00 5A 00 0A 14 1E 28 32 46
+
+Byte0: 00000001 / 1
+Byte1: 11111111 / 255
+Byte2: 00000001 / 1
+Byte3: 00011000 / 24
+
+ByteA: 00001010 / 10
+ByteB: 00010100 / 20
+ByteC: 00011110 / 30
+ByteD: 00101000 / 40
+ByteE: 00110010 / 50
+ByteF: 01000110 / 70
+
+Colour: Yellow
+Element: None
+Class: Standard
+- Display Damage
+- Induce I-Frames
+- Flinch
+Portrait: #017
+Palette: #194
+Damage: 90
+
+= DblEater =
+
+00 FF 04 00 12 00 C3 00 00 00 00 00 00 00 00 00
+
+Byte0: 00000000 / 0
+Byte1: 11111111 / 255
+Byte2: 00000100 / 4
+Byte3: 00000000 / 0
+
+Colour: White
+Element: None
+Class: Standard
+- Stop Time
+Portrait: #018
+Palette: #195
+Damage: 0
+
+= GrandWave1 =
+
+01 FF 01 18 13 00 C4 00 32 00 0A 14 1E 32 3C 50
+
+Byte0: 00000001 / 1
+Byte1: 11111111 / 255
+Byte2: 00000001 / 1
+Byte3: 00011000 / 24
+
+ByteA: 00001010 / 10
+ByteB: 00010100 / 20
+ByteC: 00011110 / 30
+ByteD: 00110010 / 50
+ByteE: 00111100 / 60
+ByteF: 01010000 / 80
+
+Colour: Yellow
+Element: None
+Class: Standard
+- Display Damage
+- Induce I-Frames
+- Flinch
+Portrait: #019
+Palette: #196
+Damage: 50
+
+= GrandWave2 =
+
+01 FF 01 18 13 00 C5 00 50 00 0A 14 1E 32 3C 50
+
+Byte0: 00000001 / 1
+Byte1: 11111111 / 255
+Byte2: 00000001 / 1
+Byte3: 00011000 / 24
+
+ByteA: 00001010 / 10
+ByteB: 00010100 / 20
+ByteC: 00011110 / 30
+ByteD: 00110010 / 50
+ByteE: 00111100 / 60
+ByteF: 01010000 / 80
+
+Colour: Yellow
+Element: None
+Class: Standard
+- Display Damage
+- Induce I-Frames
+- Flinch
+Portrait: #019
+Palette: #197
+Damage: 80
+
+= GrandWave3 =
+
+01 FF 01 18 13 00 C6 00 78 00 0A 14 1E 32 3C 50
+
+Byte0: 00000001 / 1
+Byte1: 11111111 / 255
+Byte2: 00000001 / 1
+Byte3: 00011000 / 24
+
+ByteA: 00001010 / 10
+ByteB: 00010100 / 20
+ByteC: 00011110 / 30
+ByteD: 00110010 / 50
+ByteE: 00111100 / 60
+ByteF: 01010000 / 80
+
+Colour: Yellow
+Element: None
+Class: Standard
+- Display Damage
+- Induce I-Frames
+- Flinch
+Portrait: #019
+Palette: #198
+Damage: 120
+
+= JetAttack1 =
+
+01 FF 01 1D 14 00 C7 00 5A 00 0A 14 1E 32 3C 50
+
+Byte0: 00000001 / 1
+Byte1: 11111111 / 255
+Byte2: 00000001 / 1
+Byte3: 00011101 / 29
+
+ByteA: 00001010 / 10
+ByteB: 00010100 / 20
+ByteC: 00011110 / 30
+ByteD: 00110010 / 50
+ByteE: 00111100 / 60
+ByteF: 01010000 / 80
+
+Colour: Yellow
+Element: None
+Class: Standard
+- Display Damage
+- Break
+- Wind
+- Induce I-Frames
+- Flinch
+Portrait: #020
+Palette: #199
+Damage: 90
+
+= JetAttack2 =
+
+01 FF 01 1D 14 00 C8 00 78 00 0A 14 1E 32 3C 50
+
+Byte0: 00000001 / 1
+Byte1: 11111111 / 255
+Byte2: 00000001 / 1
+Byte3: 00011101 / 29
+
+ByteA: 00001010 / 10
+ByteB: 00010100 / 20
+ByteC: 00011110 / 30
+ByteD: 00110010 / 50
+ByteE: 00111100 / 60
+ByteF: 01010000 / 80
+
+Colour: Yellow
+Element: None
+Class: Standard
+- Display Damage
+- Break
+- Wind
+- Induce I-Frames
+- Flinch
+Portrait: #020
+Palette: #200
+Damage: 120
+
+= JetAttack3 =
+
+01 FF 01 1D 14 00 C9 00 96 00 0A 14 1E 32 3C 50
+
+Byte0: 00000001 / 1
+Byte1: 11111111 / 255
+Byte2: 00000001 / 1
+Byte3: 00011101 / 29
+
+ByteA: 00001010 / 10
+ByteB: 00010100 / 20
+ByteC: 00011110 / 30
+ByteD: 00110010 / 50
+ByteE: 00111100 / 60
+ByteF: 01010000 / 80
+
+Colour: Yellow
+Element: None
+Class: Standard
+- Display Damage
+- Break
+- Wind
+- Induce I-Frames
+- Flinch
+Portrait: #020
+Palette: #201
+Damage: 150
+
+= Buki1 =
+
+01 FF 01 19 15 00 CA 00 82 00 0F 19 23 37 41 50
+
+Byte0: 00000001 / 1
+Byte1: 11111111 / 255
+Byte2: 00000001 / 1
+Byte3: 00011001 / 25
+
+ByteA: 00001111 / 15
+ByteB: 00011001 / 25
+ByteC: 00100011 / 35
+ByteD: 00110111 / 55
+ByteE: 01000001 / 65
+ByteF: 01010000 / 80
+
+Colour: Yellow
+Element: None
+Class: Standard
+- Display Damage
+- Break
+- Induce I-Frames
+- Flinch
+Portrait: #021
+Palette: #202
+Damage: 130
+
+= Buki2 =
+
+01 FF 01 19 15 00 CB 00 96 00 0F 19 23 37 41 50
+
+Byte0: 00000001 / 1
+Byte1: 11111111 / 255
+Byte2: 00000001 / 1
+Byte3: 00011001 / 25
+
+ByteA: 00001111 / 15
+ByteB: 00011001 / 25
+ByteC: 00100011 / 35
+ByteD: 00110111 / 55
+ByteE: 01000001 / 65
+ByteF: 01010000 / 80
+
+Colour: Yellow
+Element: None
+Class: Standard
+- Display Damage
+- Break
+- Induce I-Frames
+- Flinch
+Portrait: #021
+Palette: #203
+Damage: 150
+
+= Buki3 =
+
+01 FF 01 19 15 00 CC 00 AA 00 0F 19 23 37 41 50
+
+Byte0: 00000001 / 1
+Byte1: 11111111 / 255
+Byte2: 00000001 / 1
+Byte3: 00011001 / 25
+
+ByteA: 00001111 / 15
+ByteB: 00011001 / 25
+ByteC: 00100011 / 35
+ByteD: 00110111 / 55
+ByteE: 01000001 / 65
+ByteF: 01010000 / 80
+
+Colour: Yellow
+Element: None
+Class: Standard
+- Display Damage
+- Break
+- Induce I-Frames
+- Flinch
+Portrait: #021
+Palette: #204
+Damage: 170
+
+= SmileCoin1 =
+
+01 FF 01 10 16 00 CD 00 1E 00 05 0A 0F 14 19 1E
+
+Byte0: 00000001 / 1
+Byte1: 11111111 / 255
+Byte2: 00000001 / 1
+Byte3: 00010000 / 16
+
+ByteA: 00000101 / 5
+ByteB: 00001010 / 10
+ByteC: 00001111 / 15
+ByteD: 00010100 / 20
+ByteE: 00011001 / 25
+ByteF: 00011110 / 30
+
+Colour: Yellow
+Element: None
+Class: Standard
+- Display Damage
+- Flinch
+Portrait: #022
+Palette: #205
+Damage: 30
+
+= SmileCoin2 =
+
+01 FF 01 10 16 00 CE 00 28 00 05 0A 0F 14 19 1E
+
+Byte0: 00000001 / 1
+Byte1: 11111111 / 255
+Byte2: 00000001 / 1
+Byte3: 00010000 / 16
+
+ByteA: 00000101 / 5
+ByteB: 00001010 / 10
+ByteC: 00001111 / 15
+ByteD: 00010100 / 20
+ByteE: 00011001 / 25
+ByteF: 00011110 / 30
+
+Colour: Yellow
+Element: None
+Class: Standard
+- Display Damage
+- Flinch
+Portrait: #022
+Palette: #206
+Damage: 40
+
+= SmileCoin3 =
+
+01 FF 01 10 17 00 CF 00 32 00 05 0A 0F 14 19 1E
+
+Byte0: 00000001 / 1
+Byte1: 11111111 / 255
+Byte2: 00000001 / 1
+Byte3: 00010000 / 16
+
+ByteA: 00000101 / 5
+ByteB: 00001010 / 10
+ByteC: 00001111 / 15
+ByteD: 00010100 / 20
+ByteE: 00011001 / 25
+ByteF: 00011110 / 30
+
+Colour: Yellow
+Element: None
+Class: Standard
+- Display Damage
+- Flinch
+Portrait: #023
+Palette: #207
+Damage: 50
+
+= BigDrop1 =
+
+01 FF 01 19 18 00 D0 00 8C 00 0A 14 1E 32 46 64
+
+Byte0: 00000001 / 1
+Byte1: 11111111 / 255
+Byte2: 00000001 / 1
+Byte3: 00011001 / 25
+
+ByteA: 00001010 / 10
+ByteB: 00010100 / 20
+ByteC: 00011110 / 30
+ByteD: 00110010 / 50
+ByteE: 01000110 / 70
+ByteF: 01100100 / 100
+
+Colour: Yellow
+Element: None
+Class: Standard
+- Display Damage
+- Break
+- Induce I-Frames
+- Flinch
+Portrait: #024
+Palette: #208
+Damage: 140
+
+= BigDrop2 =
+
+01 FF 01 19 18 00 D1 00 B4 00 0A 14 1E 32 46 64
+
+Byte0: 00000001 / 1
+Byte1: 11111111 / 255
+Byte2: 00000001 / 1
+Byte3: 00011001 / 25
+
+ByteA: 00001010 / 10
+ByteB: 00010100 / 20
+ByteC: 00011110 / 30
+ByteD: 00110010 / 50
+ByteE: 01000110 / 70
+ByteF: 01100100 / 100
+
+Colour: Yellow
+Element: None
+Class: Standard
+- Display Damage
+- Break
+- Induce I-Frames
+- Flinch
+Portrait: #024
+Palette: #209
+Damage: 180
+
+= BigDrop3 =
+
+01 FF 01 19 18 00 D2 00 DC 00 0A 14 1E 32 46 64
+
+Byte0: 00000001 / 1
+Byte1: 11111111 / 255
+Byte2: 00000001 / 1
+Byte3: 00011001 / 25
+
+ByteA: 00001010 / 10
+ByteB: 00010100 / 20
+ByteC: 00011110 / 30
+ByteD: 00110010 / 50
+ByteE: 01000110 / 70
+ByteF: 01100100 / 100
+
+Colour: Yellow
+Element: None
+Class: Standard
+- Display Damage
+- Break
+- Induce I-Frames
+- Flinch
+Portrait: #024
+Palette: #210
+Damage: 220
+
+= TimeBomb1 =
+
+05 FF 03 18 19 00 D3 00 82 00 0A 14 28 32 3C 50
+
+Byte0: 00000101 / 5
+Byte1: 11111111 / 255
+Byte2: 00000011 / 3
+Byte4: 00011000 / 24
+
+ByteA: 00001010 / 10
+ByteB: 00010100 / 20
+ByteC: 00101000 / 40
+ByteD: 00110010 / 50
+ByteE: 00111100 / 60
+ByteF: 01010000 / 80
+
+Colour: Yellow
+Element: Fire
+Class: Standard
+- Display Damage
+- Stop Time
+- Induce I-Frames
+- Flinch
+Portrait: #025
+Palette: #211
+Damage: 130
+
+= TimeBomb2 =
+
+05 FF 03 18 19 00 D4 00 A0 00 0A 14 28 32 3C 50
+
+Byte0: 00000101 / 5
+Byte1: 11111111 / 255
+Byte2: 00000011 / 3
+Byte4: 00011000 / 24
+
+ByteA: 00001010 / 10
+ByteB: 00010100 / 20
+ByteC: 00101000 / 40
+ByteD: 00110010 / 50
+ByteE: 00111100 / 60
+ByteF: 01010000 / 80
+
+Colour: Yellow
+Element: Fire
+Class: Standard
+- Display Damage
+- Stop Time
+- Induce I-Frames
+- Flinch
+Portrait: #025
+Palette: #212
+Damage: 160
+
+= TimeBomb3 =
+
+05 FF 03 18 19 00 D5 00 C8 00 0A 14 28 32 3C 50
+
+Byte0: 00000101 / 5
+Byte1: 11111111 / 255
+Byte2: 00000011 / 3
+Byte4: 00011000 / 24
+
+ByteA: 00001010 / 10
+ByteB: 00010100 / 20
+ByteC: 00101000 / 40
+ByteD: 00110010 / 50
+ByteE: 00111100 / 60
+ByteF: 01010000 / 80
+
+Colour: Yellow
+Element: Fire
+Class: Standard
+- Display Damage
+- Stop Time
+- Induce I-Frames
+- Flinch
+Portrait: #025
+Palette: #213
+Damage: 200
+
+= HeatUppr1 =
+
+05 FF 01 19 1A 00 D6 00 78 00 0A 19 32 3C 55 64
+
+Colour: Yellow
+Element: Fire
+Class: Standard
+- Display Damage
+- Break
+- Induce I-Frames
+- Flinch
+Portrait: #026
+Palette: #214
+Damage: 120
+
+= HeatUppr2 =
+
+05 FF 01 19 1A 00 D7 00 96 00 0A 19 32 3C 55 64
+
+Colour: Yellow
+Element: Fire
+Class: Standard
+- Display Damage
+- Break
+- Induce I-Frames
+- Flinch
+Portrait: #026
+Palette: #215
+Damage: 150
+
+= HeatUppr3 =
+
+05 FF 01 19 1B 00 D8 00 C8 00 0A 19 32 3C 55 64
+
+Colour: Yellow
+Element: Fire
+Class: Standard
+- Display Damage
+- Break
+- Induce I-Frames
+- Flinch
+Portrait: #027
+Palette: #216
+Damage: 200
+
+= MechFlame1 =
+
+05 FF 01 18 1C 00 D9 00 6E 00 0A 14 1E 32 46 5A
+
+Colour: Yellow
+Element: Fire
+Class: Standard
+- Display Damage
+- Induce I-Frames
+- Flinch
+Portrait: #028
+Palette: #217
+Damage: 110
+
+= MechFlame2 =
+
+05 FF 01 18 1C 00 DA 00 8C 00 0A 14 1E 32 46 5A
+
+Colour: Yellow
+Element: Fire
+Class: Standard
+- Display Damage
+- Induce I-Frames
+- Flinch
+Portrait: #028
+Palette: #218
+Damage: 140
+
+= MechFlame3 =
+
+05 FF 01 18 1C 00 DB 00 B4 00 0A 14 1E 32 46 5A
+
+Colour: Yellow
+Element: Fire
+Class: Standard
+- Display Damage
+- Induce I-Frames
+- Flinch
+Portrait: #028
+Palette: #219
+Damage: 170
+
+= MadFire1 =
+
+05 FF 01 18 1D 00 DC 00 64 00 0F 19 23 37 41 50
+
+Colour: Yellow
+Element: Fire
+Class: Standard
+- Display Damage
+- Induce I-Frames
+- Flinch
+Portrait: #029
+Palette: #220
+Damage: 100
+
+= MadFire2 =
+
+05 FF 01 18 1D 00 DD 00 8C 00 0F 19 23 37 41 50
+
+Colour: Yellow
+Element: Fire
+Class: Standard
+- Display Damage
+- Induce I-Frames
+- Flinch
+Portrait: #029
+Palette: #221
+Damage: 140
+
+= MadFire3 =
+
+05 FF 01 18 1D 00 DE 00 B4 00 0F 19 23 37 41 50
+
+Colour: Yellow
+Element: Fire
+Class: Standard
+- Display Damage
+- Induce I-Frames
+- Flinch
+Portrait: #029
+Palette: #222
+Damage: 180
+
+= WideWave1 =
+
+09 FF 01 18 1E 00 DF 00 46 00 0A 14 28 32 46 5A
+
+Colour: Yellow
+Element: Aqua
+Class: Standard
+- Display Damage
+- Induce I-Frames
+- Flinch
+Portrait: #030
+Palette: #223
+Damage: 70
+
+= WideWave2 =
+
+09 FF 01 18 1E 00 E0 00 5A 00 0A 14 28 32 46 5A
+
+Colour: Yellow
+Element: Aqua
+Class: Standard
+- Display Damage
+- Induce I-Frames
+- Flinch
+Portrait: #030
+Palette: #224
+Damage: 90
+
+= WideWave3 =
+
+09 FF 01 18 1E 00 E1 00 78 00 0A 14 28 32 46 5A
+
+Colour: Yellow
+Element: Aqua
+Class: Standard
+- Display Damage
+- Induce I-Frames
+- Flinch
+Portrait: #030
+Palette: #225
+Damage: 120
+
+= BubblHook1 =
+
+09 FF 01 00 1F 00 E2 00 3C 00 0A 14 1E 28 32 46
+
+Colour: Yellow
+Element: Aqua
+Class: Standard
+- Display Damage
+Portrait: #031
+Palette: #226
+Damage: 60
+
+= BubblHook2 =
+
+09 FF 01 00 1F 00 E3 00 50 00 0A 14 1E 28 32 46
+
+Colour: Yellow
+Element: Aqua
+Class: Standard
+- Display Damage
+Portrait: #031
+Palette: #227
+Damage: 80
+
+= BubblHook3 =
+
+09 FF 01 00 1F 00 E4 00 64 00 0A 14 1E 28 32 46
+
+Colour: Yellow
+Element: Aqua
+Class: Standard
+- Display Damage
+Portrait: #031
+Palette: #228
+Damage: 100
+
+= SharkAtk1 =
+
+09 FF 01 18 20 00 E5 00 46 00 0A 0F 1E 2D 3C 4B
+
+Colour: Yellow
+Element: Aqua
+Class: Standard
+- Display Damage
+- Induce I-Frames
+- Flinch
+Portrait: #032
+Palette: #229
+Damage: 70
+
+= SharkAtk2 =
+
+09 FF 01 18 20 00 E6 00 50 00 0A 0F 1E 2D 3C 4B
+
+Colour: Yellow
+Element: Aqua
+Class: Standard
+- Display Damage
+- Induce I-Frames
+- Flinch
+Portrait: #032
+Palette: #230
+Damage: 80
+
+= SharkAtk3 =
+
+09 FF 01 18 20 00 E7 00 5A 00 0A 0F 1E 2D 3C 4B
+
+Colour: Yellow
+Element: Aqua
+Class: Standard
+- Display Damage
+- Induce I-Frames
+- Flinch
+Portrait: #032
+Palette: #231
+Damage: 90
+
+= IceSpin1 =
+
+09 FF 01 11 21 00 E8 00 46 00 0A 19 28 37 46 55
+
+Colour: Yellow
+Element: Aqua
+Class: Standard
+- Display Damage
+- Break
+- Flinch
+Portrait: #033
+Palette: #232
+Damage: 70
+
+= IceSpin2 =
+
+09 FF 01 11 21 00 E9 00 5A 00 0A 19 28 37 46 55
+
+Colour: Yellow
+Element: Aqua
+Class: Standard
+- Display Damage
+- Break
+- Flinch
+Portrait: #033
+Palette: #233
+Damage: 90
+
+= IceSpin3 =
+
+09 FF 01 11 21 00 EA 00 6E 00 0A 19 28 37 46 55
+
+Colour: Yellow
+Element: Aqua
+Class: Standard
+- Display Damage
+- Break
+- Flinch
+Portrait: #033
+Palette: #234
+Damage: 110
+
+= StlthLzr1 =
+
+0D FF 01 02 22 00 EB 00 28 00 0A 0F 14 19 1E 28
+
+Colour: Yellow
+Element: Elec
+Class: Standard
+- Display Damage
+- Ignore I-Frames
+Portrait: #034
+Palette: #235
+Damage: 40
+
+= StlthLzr2 =
+
+0D FF 01 02 22 00 EC 00 32 00 0A 0F 14 19 1E 28
+
+Colour: Yellow
+Element: Elec
+Class: Standard
+- Display Damage
+- Ignore I-Frames
+Portrait: #034
+Palette: #236
+Damage: 50
+
+= StlthLzr3 =
+
+0D FF 01 02 22 00 ED 00 3C 00 0A 0F 14 19 1E 28
+
+Colour: Yellow
+Element: Elec
+Class: Standard
+- Display Damage
+- Ignore I-Frames
+Portrait: #034
+Palette: #237
+Damage: 60
+
+= MummyHand1 =
+
+0D FF 01 10 23 00 EE 00 78 00 0A 14 1E 28 3C 50
+
+Colour: Yellow
+Element: Elec
+Class: Standard
+- Display Damage
+- Flinch
+Portrait: #035
+Palette: #238
+Damage: 120
+
+= MummyHand2 =
+
+0D FF 01 10 23 00 EF 00 96 00 0A 14 1E 28 3C 50
+
+Colour: Yellow
+Element: Elec
+Class: Standard
+- Display Damage
+- Flinch
+Portrait: #035
+Palette: #239
+Damage: 150
+
+= MummyHand3 =
+
+0D FF 01 10 24 00 F0 00 AA 00 0A 14 1E 28 3C 50
+
+Colour: Yellow
+Element: Elec
+Class: Standard
+- Display Damage
+- Flinch
+Portrait: #036
+Palette: #240
+Damage: 170
+
+= ThndrHead1 =
+
+0D FF 01 18 25 00 F1 00 96 00 14 1E 32 3C 50 64
+
+Colour: Yellow
+Element: Elec
+Class: Standard
+- Display Damage
+- Induce I-Frames
+- Flinch
+Portrait: #037
+Palette: #241
+Damage: 150
+
+= ThndrHead2 =
+
+0D FF 01 18 25 00 F2 00 B4 00 14 1E 32 3C 50 64
+
+Colour: Yellow
+Element: Elec
+Class: Standard
+- Display Damage
+- Induce I-Frames
+- Flinch
+Portrait: #037
+Palette: #242
+Damage: 180
+
+= ThndrHead3 =
+
+0D FF 01 18 25 00 F3 00 E6 00 14 1E 32 3C 50 64
+
+Colour: Yellow
+Element: Elec
+Class: Standard
+- Display Damage
+- Induce I-Frames
+- Flinch
+Portrait: #037
+Palette: #243
+Damage: 230
+
+= FlashStrk1 =
+
+0D FF 01 18 26 00 F4 00 0A 00 05 0A 0F 14 19 28
+
+Colour: Yellow
+Element: Elec
+Class: Standard
+- Display Damage
+- Induce I-Frames
+- Flinch
+Portrait: #038
+Palette: #244
+Damage: 10
+
+= FlashStrk2 =
+
+0D FF 01 18 26 00 F5 00 14 00 05 0A 0F 14 19 28
+
+Colour: Yellow
+Element: Elec
+Class: Standard
+- Display Damage
+- Induce I-Frames
+- Flinch
+Portrait: #038
+Palette: #245
+Damage: 20
+
+= FlashStrk3 =
+
+0D FF 01 18 26 00 F6 00 1E 00 05 0A 0F 14 19 28
+
+Colour: Yellow
+Element: Elec
+Class: Standard
+- Display Damage
+- Induce I-Frames
+- Flinch
+Portrait: #038
+Palette: #246
+Damage: 30
+
+= ArachAtk1 =
+
+11 FF 01 10 27 00 F7 00 28 00 0A 14 1E 28 32 3C
+
+Colour: Yellow
+Element: Wood
+Class: Standard
+- Display Damage
+- Flinch
+Portrait: #039
+Palette: #247
+Damage: 40
+
+= ArachAtk2 =
+
+11 FF 01 10 27 00 F8 00 32 00 0A 14 1E 28 32 3C
+
+Colour: Yellow
+Element: Wood
+Class: Standard
+- Display Damage
+- Flinch
+Portrait: #039
+Palette: #248
+Damage: 50
+
+= ArachAtk3 =
+
+11 FF 01 10 27 00 F9 00 3C 00 0A 14 1E 28 32 3C
+
+Colour: Yellow
+Element: Wood
+Class: Standard
+- Display Damage
+- Flinch
+Portrait: #039
+Palette: #249
+Damage: 60
+
+= Shuriken1 =
+
+11 FF 81 10 28 00 FA 00 64 00 0A 14 1E 32 3C 50
+
+Colour: Yellow
+Element: Wood
+Class: Standard
+- Display Damage
+- Sword
+- Flinch
+Portrait: #040
+Palette: #250
+Damage: 100
+
+= Shuriken2 =
+
+11 FF 81 10 28 00 FB 00 78 00 0A 14 1E 32 3C 50
+
+Colour: Yellow
+Element: Wood
+Class: Standard
+- Display Damage
+- Sword
+- Flinch
+Portrait: #040
+Palette: #251
+Damage: 120
+
+= Shuriken3 =
+
+11 FF 81 10 28 00 FC 00 8C 00 0A 14 1E 32 3C 50
+
+Colour: Yellow
+Element: Wood
+Class: Standard
+- Display Damage
+- Sword
+- Flinch
+Portrait: #040
+Palette: #252
+Damage: 140
+
+= PollnShot1 =
+
+11 FF 01 10 29 00 FD 00 78 00 0A 14 1E 28 3C 50
+
+Colour: Yellow
+Element: Wood
+Class: Standard
+- Display Damage
+- Flinch
+Portrait: #041
+Palette: #253
+Damage: 120
+
+= PollnShot2 =
+
+11 FF 01 10 29 00 FE 00 8C 00 0A 14 1E 28 3C 50
+
+Colour: Yellow
+Element: Wood
+Class: Standard
+- Display Damage
+- Flinch
+Portrait: #041
+Palette: #254
+Damage: 140
+
+= PollnShot3 =
+
+11 FF 01 10 29 00 FF 00 A0 00 0A 14 1E 28 3C 50
+
+Colour: Yellow
+Element: Wood
+Class: Standard
+- Display Damage
+- Flinch
+Portrait: #041
+Palette: #255
+Damage: 160
+
+= AcornBomb1 =
+
+11 FF 01 10 2A 00 00 01 64 00 0A 14 1E 28 3C 50
+
+Colour: Yellow
+Element: Wood
+Class: Standard
+- Display Damage
+- Flinch
+Portrait: #042
+Palette: #256
+Damage: 100
+
+= AcornBomb2 =
+
+11 FF 01 10 2A 00 01 01 78 00 0A 14 1E 28 3C 50
+
+Colour: Yellow
+Element: Wood
+Class: Standard
+- Display Damage
+- Flinch
+Portrait: #042
+Palette: #257
+Damage: 120
+
+= AcornBomb3 =
+
+11 FF 01 10 2A 00 02 01 8C 00 0A 14 1E 28 3C 50
+
+Colour: Yellow
+Element: Wood
+Class: Standard
+- Display Damage
+- Flinch
+Portrait: #042
+Palette: #258
+Damage: 140
+
+= BuzzSaw1 =
+
+01 FF 81 18 2B 00 03 01 64 00 0A 14 28 32 46 5A
+
+Colour: Yellow
+Element: None
+Class: Standard
+- Display Damage
+- Sword
+- Induce I-Frames
+- Flinch
+Portrait: #043
+Palette: #259
+Damage: 100
+
+= BuzzSaw2 =
+
+01 FF 81 18 2B 00 04 01 78 00 0A 14 28 32 46 5A
+
+Colour: Yellow
+Element: None
+Class: Standard
+- Display Damage
+- Sword
+- Induce I-Frames
+- Flinch
+Portrait: #043
+Palette: #260
+Damage: 120
+
+= BuzzSaw3 =
+
+01 FF 81 18 2B 00 05 01 96 00 0A 14 28 32 46 5A
+
+Colour: Yellow
+Element: None
+Class: Standard
+- Display Damage
+- Sword
+- Induce I-Frames
+- Flinch
+Portrait: #043
+Palette: #261
+Damage: 150
+
+= Bushido1 =
+
+01 FF 81 18 2C 00 06 01 6E 00 14 1E 28 32 46 5A
+
+Colour: Yellow
+Element: None
+Class: Standard
+- Display Damage
+- Sword
+- Induce I-Frames
+- Flinch
+Portrait: #044
+Palette: #262
+Damage: 110
+
+= Bushido2 =
+
+01 FF 81 18 2C 00 07 01 8C 00 14 1E 28 32 46 5A
+
+Colour: Yellow
+Element: None
+Class: Standard
+- Display Damage
+- Sword
+- Induce I-Frames
+- Flinch
+Portrait: #044
+Palette: #263
+Damage: 140
+
+= Bushido3 =
+
+01 FF 81 18 2C 00 08 01 AA 00 14 1E 28 32 46 5A
+
+Colour: Yellow
+Element: None
+Class: Standard
+- Display Damage
+- Sword
+- Induce I-Frames
+- Flinch
+Portrait: #044
+Palette: #264
+Damage: 170
+
+= SkullArrw1 =
+
+01 FF 01 00 2D 00 09 01 82 00 14 1E 28 32 3C 50
+
+Colour: Yellow
+Element: None
+Class: Standard
+- Display Damage
+Portrait: #045
+Palette: #265
+Damage: 130
+
+= SkullArrw2 =
+
+01 FF 01 00 2D 00 0A 01 96 00 14 1E 28 32 3C 50
+
+Colour: Yellow
+Element: None
+Class: Standard
+- Display Damage
+Portrait: #045
+Palette: #266
+Damage: 150
+
+= SkullArrw3 =
+
+01 FF 01 00 2D 00 0B 01 AA 00 14 1E 28 32 3C 50
+
+Colour: Yellow
+Element: None
+Class: Standard
+- Display Damage
+Portrait: #045
+Palette: #267
+Damage: 170
+
+= MadVulcn1 =
+
+01 FF 01 00 2E 00 0C 01 0A 00 05 0A 0F 14 1E 28
+
+Colour: Yellow
+Element: None
+Class: Standard
+- Display Damage
+Portrait: #046
+Palette: #268
+Damage: 10
+
+= MadVulcn2 =
+
+01 FF 01 00 2E 00 0D 01 0A 00 05 0A 0F 14 1E 28
+
+Colour: Yellow
+Element: None
+Class: Standard
+- Display Damage
+Portrait: #046
+Palette: #269
+Damage: 10
+
+= MadVulcn3 =
+
+01 FF 01 00 2E 00 0E 01 0A 00 05 0A 0F 14 1E 28
+
+Colour: Yellow
+Element: None
+Class: Standard
+- Display Damage
+Portrait: #046
+Palette: #270
+Damage: 10
+
+= MuTech1 =
+
+01 FF 01 1B 2F 00 0F 01 32 00 1E 28 3C 46 5A 6E
+
+Colour: Yellow
+Element: None
+Class: Standard
+- Display Damage
+- Break
+- Ignore I-Frames
+- Induce I-Frames
+- Flinch
+Portrait: #047
+Palette: #271
+Damage: 50
+
+= MuTech2 =
+
+01 FF 01 1B 2F 00 10 01 3C 00 1E 28 3C 46 5A 6E
+
+Colour: Yellow
+Element: None
+Class: Standard
+- Display Damage
+- Break
+- Ignore I-Frames
+- Induce I-Frames
+- Flinch
+Portrait: #047
+Palette: #272
+Damage: 60
+
+= MuTech3 =
+
+01 FF 01 1B 30 00 11 01 46 00 1E 28 3C 46 5A 6E
+
+Colour: Yellow
+Element: None
+Class: Standard
+- Display Damage
+- Break
+- Ignore I-Frames
+- Induce I-Frames
+- Flinch
+Portrait: #048
+Palette: #273
+Damage: 70
+
+= NoiseWzrd1 =
+
+01 FF 81 18 31 00 12 01 78 00 0A 14 1E 28 32 46
+
+Colour: Yellow
+Element: None
+Class: Standard
+- Display Damage
+- Sword
+- Induce I-Frames
+- Flinch
+Portrait: #049
+Palette: #274
+Damage: 120
+
+= NoiseWzrd2 =
+
+01 FF 81 18 31 00 13 01 96 00 0A 14 1E 28 32 46
+
+Colour: Yellow
+Element: None
+Class: Standard
+- Display Damage
+- Sword
+- Induce I-Frames
+- Flinch
+Portrait: #049
+Palette: #275
+Damage: 150
+
+= NoiseWzrd3 =
+
+01 FF 81 18 31 00 14 01 B4 00 0A 14 1E 28 32 46
+
+Colour: Yellow
+Element: None
+Class: Standard
+- Display Damage
+- Sword
+- Induce I-Frames
+- Flinch
+Portrait: #049
+Palette: #276
+Damage: 180
+
+= MalWizard1 =
+
+0D FF 01 12 32 00 15 01 B4 00 0A 14 1E 28 32 50
+
+Colour: Yellow
+Element: Elec
+Class: Standard
+- Display Damage
+- Ignore I-Frames
+- Flinch
+Portrait: #050
+Palette: #277
+Damage: 180
+
+= MalWizard2 =
+
+0D FF 01 12 32 00 21 01 D2 00 0A 14 1E 28 32 50
+
+Colour: Yellow
+Element: Elec
+Class: Standard
+- Display Damage
+- Ignore I-Frames
+- Flinch
+Portrait: #050
+Palette: #289
+Damage: 210
+
+= MalWizard3 =
+
+0D FF 01 12 32 00 22 01 FA 00 0A 14 1E 28 32 50
+
+Colour: Yellow
+Element: Elec
+Class: Standard
+- Display Damage
+- Ignore I-Frames
+- Flinch
+Portrait: #050
+Palette: #290
+Damage: 250
+
+= BlackHole1 =
+
+01 FF 02 00 33 00 23 01 64 00 00 00 00 00 00 00
+
+Colour: Yellow
+Element: None
+Class: Standard
+- Stop Time
+Portrait: #051
+Palette: #291
+Damage: 100
+
+= BlackHole2 =
+
+01 FF 02 00 33 00 24 01 82 00 00 00 00 00 00 00
+
+Colour: Yellow
+Element: None
+Class: Standard
+- Stop Time
+Portrait: #051
+Palette: #292
+Damage: 130
+
+= BlackHole3 =
+
+01 FF 02 00 33 00 25 01 A0 00 00 00 00 00 00 00
+
+Colour: Yellow
+Element: None
+Class: Standard
+- Stop Time
+Portrait: #051
+Palette: #293
+Damage: 160
+
+= TyphnDance =
+
+01 FF 01 14 34 00 26 01 3C 00 05 0A 0F 14 1E 28
+
+Colour: Yellow
+Element: None
+Class: Standard
+- Display Damage
+- Wind
+- Flinch
+Portrait: #052
+Palette: #294
+Damage: 60
+
+= TrnadoDnce =
+
+01 FF 01 14 34 00 27 01 3C 00 05 0A 0F 14 1E 28
+
+Colour: Yellow
+Element: None
+Class: Standard
+- Display Damage
+- Wind
+- Flinch
+Portrait: #052
+Palette: #295
+Damage: 60
+
+= DblStone =
+
+00 FF 02 00 18 01 28 01 00 00 00 00 00 00 00 00
+
+Colour: White
+Element: None
+Class: Standard
+- Stop Time
+Portrait: #280
+Palette: #296
+Damage: 0
+
+= Bombalizer =
+
+01 FF 01 18 19 01 29 01 C8 00 14 1E 32 3C 50 64
+
+Colour: Yellow
+Element: None
+Class: Standard
+- Display Damage
+- Induce I-Frames
+- Flinch
+Portrait: #281
+Palette: #297
+Damage: 200
+
+= DivideLine =
+
+00 FF 02 00 1A 01 2A 01 00 00 00 00 00 00 00 00
+
+Colour: White
+Element: None
+Class: Standard
+- Stop Time
+Portrait: #282
+Palette: #298
+Damage: 0
+
+= PanlFormat =
+
+00 FF 02 00 1B 01 2B 01 00 00 00 00 00 00 00 00
+
+Colour: White
+Element: None
+Class: Standard
+- Stop Time
+Portrait: #283
+Palette: #299
+Damage: 0
+
+= FlameAxe =
+
+05 FF 81 18 1C 01 2C 01 C8 00 0A 14 28 46 50 64
+
+Colour: Yellow
+Element: Fire
+Class: Standard
+- Display Damage
+- Sword
+- Induce I-Frames
+- Flinch
+Portrait: #284
+Palette: #300
+Damage: 200
+
+= MegaCrushr =
+
+01 FF 02 00 1D 01 2D 01 00 00 00 00 00 00 00 00
+
+Colour: Yellow
+Element: None
+Class: Standard
+- Stop Time
+Portrait: #285
+Palette: #301
+Damage: 0
+
+= GravtyPlus =
+
+00 FF 00 00 1E 01 2E 01 00 00 00 00 00 00 00 00
+
+Colour: White
+Element: None
+Class: Standard
+Portrait: #286
+Palette: #302
+Damage: 0
+
+= Recover10 =
+
+01 FF 00 00 1F 01 2F 01 00 00 00 00 00 00 00 00
+
+Colour: Yellow
+Element: None
+Class: Standard
+Portrait: #287
+Palette: #303
+Damage: 0
+
+= Recover30 =
+
+01 FF 00 00 20 01 30 01 00 00 00 00 00 00 00 00
+
+Colour: Yellow
+Element: None
+Class: Standard
+Portrait: #288
+Palette: #304
+Damage: 0
+
+= Recover50 =
+
+01 FF 00 00 35 00 31 01 00 00 00 00 00 00 00 00
+
+Colour: Yellow
+Element: None
+Class: Standard
+Portrait: #053
+Palette: #305
+Damage: 0
+
+= Recover80 =
+
+01 FF 00 00 36 00 32 01 00 00 00 00 00 00 00 00
+
+Colour: Yellow
+Element: None
+Class: Standard
+Portrait: #054
+Palette: #306
+Damage: 0
+
+= Recover120 =
+
+01 FF 00 00 37 00 33 01 00 00 00 00 00 00 00 00
+
+Colour: Yellow
+Element: None
+Class: Standard
+Portrait: #055
+Palette: #307
+Damage: 0
+
+= Recover150 =
+
+01 FF 00 00 38 00 34 01 00 00 00 00 00 00 00 00
+
+Colour: Yellow
+Element: None
+Class: Standard
+Portrait: #056
+Palette: #308
+Damage: 0
+
+= Recover200 =
+
+01 FF 00 00 39 00 35 01 00 00 00 00 00 00 00 00
+
+Colour: Yellow
+Element: None
+Class: Standard
+Portrait: #057
+Palette: #309
+Damage: 0
+
+= Recover300 =
+
+01 FF 00 00 3A 00 36 01 00 00 00 00 00 00 00 00
+
+Colour: Yellow
+Element: None
+Class: Standard
+Portrait: #058
+Palette: #310
+Damage: 0
+
+= Barrier =
+
+01 FF 02 00 3B 00 37 01 00 00 00 00 00 00 00 00
+
+Colour: Yellow
+Element: None
+Class: Standard
+- Stop Time
+Portrait: #059
+Palette: #311
+Damage: 0
+
+= SprBarrier =
+
+01 FF 02 00 3C 00 38 01 00 00 00 00 00 00 00 00
+
+Colour: Yellow
+Element: None
+Class: Standard
+- Stop Time
+Portrait: #060
+Palette: #312
+Damage: 0
+
+= Aura =
+
+01 FF 02 00 3D 00 39 01 00 00 00 00 00 00 00 00
+
+Colour: Yellow
+Element: None
+Class: Standard
+- Stop Time
+Portrait: #061
+Palette: #313
+Damage: 0
+
+= Invisible =
+
+00 FF 02 00 3E 00 3A 01 00 00 00 00 00 00 00 00
+
+Colour: White
+Element: None
+Class: Standard
+- Stop Time
+Portrait: #062
+Palette: #314
+Damage: 0
+
+= Whistle =
+
+01 FF 00 05 3F 00 3B 01 00 00 00 00 00 00 00 00
+
+Colour: Yellow
+Element: None
+Class: Standard
+- Break
+- Wind
+Portrait: #063
+Palette: #315
+Damage: 0
+
+= SpiritFury =
+
+01 FF 23 00 40 00 3C 01 96 00 00 00 00 00 00 00
+
+Colour: Yellow
+Element: None
+Class: Standard
+- Display Damage
+- Stop Time
+- Interrupt
+Portrait: #064
+Palette: #316
+Damage: 150
+
+= AntiSword =
+
+01 FF 23 00 41 00 3D 01 78 00 00 00 00 00 00 00
+
+Colour: Yellow
+Element: None
+Class: Standard
+- Display Damage
+- Stop Time
+- Interrupt
+Portrait: #065
+Palette: #317
+Damage: 120
+
+= PoisnApple =
+
+01 FF 22 00 42 00 3E 01 00 00 00 00 00 00 00 00
+
+Colour: Yellow
+Element: None
+Class: Standard
+- Stop Time
+- Interrupt
+Portrait: #066
+Palette: #318
+Damage: 0
+
+= DoublCross =
+
+01 FF 22 00 43 00 3F 01 00 00 00 00 00 00 00 00
+
+Colour: Yellow
+Element: None
+Class: Standard
+- Stop Time
+- Interrupt
+Portrait: #067
+Palette: #319
+Damage: 0
+
+= GigaMine =
+
+01 FF 23 00 44 00 40 01 2C 01 00 00 00 00 00 00
+
+Colour: Yellow
+Element: None
+Class: Standard
+- Display Damage
+- Stop Time
+- Interrupt
+Portrait: #068
+Palette: #320
+Damage: 300
+
+= GrassStage =
+
+10 FF 02 00 45 00 41 01 00 00 00 00 00 00 00 00
+
+Colour: White
+Element: Wood
+Class: Standard
+- Stop Time
+Portrait: #069
+Palette: #321
+Damage: 0
+
+= IceStage =
+
+08 FF 02 00 46 00 42 01 00 00 00 00 00 00 00 00
+
+Colour: White
+Element: Aqua
+Class: Standard
+- Stop Time
+Portrait: #070
+Palette: #322
+Damage: 0
+
+= PrlyzeStg =
+
+0C FF 02 00 47 00 43 01 00 00 00 00 00 00 00 00
+
+Colour: White
+Element: Elec
+Class: Standard
+- Stop Time
+Portrait: #071
+Palette: #323
+Damage: 0
+
+= HolyPanel =
+
+00 FF 02 00 48 00 44 01 00 00 00 00 00 00 00 00
+
+Colour: White
+Element: None
+Class: Standard
+- Stop Time
+Portrait: #072
+Palette: #324
+Damage: 0
+
+= AtkPanel =
+
+00 FF 02 00 49 00 45 01 00 00 00 00 00 00 00 00
+
+Colour: White
+Element: None
+Class: Standard
+- Stop Time
+Portrait: #073
+Palette: #325
+Damage: 0
+
+= ParlyzPlus =
+
+00 FF 00 00 4A 00 46 01 00 00 00 00 00 00 00 00
+
+Colour: White
+Element: None
+Class: Standard
+Portrait: #074
+Palette: #326
+Damage: 0
+
+= Attack+10 =
+
+00 FF 00 00 4B 00 47 01 00 00 00 00 00 00 00 00
+
+Colour: White
+Element: None
+Class: Standard
+Portrait: #075
+Palette: #327
+Damage: 0
+
+= SpadMagns =
+
+2E FF 93 38 4C 00 48 01 3C 00 00 00 00 00 00 00
+
+Byte0: 00101110 / 46
+Byte1: 11111111 / 255
+Byte2: 10010011 / 147
+Byte3: 00111000 / 56
+
+Colour: Blue
+Element: Elec
+Class: Mega
+- Display Damage
+- Stop Time
+- Mega
+- Sword
+- Induce I-Frames
+- Flinch
+- Summoning
+Portrait: #076
+Palette: #328
+Damage: 60
+
+= SpadMagns[V2] =
+
+2E FF 93 38 4C 00 49 01 5A 00 00 00 00 00 00 00
+
+Byte0: 00101110 / 46
+Byte1: 11111111 / 255
+Byte2: 10010011 / 147
+Byte3: 00111000 / 56
+
+Colour: Blue
+Element: Elec
+Class: Mega
+- Display Damage
+- Stop Time
+- Mega
+- Sword
+- Induce I-Frames
+- Flinch
+- Summoning
+Portrait: #076
+Palette: #329
+Damage: 90
+
+= SpadMagns[V3] =
+
+2E FF 93 38 4C 00 4A 01 82 00 00 00 00 00 00 00
+
+Byte0: 00101110 / 46
+Byte1: 11111111 / 255
+Byte2: 10010011 / 147
+Byte3: 00111000 / 56
+
+Colour: Blue
+Element: Elec
+Class: Mega
+- Display Damage
+- Stop Time
+- Mega
+- Sword
+- Induce I-Frames
+- Flinch
+- Summoning
+Portrait: #076
+Palette: #330
+Damage: 130
+
+= DiamndIce =
+
+2A FF 13 24 4D 00 4B 01 28 00 00 00 00 00 00 00
+
+Byte2: 00010011 / 19
+Byte3: 00100100 / 36
+
+Colour: Blue
+Element: Aqua
+Class: Mega
+- Display Damage
+- Stop Time
+- Mega
+- Wind
+- Summoning
+Portrait: #077
+Palette: #331
+Damage: 40
+
+= DiamndIce[V2] =
+
+2A FF 13 24 4D 00 4C 01 32 00 00 00 00 00 00 00
+
+Byte2: 00010011 / 19
+Byte3: 00100100 / 36
+
+Colour: Blue
+Element: Aqua
+Class: Mega
+- Display Damage
+- Stop Time
+- Mega
+- Wind
+- Summoning
+Portrait: #077
+Palette: #332
+Damage: 50
+
+= DiamndIce[V3] =
+
+2A FF 13 24 4D 00 4D 01 50 00 00 00 00 00 00 00
+
+Byte2: 00010011 / 19
+Byte3: 00100100 / 36
+
+Colour: Blue
+Element: Aqua
+Class: Mega
+- Display Damage
+- Stop Time
+- Mega
+- Wind
+- Summoning
+Portrait: #077
+Palette: #333
+Damage: 80
+
+= ClubStrng =
+
+32 FF 13 34 4E 00 4E 01 14 00 00 00 00 00 00 00
+
+Colour: Blue
+Element: Wood
+Class: Mega
+- Display Damage
+- Stop Time
+- Mega
+- Wind
+- Flinch
+- Summoning
+Portrait: #078
+Palette: #334
+Damage: 20
+
+= ClubStrng[V2] =
+
+32 FF 13 34 4E 00 4F 01 19 00 00 00 00 00 00 00
+
+Colour: Blue
+Element: Wood
+Class: Mega
+- Display Damage
+- Stop Time
+- Mega
+- Wind
+- Flinch
+- Summoning
+Portrait: #078
+Palette: #335
+Damage: 25
+
+= ClubStrng[V3] =
+
+32 FF 13 34 4E 00 50 01 28 00 00 00 00 00 00 00
+
+Colour: Blue
+Element: Wood
+Class: Mega
+- Display Damage
+- Stop Time
+- Mega
+- Wind
+- Flinch
+- Summoning
+Portrait: #078
+Palette: #336
+Damage: 40
+
+= QueenVrgo =
+
+2A FF 13 39 4F 00 51 01 3C 00 00 00 00 00 00 00
+
+Colour: Blue
+Element: Aqua
+Class: Mega
+- Display Damage
+- Stop Time
+- Mega
+- Break
+- Induce I-Frames
+- Flinch
+- Summoning
+Portrait: #079
+Palette: #337
+Damage: 60
+
+= QueenVrgo[V2] =
+
+2A FF 13 39 4F 00 52 01 50 00 00 00 00 00 00 00
+
+Colour: Blue
+Element: Aqua
+Class: Mega
+- Display Damage
+- Stop Time
+- Mega
+- Break
+- Induce I-Frames
+- Flinch
+- Summoning
+Portrait: #079
+Palette: #338
+Damage: 80
+
+= QueenVrgo[V3] =
+
+2A FF 13 39 4F 00 53 01 64 00 00 00 00 00 00 00
+
+Colour: Blue
+Element: Aqua
+Class: Mega
+- Display Damage
+- Stop Time
+- Mega
+- Break
+- Induce I-Frames
+- Flinch
+- Summoning
+Portrait: #079
+Palette: #339
+Damage: 100
+
+= JackCorvs =
+
+26 FF 13 38 50 00 54 01 96 00 00 00 00 00 00 00
+
+Colour: Blue
+Element: Fire
+Class: Mega
+- Display Damage
+- Stop Time
+- Mega
+- Induce I-Frames
+- Flinch
+- Summoning
+Portrait: #080
+Palette: #340
+Damage: 150
+
+= JackCorvs[V2] =
+
+26 FF 13 38 50 00 55 01 B4 00 00 00 00 00 00 00
+
+Colour: Blue
+Element: Fire
+Class: Mega
+- Display Damage
+- Stop Time
+- Mega
+- Induce I-Frames
+- Flinch
+- Summoning
+Portrait: #080
+Palette: #341
+Damage: 180
+
+= JackCorvs[V3] =
+
+26 FF 13 38 50 00 56 01 2C 01 00 00 00 00 00 00
+
+Colour: Blue
+Element: Fire
+Class: Mega
+- Display Damage
+- Stop Time
+- Mega
+- Induce I-Frames
+- Flinch
+- Summoning
+Portrait: #080
+Palette: #342
+Damage: 300
+
+= DreadJokr =
+
+22 FF 13 39 51 00 57 01 A0 00 00 00 00 00 00 00
+
+Colour: Blue
+Element: None
+Class: Mega
+- Display Damage
+- Stop Time
+- Mega
+- Break
+- Induce I-Frames
+- Flinch
+- Summoning
+Portrait: #081
+Palette: #343
+Damage: 160
+
+= DreadJokr[V2] =
+
+22 FF 13 39 51 00 58 01 BE 00 00 00 00 00 00 00
+
+Colour: Blue
+Element: None
+Class: Mega
+- Display Damage
+- Stop Time
+- Mega
+- Break
+- Induce I-Frames
+- Flinch
+- Summoning
+Portrait: #081
+Palette: #344
+Damage: 190
+
+= DreadJokr[V3] =
+
+22 FF 13 39 51 00 59 01 0E 01 00 00 00 00 00 00
+
+Colour: Blue
+Element: None
+Class: Mega
+- Display Damage
+- Stop Time
+- Mega
+- Break
+- Induce I-Frames
+- Flinch
+- Summoning
+Portrait: #081
+Palette: #345
+Damage: 270
+
+= AcidAce =
+
+22 FF 93 39 52 00 5A 01 8C 00 00 00 00 00 00 00
+
+Colour: Blue
+Element: None
+Class: Mega
+- Display Damage
+- Stop Time
+- Mega
+- Sword
+- Break
+- Induce I-Frames
+- Flinch
+- Summoning
+Portrait: #082
+Palette: #346
+Damage: 140
+
+= AcidAce[V2] =
+
+22 FF 93 39 52 00 5B 01 AA 00 00 00 00 00 00 00
+
+Colour: Blue
+Element: None
+Class: Mega
+- Display Damage
+- Stop Time
+- Mega
+- Sword
+- Break
+- Induce I-Frames
+- Flinch
+- Summoning
+Portrait: #082
+Palette: #347
+Damage: 170
+
+= AcidAce[V3] =
+
+22 FF 93 39 52 00 5C 01 DC 00 00 00 00 00 00 00
+
+Colour: Blue
+Element: None
+Class: Mega
+- Display Damage
+- Stop Time
+- Mega
+- Sword
+- Break
+- Induce I-Frames
+- Flinch
+- Summoning
+Portrait: #082
+Palette: #348
+Damage: 220
+
+= TaursFire =
+
+26 FF 13 38 53 00 5D 01 64 00 00 00 00 00 00 00
+
+Colour: Blue
+Element: Fire
+Class: Mega
+- Display Damage
+- Stop Time
+- Mega
+- Induce I-Frames
+- Flinch
+- Summoning
+Portrait: #083
+Palette: #349
+Damage: 100
+
+= TaursFire[V2] =
+
+26 FF 13 38 53 00 5E 01 96 00 00 00 00 00 00 00
+
+Colour: Blue
+Element: Fire
+Class: Mega
+- Display Damage
+- Stop Time
+- Mega
+- Induce I-Frames
+- Flinch
+- Summoning
+Portrait: #083
+Palette: #350
+Damage: 150
+
+= TaursFire[V3] =
+
+26 FF 13 38 53 00 5F 01 DC 00 00 00 00 00 00 00
+
+Colour: Blue
+Element: Fire
+Class: Mega
+- Display Damage
+- Stop Time
+- Mega
+- Induce I-Frames
+- Flinch
+- Summoning
+Portrait: #083
+Palette: #351
+Damage: 220
+
+= CygnsWing =
+
+22 FF 13 3D 54 00 60 01 82 00 00 00 00 00 00 00
+
+Colour: Blue
+Element: None
+Class: Mega
+- Display Damage
+- Stop Time
+- Mega
+- Break
+- Wind
+- Induce I-Frames
+- Flinch
+- Summoning
+Portrait: #084
+Palette: #352
+Damage: 130
+
+= CygnsWing[V2] =
+
+22 FF 13 3D 54 00 61 01 AA 00 00 00 00 00 00 00
+
+Colour: Blue
+Element: None
+Class: Mega
+- Display Damage
+- Stop Time
+- Mega
+- Break
+- Wind
+- Induce I-Frames
+- Flinch
+- Summoning
+Portrait: #084
+Palette: #353
+Damage: 170
+
+= CygnsWing[V3] =
+
+22 FF 13 3D 54 00 62 01 F0 00 00 00 00 00 00 00
+
+Colour: Blue
+Element: None
+Class: Mega
+- Display Damage
+- Stop Time
+- Mega
+- Break
+- Wind
+- Induce I-Frames
+- Flinch
+- Summoning
+Portrait: #084
+Palette: #354
+Damage: 240
+
+= WolfWoods =
+
+32 FF 93 30 55 00 63 01 50 00 00 00 00 00 00 00
+
+Colour: Blue
+Element: Wood
+Class: Mega
+- Display Damage
+- Stop Time
+- Mega
+- Sword
+- Flinch
+- Summoning
+Portrait: #085
+Palette: #355
+Damage: 80
+
+= WolfWoods[V2] =
+
+32 FF 93 30 55 00 64 01 64 00 00 00 00 00 00 00
+
+Colour: Blue
+Element: Wood
+Class: Mega
+- Display Damage
+- Stop Time
+- Mega
+- Sword
+- Flinch
+- Summoning
+Portrait: #085
+Palette: #356
+Damage: 100
+
+= WolfWoods[V3] =
+
+32 FF 93 30 55 00 65 01 8C 00 00 00 00 00 00 00
+
+Colour: Blue
+Element: Wood
+Class: Mega
+- Display Damage
+- Stop Time
+- Mega
+- Sword
+- Flinch
+- Summoning
+Portrait: #085
+Palette: #357
+Damage: 140
+
+= DrkPhntm =
+
+22 FF 13 32 56 00 66 01 82 00 00 00 00 00 00 00
+
+Colour: Blue
+Element: None
+Class: Mega
+- Display Damage
+- Stop Time
+- Mega
+- Ignore I-Frames
+- Flinch
+- Summoning
+Portrait: #086
+Palette: #358
+Damage: 130
+
+= DrkPhntm[V2] =
+
+22 FF 13 32 56 00 67 01 C8 00 00 00 00 00 00 00
+
+Colour: Blue
+Element: None
+Class: Mega
+- Display Damage
+- Stop Time
+- Mega
+- Ignore I-Frames
+- Flinch
+- Summoning
+Portrait: #086
+Palette: #359
+Damage: 200
+
+= DrkPhntm[V3] =
+
+22 FF 13 32 56 00 68 01 2C 01 00 00 00 00 00 00
+
+Colour: Blue
+Element: None
+Class: Mega
+- Display Damage
+- Stop Time
+- Mega
+- Ignore I-Frames
+- Flinch
+- Summoning
+Portrait: #086
+Palette: #360
+Damage: 300
+
+= Rogue =
+
+22 FF 13 31 57 00 69 01 28 00 00 00 00 00 00 00
+
+Colour: Blue
+Element: None
+Class: Mega
+- Display Damage
+- Stop Time
+- Mega
+- Break
+- Flinch
+- Summoning
+Portrait: #087
+Palette: #361
+Damage: 40
+
+= Rogue[V2] =
+
+22 FF 13 31 57 00 6A 01 32 00 00 00 00 00 00 00
+
+Colour: Blue
+Element: None
+Class: Mega
+- Display Damage
+- Stop Time
+- Mega
+- Break
+- Flinch
+- Summoning
+Portrait: #087
+Palette: #362
+Damage: 50
+
+= Rogue[V3] =
+
+22 FF 13 31 57 00 6B 01 46 00 00 00 00 00 00 00
+
+Colour: Blue
+Element: None
+Class: Mega
+- Display Damage
+- Stop Time
+- Mega
+- Break
+- Flinch
+- Summoning
+Portrait: #087
+Palette: #363
+Damage: 70
+
+= MoonDstry =
+
+22 FF 93 30 58 00 6C 01 64 00 00 00 00 00 00 00
+
+Colour: Blue
+Element: None
+Class: Mega
+- Display Damage
+- Stop Time
+- Mega
+- Sword
+- Flinch
+- Summoning
+Portrait: #088
+Palette: #364
+Damage: 100
+
+= MoonDstry[V2] =
+
+22 FF 93 30 58 00 6D 01 78 00 00 00 00 00 00 00
+
+Colour: Blue
+Element: None
+Class: Mega
+- Display Damage
+- Stop Time
+- Mega
+- Sword
+- Flinch
+- Summoning
+Portrait: #088
+Palette: #365
+Damage: 120
+
+= MoonDstry[V3] =
+
+22 FF 93 30 58 00 6E 01 8C 00 00 00 00 00 00 00
+
+Colour: Blue
+Element: None
+Class: Mega
+- Display Damage
+- Stop Time
+- Mega
+- Sword
+- Flinch
+- Summoning
+Portrait: #088
+Palette: #366
+Damage: 140
+
+= ApolloFlm =
+
+26 FF 13 38 59 00 6F 01 AA 00 00 00 00 00 00 00
+
+Colour: Blue
+Element: Fire
+Class: Mega
+- Display Damage
+- Stop Time
+- Mega
+- Induce I-Frames
+- Flinch
+- Summoning
+Portrait: #089
+Palette: #367
+Damage: 170
+
+= ApolloFlm[V2] =
+
+26 FF 13 38 59 00 70 01 C8 00 00 00 00 00 00 00
+
+Colour: Blue
+Element: Fire
+Class: Mega
+- Display Damage
+- Stop Time
+- Mega
+- Induce I-Frames
+- Flinch
+- Summoning
+Portrait: #089
+Palette: #368
+Damage: 200
+
+= ApolloFlm[V3] =
+
+26 FF 13 38 59 00 71 01 FA 00 00 00 00 00 00 00
+
+Colour: Blue
+Element: Fire
+Class: Mega
+- Display Damage
+- Stop Time
+- Mega
+- Induce I-Frames
+- Flinch
+- Summoning
+Portrait: #089
+Palette: #369
+Damage: 250
+
+= Sirius =
+
+22 FF 13 38 5A 00 72 01 78 00 00 00 00 00 00 00
+
+Colour: Blue
+Element: None
+Class: Mega
+- Display Damage
+- Stop Time
+- Mega
+- Induce I-Frames
+- Flinch
+- Summoning
+Portrait: #090
+Palette: #370
+Damage: 120
+
+= Sirius[V2] =
+
+22 FF 13 38 5A 00 73 01 A0 00 00 00 00 00 00 00
+
+Colour: Blue
+Element: None
+Class: Mega
+- Display Damage
+- Stop Time
+- Mega
+- Induce I-Frames
+- Flinch
+- Summoning
+Portrait: #090
+Palette: #371
+Damage: 160
+
+= Sirius[V3] =
+
+22 FF 13 38 5A 00 74 01 C8 00 00 00 00 00 00 00
+
+Colour: Blue
+Element: None
+Class: Mega
+- Display Damage
+- Stop Time
+- Mega
+- Induce I-Frames
+- Flinch
+- Summoning
+Portrait: #090
+Palette: #372
+Damage: 200
+
+= WingBlade =
+
+43 00 03 3D 5B 00 75 01 C2 01 00 00 00 00 00 00
+
+Colour: Red
+Element: None
+Class: Giga
+- Black Ace
+- Display Damage
+- Stop Time
+- Break
+- Wind
+- Induce I-Frames
+- Flinch
+- Summoning
+Portrait: #091
+Palette: #373
+Damage: 450
+
+= DrknssHole =
+
+43 00 02 00 5C 00 76 01 F4 01 00 00 00 00 00 00
+
+Colour: Red
+Element: None
+Class: Giga
+- Black Ace
+- Stop Time
+Portrait: #092
+Palette: #374
+Damage: 500
+
+= MilliKick =
+
+43 00 01 10 5D 00 77 01 14 00 00 00 00 00 00 00
+
+Colour: Red
+Element: None
+Class: Giga
+- Black Ace
+- Display Damage
+- Flinch
+Portrait: #093
+Palette: #375
+Damage: 20
+
+= BrkTmeBmb =
+
+47 00 03 19 5E 00 78 01 58 02 00 00 00 00 00 00
+
+Colour: Red
+Element: Fire
+Class: Giga
+- Black Ace
+- Display Damage
+- Stop Time
+- Break
+- Induce I-Frames
+- Flinch
+Portrait: #094
+Palette: #376
+Damage: 600
+
+= MuBarrier =
+
+43 00 02 00 5F 00 79 01 00 00 00 00 00 00 00 00
+
+Colour: Red
+Element: None
+Class: Giga
+- Black Ace
+- Stop Time
+Portrait: #095
+Palette: #377
+Damage: 0
+
+= DreadLaser =
+
+43 01 03 3A 60 00 7A 01 1E 00 00 00 00 00 00 00
+
+Colour: Red
+Element: None
+Class: Giga
+- Red Joker
+- Display Damage
+- Stop Time
+- Ignore I-Frames
+- Induce I-Frames
+- Flinch
+- Summoning
+Portrait: #096
+Palette: #378
+Damage: 30
+
+= DstryMissl =
+
+43 01 03 1A 61 00 7B 01 32 00 00 00 00 00 00 00
+
+Colour: Red
+Element: None
+Class: Giga
+- Red Joker
+- Display Damage
+- Stop Time
+- Ignore I-Frames
+- Induce I-Frames
+- Flinch
+Portrait: #097
+Palette: #379
+Damage: 50
+
+= BusterMAX =
+
+43 01 02 00 62 00 7C 01 00 00 00 00 00 00 00 00
+
+Colour: Red
+Element: None
+Class: Giga
+- Red Joker
+- Stop Time
+Portrait: #098
+Palette: #380
+Damage: 0
+
+= OxTackle =
+
+47 01 03 39 63 00 7D 01 26 02 00 00 00 00 00 00
+
+Colour: Red
+Element: Fire
+Class: Giga
+- Red Joker
+- Display Damage
+- Stop Time
+- Break
+- Induce I-Frames
+- Flinch
+- Summoning
+Portrait: #099
+Palette: #381
+Damage: 550
+
+= MirrorsEdg =
+
+43 01 02 00 64 00 7E 01 00 00 00 00 00 00 00 00
+
+Colour: Red
+Element: None
+Class: Giga
+- Red Joker
+- Stop Time
+Portrait: #100
+Palette: #382
+Damage: 0
+
+= CrmsnMteor =
+
+43 FF 0B 38 66 00 80 01 2C 01 00 00 00 00 00 00
+
+Colour: Red
+Element: None
+Class: Giga
+- Display Damage
+- Stop Time
+- Illegal
+- Induce I-Frames
+- Flinch
+- Summoning
+Portrait: #102
+Palette: #384
+Damage: 300
+
+= AcidArrest =
+
+22 FF 1A 20 65 00 7F 01 00 00 00 00 00 00 00 00
+
+Colour: Blue
+Element: None
+Class: Mega
+- Stop Time
+- Illegal
+- Mega
+- Summoning
+Portrait: #101
+Palette: #383
+Damage: 0
+
+= Scythe1 =
+
+01 FF 89 14 67 00 81 01 14 00 0A 0F 14 1E 28 3C
+
+Colour: Yellow
+Element: None
+Class: Standard
+- Display Damage
+- Illegal
+- Sword
+- Wind
+- Flinch
+Portrait: #103
+Palette: #385
+Damage: 20
+
+= Scythe2 =
+
+01 FF 89 14 67 00 82 01 1E 00 0A 0F 14 1E 28 3C
+
+Colour: Yellow
+Element: None
+Class: Standard
+- Display Damage
+- Illegal
+- Sword
+- Wind
+- Flinch
+Portrait: #103
+Palette: #386
+Damage: 30
+
+= Scythe3 =
+
+01 FF 89 14 67 00 83 01 28 00 0A 0F 14 1E 28 3C
+
+Colour: Yellow
+Element: None
+Class: Standard
+- Display Damage
+- Illegal
+- Sword
+- Wind
+- Flinch
+Portrait: #103
+Palette: #387
+Damage: 40
+
+= DanceFire1 =
+
+05 FF 09 18 68 00 84 01 8C 00 0A 14 1E 28 32 46
+
+Colour: Yellow
+Element: Fire
+Class: Standard
+- Display Damage
+- Illegal
+- Induce I-Frames
+- Flinch
+Portrait: #104
+Palette: #388
+Damage: 140
+
+= DanceFire2 =
+
+05 FF 09 18 69 00 85 01 A0 00 0A 14 1E 28 32 46
+
+Colour: Yellow
+Element: Fire
+Class: Standard
+- Display Damage
+- Illegal
+- Induce I-Frames
+- Flinch
+Portrait: #105
+Palette: #389
+Damage: 160
+
+= DanceFire3 =
+
+05 FF 09 18 6A 00 86 01 BE 00 0A 14 1E 28 32 46
+
+Colour: Yellow
+Element: Fire
+Class: Standard
+- Display Damage
+- Illegal
+- Induce I-Frames
+- Flinch
+Portrait: #106
+Palette: #390
+Damage: 190
+
+= KiloBomb1 =
+
+05 FF 09 19 6B 00 87 01 96 00 0A 14 1E 32 46 64
+
+Colour: Yellow
+Element: Fire
+Class: Standard
+- Display Damage
+- Illegal
+- Break
+- Induce I-Frames
+- Flinch
+Portrait: #107
+Palette: #391
+Damage: 150
+
+= KiloBomb2 =
+
+05 FF 09 19 6B 00 88 01 C8 00 0A 14 1E 32 46 64
+
+Colour: Yellow
+Element: Fire
+Class: Standard
+- Display Damage
+- Illegal
+- Break
+- Induce I-Frames
+- Flinch
+Portrait: #107
+Palette: #392
+Damage: 200
+
+= KiloBomb3 =
+
+05 FF 09 19 6B 00 89 01 FA 00 0A 14 1E 32 46 64
+
+Colour: Yellow
+Element: Fire
+Class: Standard
+- Display Damage
+- Illegal
+- Break
+- Induce I-Frames
+- Flinch
+Portrait: #107
+Palette: #393
+Damage: 250
+
+= SnoBall1 =
+
+09 FF 0B 18 6C 00 8A 01 64 00 0A 14 1E 32 3C 50
+
+Colour: Yellow
+Element: Aqua
+Class: Standard
+- Display Damage
+- Stop Time
+- Illegal
+- Induce I-Frames
+- Flinch
+Portrait: #108
+Palette: #394
+Damage: 100
+
+= SnoBall2 =
+
+09 FF 0B 18 6C 00 8A 01 78 00 0A 14 1E 32 3C 50
+
+Colour: Yellow
+Element: Aqua
+Class: Standard
+- Display Damage
+- Stop Time
+- Illegal
+- Induce I-Frames
+- Flinch
+Portrait: #108
+Palette: #395
+Damage: 120
+
+= SnoBall3 =
+
+09 FF 0B 18 6C 00 8B 01 96 00 0A 14 1E 32 3C 50
+
+Colour: Yellow
+Element: Aqua
+Class: Standard
+- Display Damage
+- Stop Time
+- Illegal
+- Induce I-Frames
+- Flinch
+Portrait: #108
+Palette: #396
+Damage: 150
+
+= PiranKss1 =
+
+09 FF 0B 18 6D 00 8D 01 0A 00 05 0A 0F 14 14 14
+
+Colour: Yellow
+Element: Aqua
+Class: Standard
+- Display Damage
+- Stop Time
+- Illegal
+- Induce I-Frames
+- Flinch
+Portrait: #109
+Palette: #397
+Damage: 10
+
+= PiranKss2 =
+
+09 FF 0B 18 6D 00 8E 01 14 00 05 0A 0F 14 14 14
+
+Colour: Yellow
+Element: Aqua
+Class: Standard
+- Display Damage
+- Stop Time
+- Illegal
+- Induce I-Frames
+- Flinch
+Portrait: #109
+Palette: #398
+Damage: 20
+
+= PiranKss3 =
+
+09 FF 0B 18 6D 00 8F 01 1E 00 05 0A 0F 14 14 14
+
+Colour: Yellow
+Element: Aqua
+Class: Standard
+- Display Damage
+- Stop Time
+- Illegal
+- Induce I-Frames
+- Flinch
+Portrait: #109
+Palette: #399
+Damage: 30
+
+= Squall1 =
+
+11 FF 09 14 6E 00 90 01 0A 00 05 0A 0F 14 19 1E
+
+Colour: Yellow
+Element: Wood
+Class: Standard
+- Display Damage
+- Illegal
+- Wind
+- Flinch
+Portrait: #110
+Palette: #400
+Damage: 10
+
+= Squall2 =
+
+11 FF 09 14 6F 00 91 01 14 00 05 0A 0F 14 19 1E
+
+Colour: Yellow
+Element: Wood
+Class: Standard
+- Display Damage
+- Illegal
+- Wind
+- Flinch
+Portrait: #111
+Palette: #401
+Damage: 20
+
+= Squall3 =
+
+11 FF 09 14 70 00 92 01 1E 00 05 0A 0F 14 19 1E
+
+Colour: Yellow
+Element: Wood
+Class: Standard
+- Display Damage
+- Illegal
+- Wind
+- Flinch
+Portrait: #112
+Palette: #402
+Damage: 30
+
+= PuffBlst1 =
+
+01 FF 09 18 71 00 93 01 50 00 0A 14 1E 28 32 46
+
+Colour: Yellow
+Element: None
+Class: Standard
+- Display Damage
+- Illegal
+- Induce I-Frames
+- Flinch
+Portrait: #113
+Palette: #403
+Damage: 80
+
+= PuffBlst2 =
+
+01 FF 09 18 71 00 94 01 64 00 0A 14 1E 28 32 46
+
+Colour: Yellow
+Element: None
+Class: Standard
+- Display Damage
+- Illegal
+- Induce I-Frames
+- Flinch
+Portrait: #113
+Palette: #404
+Damage: 100
+
+= PuffBlst3 =
+
+01 FF 09 18 71 00 95 01 82 00 0A 14 1E 28 32 46
+
+Colour: Yellow
+Element: None
+Class: Standard
+- Display Damage
+- Illegal
+- Induce I-Frames
+- Flinch
+Portrait: #113
+Palette: #405
+Damage: 130
+
+= JngleStorm =
+
+11 FF 0B 14 72 00 96 01 1E 00 05 0A 0F 0F 14 14
+
+Colour: Yellow
+Element: Wood
+Class: Standard
+- Display Damage
+- Stop Time
+- Illegal
+- Wind
+- Flinch
+Portrait: #114
+Palette: #406
+Damage: 30
+
+= SnoStorm =
+
+09 FF 0B 1C 73 00 97 01 23 00 05 0A 0F 0F 14 14
+
+Colour: Yellow
+Element: Aqua
+Class: Standard
+- Display Damage
+- Stop Time
+- Illegal
+- Wind
+- Induce I-Frames
+- Flinch
+Portrait: #115
+Palette: #407
+Damage: 35
+
+= PoisnStorm =
+
+01 FF 0B 1C 74 00 98 01 28 00 05 0A 0F 0F 14 14
+
+Colour: Yellow
+Element: None
+Class: Standard
+- Display Damage
+- Stop Time
+- Illegal
+- Wind
+- Induce I-Frames
+- Flinch
+Portrait: #116
+Palette: #408
+Damage: 40
+
+= HeatGrnde =
+
+05 FF 09 18 75 00 99 01 78 00 0A 14 28 3C 46 5A
+
+Colour: Yellow
+Element: Fire
+Class: Standard
+- Display Damage
+- Illegal
+- Induce I-Frames
+- Flinch
+Portrait: #117
+Palette: #409
+Damage: 120
+
+= WoodGrnde =
+
+11 FF 09 10 75 00 9A 01 64 00 0A 14 28 3C 46 5A
+
+Colour: Yellow
+Element: Wood
+Class: Standard
+- Display Damage
+- Illegal
+- Flinch
+Portrait: #117
+Palette: #410
+Damage: 100
+
+= IceGrnde =
+
+09 FF 09 18 75 00 9B 01 64 00 0A 14 28 3C 46 5A
+
+Colour: Yellow
+Element: Aqua
+Class: Standard
+- Display Damage
+- Illegal
+- Induce I-Frames
+- Flinch
+Portrait: #117
+Palette: #411
+Damage: 100
+
+= RdrMissile =
+
+01 FF 09 12 76 00 9C 01 C8 00 0A 14 1E 28 32 3C
+
+Colour: Yellow
+Element: None
+Class: Standard
+- Display Damage
+- Illegal
+- Ignore I-Frames
+- Flinch
+Portrait: #118
+Palette: #412
+Damage: 200
+
+= StunKnukle =
+
+0D FF 09 10 77 00 9D 01 82 00 0A 1E 28 32 3C 50
+
+Colour: Yellow
+Element: Elec
+Class: Standard
+- Display Damage
+- Illegal
+- Flinch
+Portrait: #119
+Palette: #413
+Damage: 130
+
+= PoisKnukle =
+
+01 FF 09 10 77 00 9E 01 96 00 0A 1E 28 32 3C 50
+
+Colour: Yellow
+Element: None
+Class: Standard
+- Display Damage
+- Illegal
+- Flinch
+Portrait: #119
+Palette: #414
+Damage: 150
+
+= FrezKnukle =
+
+09 FF 09 10 77 00 9F 01 B4 00 0A 1E 28 32 3C 50
+
+Colour: Yellow
+Element: Aqua
+Class: Standard
+- Display Damage
+- Illegal
+- Flinch
+Portrait: #119
+Palette: #415
+Damage: 180
+
+= ElecSlash =
+
+0D FF 89 10 78 00 A0 01 96 00 0A 14 1E 28 32 46
+
+Colour: Yellow
+Element: Elec
+Class: Standard
+- Display Damage
+- Illegal
+- Sword
+- Flinch
+Portrait: #120
+Palette: #416
+Damage: 150
+
+= WoodSlash =
+
+11 FF 89 10 78 00 A1 01 B4 00 0A 14 1E 28 32 46
+
+Colour: Yellow
+Element: Wood
+Class: Standard
+- Display Damage
+- Illegal
+- Sword
+- Flinch
+Portrait: #120
+Palette: #417
+Damage: 180
+
+= FireSlash =
+
+05 FF 89 18 78 00 A2 01 C8 00 0A 14 1E 28 32 46
+
+Colour: Yellow
+Element: Fire
+Class: Standard
+- Display Damage
+- Illegal
+- Sword
+- Induce I-Frames
+- Flinch
+Portrait: #120
+Palette: #418
+Damage: 200
+
+= BreakSabre =
+
+01 FF 89 19 79 00 A3 01 C8 00 14 1E 28 32 46 5A
+
+Colour: Yellow
+Element: None
+Class: Standard
+- Display Damage
+- Illegal
+- Sword
+- Break
+- Induce I-Frames
+- Flinch
+Portrait: #121
+Palette: #419
+Damage: 200
+
+= GreenInk =
+
+11 FF 09 10 7A 00 A4 01 5A 00 0A 14 28 32 3C 50
+
+Colour: Yellow
+Element: Wood
+Class: Standard
+- Display Damage
+- Illegal
+- Flinch
+Portrait: #122
+Palette: #420
+Damage: 90
+
+= BlueInk =
+
+09 FF 09 18 7A 00 A5 01 6E 00 0A 14 28 32 3C 50
+
+Colour: Yellow
+Element: Aqua
+Class: Standard
+- Display Damage
+- Illegal
+- Induce I-Frames
+- Flinch
+Portrait: #122
+Palette: #421
+Damage: 110
+
+= PurpleInk =
+
+01 FF 09 18 7A 00 A6 01 82 00 0A 14 28 32 3C 50
+
+Colour: Yellow
+Element: None
+Class: Standard
+- Display Damage
+- Illegal
+- Induce I-Frames
+- Flinch
+Portrait: #122
+Palette: #422
+Damage: 130
+
+= VulcnSeed1 =
+
+11 FF 09 10 7C 00 A7 01 14 00 05 0A 0F 14 19 1E
+
+Colour: Yellow
+Element: Wood
+Class: Standard
+- Display Damage
+- Illegal
+- Flinch
+Portrait: #124
+Palette: #423
+Damage: 20
+
+= VulcnSeed2 =
+
+11 FF 09 10 7D 00 A8 01 1E 00 05 0A 0F 14 19 1E
+
+Colour: Yellow
+Element: Wood
+Class: Standard
+- Display Damage
+- Illegal
+- Flinch
+Portrait: #125
+Palette: #424
+Damage: 30
+
+= VulcnSeed3 =
+
+11 FF 09 10 7E 00 A9 01 28 00 05 0A 0F 14 19 1E
+
+Colour: Yellow
+Element: Wood
+Class: Standard
+- Display Damage
+- Illegal
+- Flinch
+Portrait: #126
+Palette: #425
+Damage: 40
+
+= DstryUpper =
+
+01 FF 09 19 7F 00 AA 01 8C 00 14 1E 32 3C 46 5A
+
+Colour: Yellow
+Element: None
+Class: Standard
+- Display Damage
+- Illegal
+- Break
+- Ignore I-Frames
+- Flinch
+Portrait: #127
+Palette: #426
+Damage: 140
+
+= WrriorSoul =
+
+01 FF 0A 00 80 00 AB 01 00 00 00 00 00 00 00 00
+
+Colour: Yellow
+Element: None
+Class: Standard
+- Stop Time
+- Illegal
+Portrait: #128
+Palette: #427
+Damage: 0
+
+= Muramasa =
+
+01 FF 89 18 81 00 AC 01 00 00 00 00 00 00 00 00
+
+Colour: Yellow
+Element: None
+Class: Standard
+- Display Damage
+- Illegal
+- Sword
+- Induce I-Frames
+- Flinch
+Portrait: #129
+Palette: #428
+Damage: 0
+
+= ExtiMeteor =
+
+05 FF 0B 19 82 00 AD 01 46 00 0A 0F 14 19 1E 28
+
+Colour: Yellow
+Element: Fire
+Class: Standard
+- Display Damage
+- Stop Time
+- Illegal
+- Break
+- Induce I-Frames
+- Flinch
+Portrait: #130
+Palette: #429
+Damage: 70
+
+= AllPoison =
+
+01 FF 0A 00 83 00 AE 01 00 00 00 00 00 00 00 00
+
+Colour: Yellow
+Element: None
+Class: Standard
+- Stop Time
+- Illegal
+Portrait: #131
+Palette: #430
+Damage: 0
+
+= Fire+30 =
+
+05 FF 08 00 84 00 AF 01 00 00 00 00 00 00 00 00
+
+Colour: Yellow
+Element: Fire
+Class: Standard
+- Illegal
+Portrait: #132
+Palette: #431
+Damage: 0
+
+= Aqua+30 =
+
+09 FF 08 00 85 00 B0 01 00 00 00 00 00 00 00 00
+
+Colour: Yellow
+Element: Aqua
+Class: Standard
+- Illegal
+Portrait: #133
+Palette: #432
+Damage: 0
+
+= Elec+30 =
+
+0D FF 08 00 86 00 B1 01 00 00 00 00 00 00 00 00
+
+Colour: Yellow
+Element: Elec
+Class: Standard
+- Illegal
+Portrait: #134
+Palette: #433
+Damage: 0
+
+= Wood+30 =
+
+11 FF 08 00 87 00 B2 01 00 00 00 00 00 00 00 00
+
+Colour: Yellow
+Element: Wood
+Class: Standard
+- Illegal
+Portrait: #135
+Palette: #434
+Damage: 0
+
+= Earthundr1 =
+
+0D FF 09 10 88 00 B3 01 1E 00 05 0A 0F 14 19 1E
+
+Colour: Yellow
+Element: Elec
+Class: Standard
+- Display Damage
+- Illegal
+- Flinch
+Portrait: #136
+Palette: #435
+Damage: 30
+
+= Earthundr2 =
+
+0D FF 09 10 88 00 B4 01 28 00 05 0A 0F 14 19 1E
+
+Colour: Yellow
+Element: Elec
+Class: Standard
+- Display Damage
+- Illegal
+- Flinch
+Portrait: #136
+Palette: #436
+Damage: 40
+
+= Earthundr3 =
+
+0D FF 09 10 88 00 B5 01 32 00 05 0A 0F 14 19 1E
+
+Colour: Yellow
+Element: Elec
+Class: Standard
+- Display Damage
+- Illegal
+- Flinch
+Portrait: #136
+Palette: #437
+Damage: 50
+
+= SwrdFghtr1 =
+
+01 FF 89 18 89 00 B6 01 32 00 05 0A 0F 14 19 1E
+
+Colour: Yellow
+Element: None
+Class: Standard
+- Display Damage
+- Illegal
+- Sword
+- Induce I-Frames
+- Flinch
+Portrait: #137
+Palette: #438
+Damage: 50
+
+= SwrdFghtr2 =
+
+01 FF 89 18 89 00 B7 01 32 00 05 0A 0F 14 19 1E
+
+Colour: Yellow
+Element: None
+Class: Standard
+- Display Damage
+- Illegal
+- Sword
+- Induce I-Frames
+- Flinch
+Portrait: #137
+Palette: #439
+Damage: 50
+
+= SwrdFghtr3 =
+
+01 FF 89 18 89 00 B8 01 32 00 05 0A 0F 14 19 1E
+
+Colour: Yellow
+Element: None
+Class: Standard
+- Display Damage
+- Illegal
+- Sword
+- Induce I-Frames
+- Flinch
+Portrait: #137
+Palette: #440
+Damage: 50
+
+= SpinBlade1 =
+
+01 FF 89 18 8A 00 B9 01 78 00 0A 14 1E 28 32 3C
+
+Colour: Yellow
+Element: None
+Class: Standard
+- Display Damage
+- Illegal
+- Sword
+- Induce I-Frames
+- Flinch
+Portrait: #138
+Palette: #441
+Damage: 120
+
+= SpinBlade2 =
+
+01 FF 89 18 8A 00 BA 01 96 00 0A 14 1E 28 32 3C
+
+Colour: Yellow
+Element: None
+Class: Standard
+- Display Damage
+- Illegal
+- Sword
+- Induce I-Frames
+- Flinch
+Portrait: #138
+Palette: #442
+Damage: 150
+
+= SpinBlade3 =
+
+01 FF 89 18 8A 00 BB 01 B4 00 0A 14 1E 28 32 3C
+
+Colour: Yellow
+Element: None
+Class: Standard
+- Display Damage
+- Illegal
+- Sword
+- Induce I-Frames
+- Flinch
+Portrait: #138
+Palette: #443
+Damage: 180
+
+= QuickGauge =
+
+00 FF 0A 00 8B 00 BC 01 00 00 00 00 00 00 00 00
+
+Colour: White
+Element: None
+Class: Standard
+- Stop Time
+- Illegal
+Portrait: #139
+Palette: #444
+Damage: 0
+
+= NormlGauge =
+
+00 FF 0A 00 8C 00 BD 01 00 00 00 00 00 00 00 00
+
+Colour: White
+Element: None
+Class: Standard
+- Stop Time
+- Illegal
+Portrait: #140
+Palette: #445
+Damage: 0
+
+= SlowGauge =
+
+00 FF 0A 00 8D 00 BE 01 00 00 00 00 00 00 00 00
+
+Colour: White
+Element: None
+Class: Standard
+- Stop Time
+- Illegal
+Portrait: #141
+Palette: #446
+Damage: 0
+
+= CardRevive =
+
+01 FF 0A 00 8E 00 BF 01 00 00 00 00 00 00 00 00
+
+Colour: Yellow
+Element: None
+Class: Standard
+- Stop Time
+- Illegal
+Portrait: #142
+Palette: #447
+Damage: 0
+
+= MegaBoost =
+
+01 FF 0A 00 8F 00 C0 01 00 00 00 00 00 00 00 00
+
+Colour: Yellow
+Element: None
+Class: Standard
+- Stop Time
+- Illegal
+Portrait: #143
+Palette: #448
+Damage: 0
+
+= ImpctCanon =
+
+01 FF 09 18 03 00 F0 01 F0 00 0A 14 28 32 3C 50
+
+Colour: Yellow
+Element: None
+Class: Standard
+- Display Damage
+- Illegal
+- Induce I-Frames
+- Flinch
+Portrait: #003
+Palette: #496
+Damage: 240
+
+= PlasmaGunX =
+
+0D FF 09 00 04 00 F1 01 78 00 0A 14 28 32 3C 46
+
+Colour: Yellow
+Element: Elec
+Class: Standard
+- Display Damage
+- Illegal
+Portrait: #004
+Palette: #497
+Damage: 120
+
+= AirSpreadX =
+
+01 FF 09 04 05 00 F2 01 32 00 0A 0F 14 1E 28 32
+
+Colour: Yellow
+Element: None
+Class: Standard
+- Display Damage
+- Illegal
+- Wind
+Portrait: #005
+Palette: #498
+Damage: 50
+
+= BigGrenade =
+
+01 FF 09 18 06 00 F3 01 3C 00 14 1E 28 32 3C 50
+
+Colour: Yellow
+Element: None
+Class: Standard
+- Display Damage
+- Illegal
+- Induce I-Frames
+- Flinch
+Portrait: #006
+Palette: #499
+Damage: 60
+
+= DrillArmX =
+
+01 FF 09 19 07 00 F4 01 50 00 0A 0F 14 19 1E 28
+
+Colour: Yellow
+Element: None
+Class: Standard
+- Display Damage
+- Illegal
+- Break
+- Induce I-Frames
+- Flinch
+Portrait: #007
+Palette: #500
+Damage: 80
+
+= BeastSlapX =
+
+01 FF 89 18 08 00 F5 01 F0 00 0A 14 1E 28 32 46
+
+Colour: Yellow
+Element: None
+Class: Standard
+- Display Damage
+- Illegal
+- Sword
+- Induce I-Frames
+- Flinch
+Portrait: #008
+Palette: #501
+Damage: 240
+
+= WindyAtkX =
+
+01 FF 09 04 09 00 F6 01 B4 00 0A 14 28 32 3C 50
+
+Colour: Yellow
+Element: None
+Class: Standard
+- Display Damage
+- Illegal
+- Wind
+Portrait: #009
+Palette: #502
+Damage: 180
+
+= GiantAxe =
+
+01 FF 89 19 0E 00 F7 01 40 01 0A 14 28 46 50 64
+
+Colour: Yellow
+Element: None
+Class: Standard
+- Display Damage
+- Illegal
+- Sword
+- Induce I-Frames
+- Flinch
+Portrait: #014
+Palette: #503
+Damage: 320
+
+= SyncHookX =
+
+01 FF 09 18 0F 00 F8 01 B4 00 0A 1E 28 32 3C 50
+
+Colour: Yellow
+Element: None
+Class: Standard
+- Display Damage
+- Illegal
+- Induce I-Frames
+- Flinch
+Portrait: #015
+Palette: #504
+Damage: 180
+
+= PlatMeteor =
+
+01 FF 09 10 10 00 F9 01 5A 00 0A 0F 14 1E 28 32
+
+Colour: Yellow
+Element: None
+Class: Standard
+- Display Damage
+- Illegal
+- Flinch
+Portrait: #016
+Palette: #505
+Damage: 90
+
+= GrandWaveX =
+
+01 FF 09 18 13 00 FA 01 96 00 0A 14 1E 32 3C 50
+
+Colour: Yellow
+Element: None
+Class: Standard
+- Display Damage
+- Illegal
+- Induce I-Frames
+- Flinch
+Portrait: #019
+Palette: #506
+Damage: 150
+
+= JetAttackX =
+
+01 FF 09 1D 14 00 FB 01 B4 00 0A 14 1E 32 3C 50
+
+Colour: Yellow
+Element: None
+Class: Standard
+- Display Damage
+- Illegal
+- Break
+- Wind
+- Induce I-Frames
+- Flinch
+Portrait: #020
+Palette: #507
+Damage: 180
+
+= BukiX =
+
+01 FF 09 19 15 00 FC 01 BE 00 0F 19 23 37 41 50
+
+Colour: Yellow
+Element: None
+Class: Standard
+- Display Damage
+- Illegal
+- Break
+- Induce I-Frames
+- Flinch
+Portrait: #021
+Palette: #508
+Damage: 190
+
+= SmileCoinX =
+
+01 FF 09 10 16 00 FD 01 3C 00 05 0A 0F 14 19 1E
+
+Colour: Yellow
+Element: None
+Class: Standard
+- Display Damage
+- Illegal
+- Flinch
+Portrait: #022
+Palette: #509
+Damage: 50
+
+= BigDropX =
+
+01 FF 09 19 18 00 FE 01 18 01 0A 14 1E 32 46 64
+
+Colour: Yellow
+Element: None
+Class: Standard
+- Display Damage
+- Illegal
+- Break
+- Induce I-Frames
+- Flinch
+Portrait: #024
+Palette: #510
+Damage: 280
+
+= TimeBombX =
+
+05 FF 0B 18 19 00 FF 01 F0 00 0A 14 28 32 3C 50
+
+Colour: Yellow
+Element: Fire
+Class: Standard
+- Display Damage
+- Stop Time
+- Illegal
+- Induce I-Frames
+- Flinch
+Portrait: #025
+Palette: #511
+Damage: 240
+
+= HeatUpperX =
+
+05 FF 09 19 1A 00 00 02 FA 00 0A 19 32 3C 55 64
+
+Colour: Yellow
+Element: Fire
+Class: Standard
+- Display Damage
+- Illegal
+- Break
+- Induce I-Frames
+- Flinch
+Portrait: #026
+Palette: #512
+Damage: 250
+
+= MechFlameX =
+
+05 FF 09 18 1C 00 01 02 C8 00 0A 14 1E 32 46 5A
+
+Colour: Yellow
+Element: Fire
+Class: Standard
+- Display Damage
+- Illegal
+- Induce I-Frames
+- Flinch
+Portrait: #028
+Palette: #513
+Damage: 200
+
+= MadFireX =
+
+05 FF 09 18 1D 00 02 02 DC 00 0F 19 23 37 41 50
+
+Colour: Yellow
+Element: Fire
+Class: Standard
+- Display Damage
+- Illegal
+- Induce I-Frames
+- Flinch
+Portrait: #029
+Palette: #514
+Damage: 220
+
+= WideWaveX =
+
+09 FF 09 18 1E 00 03 02 96 00 0A 14 28 32 46 5A
+
+Colour: Yellow
+Element: Aqua
+Class: Standard
+- Display Damage
+- Illegal
+- Induce I-Frames
+- Flinch
+Portrait: #030
+Palette: #515
+Damage: 150
+
+= BubblHookX =
+
+09 FF 09 00 1F 00 04 02 78 00 0A 14 1E 28 32 46
+
+Colour: Yellow
+Element: Aqua
+Class: Standard
+- Display Damage
+- Illegal
+Portrait: #031
+Palette: #516
+Damage: 120
+
+= SharkAtkX =
+
+09 FF 09 18 20 00 05 02 64 00 0A 0F 1E 2D 3C 4B
+
+Colour: Yellow
+Element: Aqua
+Class: Standard
+- Display Damage
+- Illegal
+- Induce I-Frames
+- Flinch
+Portrait: #032
+Palette: #517
+Damage: 100
+
+= IceSpinX =
+
+09 FF 09 11 21 00 06 02 82 00 0A 19 28 37 46 55
+
+Colour: Yellow
+Element: Aqua
+Class: Standard
+- Display Damage
+- Illegal
+- Break
+- Flinch
+Portrait: #033
+Palette: #518
+Damage: 130
+
+= StlthLzrX =
+
+0D FF 09 02 22 00 07 02 46 00 0A 0F 14 19 1E 28
+
+Colour: Yellow
+Element: Elec
+Class: Standard
+- Display Damage
+- Illegal
+- Ignore I-Frames
+Portrait: #034
+Palette: #519
+Damage: 70
+
+= MummyHandX =
+
+0D FF 09 10 24 00 08 02 C8 00 0A 14 1E 28 3C 50
+
+Colour: Yellow
+Element: Elec
+Class: Standard
+- Display Damage
+- Illegal
+- Flinch
+Portrait: #036
+Palette: #520
+Damage: 200
+
+= ThndrHeadX =
+
+0D FF 09 18 25 00 09 02 04 01 14 1E 32 3C 50 64
+
+Colour: Yellow
+Element: Elec
+Class: Standard
+- Display Damage
+- Illegal
+- Induce I-Frames
+- Flinch
+Portrait: #037
+Palette: #521
+Damage: 260
+
+= FlashStrkX =
+
+0D FF 09 18 26 00 0A 02 28 00 05 0A 0F 14 19 28
+
+Colour: Yellow
+Element: Elec
+Class: Standard
+- Display Damage
+- Illegal
+- Induce I-Frames
+- Flinch
+Portrait: #038
+Palette: #522
+Damage: 40
+
+= ArachAtkX =
+
+11 FF 09 10 27 00 0B 02 46 00 0A 14 1E 28 32 3C
+
+Colour: Yellow
+Element: Wood
+Class: Standard
+- Display Damage
+- Illegal
+- Flinch
+Portrait: #039
+Palette: #523
+Damage: 70
+
+= ShurikenX =
+
+11 FF 89 10 28 00 0C 02 A0 00 0A 14 1E 32 3C 50
+
+Colour: Yellow
+Element: Wood
+Class: Standard
+- Display Damage
+- Illegal
+- Sword
+- Flinch
+Portrait: #040
+Palette: #524
+Damage: 160
+
+= PollnShotX =
+
+11 FF 09 10 29 00 0D 02 B4 00 0A 14 1E 28 3C 50
+
+Colour: Yellow
+Element: Wood
+Class: Standard
+- Display Damage
+- Illegal
+- Flinch
+Portrait: #041
+Palette: #525
+Damage: 180
+
+= AcornBombX =
+
+11 FF 09 10 2A 00 0E 02 A0 00 0A 14 1E 28 3C 50
+
+Colour: Yellow
+Element: Wood
+Class: Standard
+- Display Damage
+- Illegal
+- Flinch
+Portrait: #042
+Palette: #526
+Damage: 160
+
+= BuzzSawX =
+
+01 FF 89 18 2B 00 0F 02 B4 00 0A 14 28 32 46 5A
+
+Colour: Yellow
+Element: None
+Class: Standard
+- Display Damage
+- Illegal
+- Sword
+- Induce I-Frames
+- Flinch
+Portrait: #043
+Palette: #527
+Damage: 180
+
+= BushidoX =
+
+01 FF 89 18 2C 00 10 02 C8 00 14 1E 28 32 46 5A
+
+Colour: Yellow
+Element: None
+Class: Standard
+- Display Damage
+- Illegal
+- Sword
+- Induce I-Frames
+- Flinch
+Portrait: #044
+Palette: #528
+Damage: 200
+
+= SkullArrwX =
+
+01 FF 09 00 2D 00 11 02 BE 00 14 1E 28 32 3C 50
+
+Colour: Yellow
+Element: None
+Class: Standard
+- Display Damage
+- Illegal
+Portrait: #045
+Palette: #529
+Damage: 190
+
+= MadVulcnX =
+
+01 FF 09 00 2E 00 12 02 0A 00 05 0A 0F 14 1E 28
+
+Colour: Yellow
+Element: None
+Class: Standard
+- Display Damage
+- Illegal
+Portrait: #046
+Palette: #530
+Damage: 10
+
+= MuTechX =
+
+01 FF 09 1B 30 00 13 02 50 00 1E 28 3C 46 5A 6E
+
+Colour: Yellow
+Element: None
+Class: Standard
+- Display Damage
+- Illegal
+- Break
+- Ignore I-Frames
+- Induce I-Frames
+- Flinch
+Portrait: #048
+Palette: #531
+Damage: 80
+
+= NoiseWzrdX =
+
+01 FF 89 18 31 00 14 02 D2 00 0A 14 1E 28 32 46
+
+Colour: Yellow
+Element: None
+Class: Standard
+- Display Damage
+- Illegal
+- Sword
+- Induce I-Frames
+- Flinch
+Portrait: #049
+Palette: #532
+Damage: 210
+
+= MalWizardX =
+
+0D FF 09 12 32 00 15 02 22 01 0A 14 1E 28 32 50
+
+Colour: Yellow
+Element: Elec
+Class: Standard
+- Display Damage
+- Illegal
+- Ignore I-Frames
+- Flinch
+Portrait: #050
+Palette: #533
+Damage: 290
+
+= BlackHoleX =
+
+01 FF 0A 00 33 00 16 02 BE 00 00 00 00 00 00 00
+
+Colour: Yellow
+Element: None
+Class: Standard
+- Stop Time
+- Illegal
+Portrait: #051
+Palette: #534
+Damage: 190
+
+= HrrcnDance =
+
+01 FF 09 14 34 00 17 02 3C 00 05 0A 0F 14 1E 28
+
+Colour: Yellow
+Element: None
+Class: Standard
+- Display Damage
+- Illegal
+- Wind
+- Flinch
+Portrait: #052
+Palette: #535
+Damage: 50
+
+= ScytheX =
+
+01 FF 89 14 67 00 18 02 3C 00 0A 0F 14 1E 28 3C
+
+Colour: Yellow
+Element: None
+Class: Standard
+- Display Damage
+- Illegal
+- Sword
+- Wind
+- Flinch
+Portrait: #103
+Palette: #536
+Damage: 50
+
+= DanceFireX =
+
+05 FF 09 18 6A 00 19 02 E6 00 0A 14 1E 28 32 46
+
+Colour: Yellow
+Element: Fire
+Class: Standard
+- Display Damage
+- Illegal
+- Induce I-Frames
+- Flinch
+Portrait: #106
+Palette: #537
+Damage: 230
+
+= KiloBombX =
+
+05 FF 09 19 6B 00 1A 02 2C 01 0A 14 1E 32 46 64
+
+Colour: Yellow
+Element: Fire
+Class: Standard
+- Display Damage
+- Illegal
+- Break
+- Induce I-Frames
+- Flinch
+Portrait: #107
+Palette: #538
+Damage: 300
+
+= SnoBallX =
+
+09 FF 0B 18 6C 00 1B 02 B4 00 0A 14 1E 32 3C 50
+
+Colour: Yellow
+Element: Aqua
+Class: Standard
+- Display Damage
+- Stop Time
+- Illegal
+- Induce I-Frames
+- Flinch
+Portrait: #108
+Palette: #539
+Damage: 180
+
+= PiranKssX =
+
+09 FF 0B 18 6D 00 1C 02 28 00 05 0A 0F 0F 14 14
+
+Colour: Yellow
+Element: Aqua
+Class: Standard
+- Display Damage
+- Stop Time
+- Illegal
+- Induce I-Frames
+- Flinch
+Portrait: #109
+Palette: #540
+Damage: 40
+
+= SquallX =
+
+11 FF 09 14 6E 00 1D 02 28 00 05 0A 0F 14 19 1E
+
+Colour: Yellow
+Element: Wood
+Class: Standard
+- Display Damage
+- Illegal
+- Wind
+- Flinch
+Portrait: #110
+Palette: #541
+Damage: 40
+
+= PuffBlstX =
+
+01 FF 09 18 71 00 1E 02 AA 00 0A 14 1E 28 32 46
+
+Colour: Yellow
+Element: None
+Class: Standard
+- Display Damage
+- Illegal
+- Induce I-Frames
+- Flinch
+Portrait: #113
+Palette: #542
+Damage: 170
+
+= VulcnSeedX =
+
+11 FF 09 10 7C 00 1F 02 32 00 05 0A 0F 14 19 1E
+
+Colour: Yellow
+Element: Wood
+Class: Standard
+- Display Damage
+- Illegal
+- Flinch
+Portrait: #124
+Palette: #543
+Damage: 50
+
+= EarthundrX =
+
+0D FF 09 10 88 00 20 02 3C 00 05 0A 0F 14 19 1E
+
+Colour: Yellow
+Element: Elec
+Class: Standard
+- Display Damage
+- Illegal
+- Flinch
+Portrait: #136
+Palette: #544
+Damage: 60
+
+= SwrdFghtrX =
+
+01 FF 89 18 89 00 21 02 3C 00 05 0A 0F 14 19 1E
+
+Colour: Yellow
+Element: None
+Class: Standard
+- Display Damage
+- Illegal
+- Sword
+- Induce I-Frames
+- Flinch
+Portrait: #137
+Palette: #545
+Damage: 60
+
+= SpinBladeX =
+
+01 FF 89 18 8A 00 22 02 D2 00 0A 14 1E 28 32 3C
+
+Colour: Yellow
+Element: None
+Class: Standard
+- Display Damage
+- Illegal
+- Sword
+- Induce I-Frames
+- Flinch
+Portrait: #138
+Palette: #546
+Damage: 210
+
+= BreakSabrX =
+
+01 FF 89 19 79 00 23 02 FA 00 14 1E 28 32 46 5A
+
+Colour: Yellow
+Element: None
+Class: Standard
+- Display Damage
+- Illegal
+- Sword
+- Break
+- Induce I-Frames
+- Flinch
+Portrait: #121
+Palette: #547
+Damage: 250
+
+= YetiBlzrd =
+
+2A FF 1B 38 90 00 C1 01 78 00 00 00 00 00 00 00
+
+Colour: Blue
+Element: Aqua
+Class: Mega
+- Display Damage
+- Stop Time
+- Illegal
+- Mega
+- Induce I-Frames
+- Flinch
+- Summoning
+Portrait: #144
+Palette: #449
+Damage: 120
+
+= YetiBlzrd[V2] =
+
+2A FF 1B 38 90 00 C2 01 96 00 00 00 00 00 00 00
+
+Colour: Blue
+Element: Aqua
+Class: Mega
+- Display Damage
+- Stop Time
+- Illegal
+- Mega
+- Induce I-Frames
+- Flinch
+- Summoning
+Portrait: #144
+Palette: #450
+Damage: 150
+
+= YetiBlzrd[V3] =
+
+2A FF 1B 38 90 00 C3 01 C8 00 00 00 00 00 00 00
+
+Colour: Blue
+Element: Aqua
+Class: Mega
+- Display Damage
+- Stop Time
+- Illegal
+- Mega
+- Induce I-Frames
+- Flinch
+- Summoning
+Portrait: #144
+Palette: #451
+Damage: 200
+
+= PlesioSrf =
+
+2A FF 1B 38 91 00 C4 01 96 00 00 00 00 00 00 00
+
+Colour: Blue
+Element: Aqua
+Class: Mega
+- Display Damage
+- Stop Time
+- Illegal
+- Mega
+- Induce I-Frames
+- Flinch
+- Summoning
+Portrait: #145
+Palette: #452
+Damage: 150
+
+= PlesioSrf[V2] =
+
+2A FF 1B 38 91 00 C5 01 C8 00 00 00 00 00 00 00
+
+Colour: Blue
+Element: Aqua
+Class: Mega
+- Display Damage
+- Stop Time
+- Illegal
+- Mega
+- Induce I-Frames
+- Flinch
+- Summoning
+Portrait: #145
+Palette: #453
+Damage: 200
+
+= PlesioSrf[V3] =
+
+2A FF 1B 38 91 00 C6 01 FA 00 00 00 00 00 00 00
+
+Colour: Blue
+Element: Aqua
+Class: Mega
+- Display Damage
+- Stop Time
+- Illegal
+- Mega
+- Induce I-Frames
+- Flinch
+- Summoning
+Portrait: #145
+Palette: #454
+Damage: 250
+
+= TerraCndr =
+
+22 FF 1B 34 92 00 C7 01 28 00 00 00 00 00 00 00
+
+Colour: Blue
+Element: None
+Class: Mega
+- Display Damage
+- Stop Time
+- Illegal
+- Mega
+- Wind
+- Flinch
+- Summoning
+Portrait: #146
+Palette: #455
+Damage: 40
+
+= TerraCndr[V2] =
+
+22 FF 1B 34 92 00 C8 01 3C 00 00 00 00 00 00 00
+
+Colour: Blue
+Element: None
+Class: Mega
+- Display Damage
+- Stop Time
+- Illegal
+- Mega
+- Wind
+- Flinch
+- Summoning
+Portrait: #146
+Palette: #456
+Damage: 50
+
+= TerraCndr[V3] =
+
+22 FF 1B 34 92 00 C9 01 50 00 00 00 00 00 00 00
+
+Colour: Blue
+Element: None
+Class: Mega
+- Display Damage
+- Stop Time
+- Illegal
+- Mega
+- Wind
+- Flinch
+- Summoning
+Portrait: #146
+Palette: #457
+Damage: 80
+
+= QnOphiuca =
+
+32 FF 1B 31 93 00 CA 01 8C 00 00 00 00 00 00 00
+
+Colour: Blue
+Element: Wood
+Class: Mega
+- Display Damage
+- Stop Time
+- Illegal
+- Mega
+- Break
+- Flinch
+- Summoning
+Portrait: #147
+Palette: #458
+Damage: 140
+
+= QnOphiuca[V2] =
+
+32 FF 1B 31 93 00 CB 01 B4 00 00 00 00 00 00 00
+
+Colour: Blue
+Element: Wood
+Class: Mega
+- Display Damage
+- Stop Time
+- Illegal
+- Mega
+- Break
+- Flinch
+- Summoning
+Portrait: #147
+Palette: #459
+Damage: 180
+
+= QnOphiuca[V3] =
+
+32 FF 1B 31 93 00 CC 01 E6 00 00 00 00 00 00 00
+
+Colour: Blue
+Element: Wood
+Class: Mega
+- Display Damage
+- Stop Time
+- Illegal
+- Mega
+- Break
+- Flinch
+- Summoning
+Portrait: #147
+Palette: #460
+Damage: 230
+
+= GeminSprk =
+
+2E FF 9B 21 94 00 CD 01 46 00 00 00 00 00 00 00
+
+Colour: Blue
+Element: Elec
+Class: Mega
+- Display Damage
+- Stop Time
+- Illegal
+- Mega
+- Sword
+- Break
+- Summoning
+Portrait: #148
+Palette: #461
+Damage: 70
+
+= GeminSprk[V2] =
+
+2E FF 9B 21 94 00 CE 01 50 00 00 00 00 00 00 00
+
+Colour: Blue
+Element: Elec
+Class: Mega
+- Display Damage
+- Stop Time
+- Illegal
+- Mega
+- Sword
+- Break
+- Summoning
+Portrait: #148
+Palette: #462
+Damage: 80
+
+= GeminSprk[V3] =
+
+2E FF 9B 21 94 00 CF 01 64 00 00 00 00 00 00 00
+
+Colour: Blue
+Element: Elec
+Class: Mega
+- Display Damage
+- Stop Time
+- Illegal
+- Mega
+- Sword
+- Break
+- Summoning
+Portrait: #148
+Palette: #463
+Damage: 100
+
+= CancrBubl =
+
+2A FF 1B 20 95 00 D0 01 82 00 00 00 00 00 00 00
+
+Colour: Blue
+Element: Aqua
+Class: Mega
+- Display Damage
+- Stop Time
+- Illegal
+- Mega
+- Summoning
+Portrait: #149
+Palette: #464
+Damage: 130
+
+= CancrBubl[V2] =
+
+2A FF 1B 20 95 00 D1 01 AA 00 00 00 00 00 00 00
+
+Colour: Blue
+Element: Aqua
+Class: Mega
+- Display Damage
+- Stop Time
+- Illegal
+- Mega
+- Summoning
+Portrait: #149
+Palette: #465
+Damage: 170
+
+= CancrBubl[V3] =
+
+2A FF 1B 20 95 00 D2 01 DC 00 00 00 00 00 00 00
+
+Colour: Blue
+Element: Aqua
+Class: Mega
+- Display Damage
+- Stop Time
+- Illegal
+- Mega
+- Summoning
+Portrait: #149
+Palette: #466
+Damage: 220
+
+= GenAuriga =
+
+22 FF 1B 39 96 00 D3 01 8C 00 00 00 00 00 00 00
+
+Colour: Blue
+Element: None
+Class: Mega
+- Display Damage
+- Stop Time
+- Illegal
+- Mega
+- Break
+- Induce I-Frames
+- Flinch
+- Summoning
+Portrait: #150
+Palette: #467
+Damage: 140
+
+= GenAuriga[V2] =
+
+22 FF 1B 39 96 00 D4 01 B4 00 00 00 00 00 00 00
+
+Colour: Blue
+Element: None
+Class: Mega
+- Display Damage
+- Stop Time
+- Illegal
+- Mega
+- Break
+- Induce I-Frames
+- Flinch
+- Summoning
+Portrait: #150
+Palette: #468
+Damage: 180
+
+= GenAuriga[V3] =
+
+22 FF 1B 39 96 00 D5 01 DC 00 00 00 00 00 00 00
+
+Colour: Blue
+Element: None
+Class: Mega
+- Display Damage
+- Stop Time
+- Illegal
+- Mega
+- Break
+- Induce I-Frames
+- Flinch
+- Summoning
+Portrait: #150
+Palette: #469
+Damage: 220
+
+= LibraScls =
+
+22 FF 1B 38 97 00 D6 01 46 00 00 00 00 00 00 00
+
+Colour: Blue
+Element: None
+Class: Mega
+- Display Damage
+- Stop Time
+- Illegal
+- Mega
+- Induce I-Frames
+- Flinch
+- Summoning
+Portrait: #151
+Palette: #470
+Damage: 70
+
+= LibraScls[V2] =
+
+22 FF 1B 38 97 00 D7 01 5A 00 00 00 00 00 00 00
+
+Colour: Blue
+Element: None
+Class: Mega
+- Display Damage
+- Stop Time
+- Illegal
+- Mega
+- Induce I-Frames
+- Flinch
+- Summoning
+Portrait: #151
+Palette: #471
+Damage: 90
+
+= LibraScls[V3] =
+
+22 FF 1B 38 97 00 D8 01 78 00 00 00 00 00 00 00
+
+Colour: Blue
+Element: None
+Class: Mega
+- Display Damage
+- Stop Time
+- Illegal
+- Mega
+- Induce I-Frames
+- Flinch
+- Summoning
+Portrait: #151
+Palette: #472
+Damage: 120
+
+= CrwnThndr =
+
+2E FF 1B 38 98 00 D9 01 96 00 00 00 00 00 00 00
+
+Colour: Blue
+Element: Elec
+Class: Mega
+- Display Damage
+- Stop Time
+- Illegal
+- Mega
+- Induce I-Frames
+- Flinch
+- Summoning
+Portrait: #152
+Palette: #473
+Damage: 150
+
+= CrwnThndr[V2] =
+
+2E FF 1B 38 98 00 DA 01 C8 00 00 00 00 00 00 00
+
+Colour: Blue
+Element: Elec
+Class: Mega
+- Display Damage
+- Stop Time
+- Illegal
+- Mega
+- Induce I-Frames
+- Flinch
+- Summoning
+Portrait: #152
+Palette: #474
+Damage: 200
+
+= CrwnThndr[V3] =
+
+2E FF 1B 38 98 00 DB 01 2C 01 00 00 00 00 00 00
+
+Colour: Blue
+Element: Elec
+Class: Mega
+- Display Damage
+- Stop Time
+- Illegal
+- Mega
+- Induce I-Frames
+- Flinch
+- Summoning
+Portrait: #152
+Palette: #475
+Damage: 300
+
+= RocktLnch =
+
+2E FF 1B 39 99 00 DC 01 A0 00 00 00 00 00 00 00
+
+Colour: Blue
+Element: Elec
+Class: Mega
+- Display Damage
+- Stop Time
+- Illegal
+- Mega
+- Break
+- Induce I-Frames
+- Flinch
+- Summoning
+Portrait: #153
+Palette: #476
+Damage: 160
+
+= RocktLnch[V2] =
+
+2E FF 1B 39 99 00 DD 01 D2 00 00 00 00 00 00 00
+
+Colour: Blue
+Element: Elec
+Class: Mega
+- Display Damage
+- Stop Time
+- Illegal
+- Mega
+- Break
+- Induce I-Frames
+- Flinch
+- Summoning
+Portrait: #153
+Palette: #477
+Damage: 210
+
+= RocktLnch[V3] =
+
+2E FF 1B 39 99 00 DE 01 0E 01 00 00 00 00 00 00
+
+Colour: Blue
+Element: Elec
+Class: Mega
+- Display Damage
+- Stop Time
+- Illegal
+- Mega
+- Break
+- Induce I-Frames
+- Flinch
+- Summoning
+Portrait: #153
+Palette: #478
+Damage: 270
+
+= IceHammrB =
+
+22 FF 1B 39 9A 00 DF 01 C8 00 00 00 00 00 00 00
+
+Colour: Blue
+Element: None
+Class: Mega
+- Display Damage
+- Stop Time
+- Illegal
+- Mega
+- Break
+- Induce I-Frames
+- Flinch
+- Summoning
+Portrait: #154
+Palette: #479
+Damage: 200
+
+= IceHammrB[V2] =
+
+22 FF 1B 39 9A 00 E0 01 FA 00 00 00 00 00 00 00
+
+Colour: Blue
+Element: None
+Class: Mega
+- Display Damage
+- Stop Time
+- Illegal
+- Mega
+- Break
+- Induce I-Frames
+- Flinch
+- Summoning
+Portrait: #154
+Palette: #480
+Damage: 250
+
+= IceHammrB[V3] =
+
+22 FF 1B 39 9A 00 E1 01 2C 01 00 00 00 00 00 00
+
+Colour: Blue
+Element: None
+Class: Mega
+- Display Damage
+- Stop Time
+- Illegal
+- Mega
+- Break
+- Induce I-Frames
+- Flinch
+- Summoning
+Portrait: #154
+Palette: #481
+Damage: 300
+
+= StrngSwng =
+
+32 FF 1B 31 9B 00 E2 01 32 00 00 00 00 00 00 00
+
+Colour: Blue
+Element: Wood
+Class: Mega
+- Display Damage
+- Stop Time
+- Illegal
+- Mega
+- Break
+- Flinch
+- Summoning
+Portrait: #155
+Palette: #482
+Damage: 50
+
+= StrngSwng[V2] =
+
+32 FF 1B 31 9B 00 E3 01 3C 00 00 00 00 00 00 00
+
+Colour: Blue
+Element: Wood
+Class: Mega
+- Display Damage
+- Stop Time
+- Illegal
+- Mega
+- Break
+- Flinch
+- Summoning
+Portrait: #155
+Palette: #483
+Damage: 60
+
+= StrngSwng[V3] =
+
+32 FF 1B 31 9B 00 E4 01 46 00 00 00 00 00 00 00
+
+Colour: Blue
+Element: Wood
+Class: Mega
+- Display Damage
+- Stop Time
+- Illegal
+- Mega
+- Break
+- Flinch
+- Summoning
+Portrait: #155
+Palette: #484
+Damage: 70
+
+= SpadMagnsX =
+
+2E FF 9B 38 4C 00 24 02 AA 00 00 00 00 00 00 00
+
+Colour: Blue
+Element: Elec
+Class: Mega
+- Display Damage
+- Stop Time
+- Illegal
+- Mega
+- Sword
+- Induce I-Frames
+- Flinch
+- Summoning
+Portrait: #076
+Palette: #548
+Damage: 170
+
+= DiamndIceX =
+
+2A FF 1B 24 4D 00 25 02 64 00 00 00 00 00 00 00
+
+Colour: Blue
+Element: Aqua
+Class: Mega
+- Display Damage
+- Stop Time
+- Illegal
+- Mega
+- Wind
+- Summoning
+Portrait: #077
+Palette: #549
+Damage: 100
+
+= ClubStrngX =
+
+32 FF 1B 34 4E 00 26 02 32 00 00 00 00 00 00 00
+
+Colour: Blue
+Element: Wood
+Class: Mega
+- Display Damage
+- Stop Time
+- Illegal
+- Mega
+- Wind
+- Flinch
+- Summoning
+Portrait: #078
+Palette: #550
+Damage: 50
+
+= QueenVrgoX =
+
+2A FF 1B 39 4F 00 27 02 78 00 00 00 00 00 00 00
+
+Colour: Blue
+Element: Aqua
+Class: Mega
+- Display Damage
+- Stop Time
+- Illegal
+- Mega
+- Break
+- Induce I-Frames
+- Flinch
+- Summoning
+Portrait: #079
+Palette: #551
+Damage: 120
+
+= JackCorvsX =
+
+26 FF 1B 38 50 00 28 02 7C 01 00 00 00 00 00 00
+
+Colour: Blue
+Element: Fire
+Class: Mega
+- Display Damage
+- Stop Time
+- Illegal
+- Mega
+- Induce I-Frames
+- Flinch
+- Summoning
+Portrait: #080
+Palette: #552
+Damage: 380
+
+= DreadJokrX =
+
+22 FF 1B 39 51 00 29 02 5E 01 00 00 00 00 00 00
+
+Colour: Blue
+Element: None
+Class: Mega
+- Display Damage
+- Stop Time
+- Illegal
+- Mega
+- Break
+- Induce I-Frames
+- Flinch
+- Summoning
+Portrait: #081
+Palette: #553
+Damage: 350
+
+= AcidAceX =
+
+22 FF 9B 39 52 00 2A 02 18 01 00 00 00 00 00 00
+
+Colour: Blue
+Element: None
+Class: Mega
+- Display Damage
+- Stop Time
+- Illegal
+- Mega
+- Sword
+- Break
+- Induce I-Frames
+- Flinch
+- Summoning
+Portrait: #082
+Palette: #554
+Damage: 280
+
+= TaursFireX =
+
+26 FF 1B 38 53 00 2B 02 18 01 00 00 00 00 00 00
+
+Colour: Blue
+Element: Fire
+Class: Mega
+- Display Damage
+- Stop Time
+- Illegal
+- Mega
+- Induce I-Frames
+- Flinch
+- Summoning
+Portrait: #083
+Palette: #555
+Damage: 280
+
+= CygnsWingX =
+
+22 FF 1B 3D 54 00 2C 02 2C 01 00 00 00 00 00 00
+
+Colour: Blue
+Element: None
+Class: Mega
+- Display Damage
+- Stop Time
+- Illegal
+- Mega
+- Break
+- Wind
+- Induce I-Frames
+- Flinch
+- Summoning
+Portrait: #084
+Palette: #556
+Damage: 300
+
+= WolfWoodsX =
+
+32 FF 9B 30 55 00 2D 02 B4 00 00 00 00 00 00 00
+
+Colour: Blue
+Element: Wood
+Class: Mega
+- Display Damage
+- Stop Time
+- Illegal
+- Mega
+- Sword
+- Flinch
+- Summoning
+Portrait: #085
+Palette: #557
+Damage: 180
+
+= DrkPhntmX =
+
+22 FF 1B 32 56 00 2E 02 5E 01 00 00 00 00 00 00
+
+Colour: Blue
+Element: None
+Class: Mega
+- Display Damage
+- Stop Time
+- Illegal
+- Mega
+- Ignore I-Frames
+- Flinch
+- Summoning
+Portrait: #086
+Palette: #558
+Damage: 350
+
+= RogueX =
+
+22 FF 1B 31 57 00 2F 02 5A 00 00 00 00 00 00 00
+
+Colour: Blue
+Element: None
+Class: Mega
+- Display Damage
+- Stop Time
+- Illegal
+- Mega
+- Break
+- Flinch
+- Summoning
+Portrait: #087
+Palette: #559
+Damage: 90
+
+= MoonDstryX =
+
+22 FF 9B 30 58 00 30 02 B4 00 00 00 00 00 00 00
+
+Colour: Blue
+Element: None
+Class: Mega
+- Display Damage
+- Stop Time
+- Illegal
+- Mega
+- Sword
+- Flinch
+- Summoning
+Portrait: #088
+Palette: #560
+Damage: 180
+
+= ApolloFlmX =
+
+26 FF 1B 38 59 00 31 02 4A 01 00 00 00 00 00 00
+
+Colour: Blue
+Element: Fire
+Class: Mega
+- Display Damage
+- Stop Time
+- Illegal
+- Mega
+- Induce I-Frames
+- Flinch
+- Summoning
+Portrait: #089
+Palette: #561
+Damage: 330
+
+= SiriusX =
+
+22 FF 1B 38 5A 00 32 02 FA 00 00 00 00 00 00 00
+
+Colour: Blue
+Element: None
+Class: Mega
+- Display Damage
+- Stop Time
+- Illegal
+- Mega
+- Induce I-Frames
+- Flinch
+- Summoning
+Portrait: #090
+Palette: #562
+Damage: 250
+
+= YetiBlzrdX =
+
+2A FF 1B 38 90 00 33 02 FA 00 00 00 00 00 00 00
+
+Colour: Blue
+Element: Aqua
+Class: Mega
+- Display Damage
+- Stop Time
+- Illegal
+- Mega
+- Induce I-Frames
+- Flinch
+- Summoning
+Portrait: #144
+Palette: #563
+Damage: 250
+
+= PlesioSrfX =
+
+2A FF 1B 38 91 00 34 02 40 01 00 00 00 00 00 00
+
+Colour: Blue
+Element: Aqua
+Class: Mega
+- Display Damage
+- Stop Time
+- Illegal
+- Mega
+- Induce I-Frames
+- Flinch
+- Summoning
+Portrait: #145
+Palette: #564
+Damage: 320
+
+= TerraCndrX =
+
+22 FF 1B 34 92 00 35 02 64 00 00 00 00 00 00 00
+
+Colour: Blue
+Element: None
+Class: Mega
+- Display Damage
+- Stop Time
+- Illegal
+- Mega
+- Wind
+- Flinch
+- Summoning
+Portrait: #146
+Palette: #565
+Damage: 100
+
+= QnOphiucaX =
+
+32 FF 1B 31 93 00 36 02 2C 01 00 00 00 00 00 00
+
+Colour: Blue
+Element: Wood
+Class: Mega
+- Display Damage
+- Stop Time
+- Illegal
+- Mega
+- Break
+- Flinch
+- Summoning
+Portrait: #147
+Palette: #566
+Damage: 300
+
+= GeminSprkX =
+
+2E FF 9B 21 94 00 37 02 96 00 00 00 00 00 00 00
+
+Colour: Blue
+Element: Elec
+Class: Mega
+- Display Damage
+- Stop Time
+- Illegal
+- Mega
+- Sword
+- Break
+- Summoning
+Portrait: #148
+Palette: #567
+Damage: 150
+
+= CancrBublX =
+
+2A FF 1B 20 95 00 38 02 18 01 00 00 00 00 00 00
+
+Colour: Blue
+Element: Aqua
+Class: Mega
+- Display Damage
+- Stop Time
+- Illegal
+- Mega
+- Summoning
+Portrait: #149
+Palette: #568
+Damage: 280
+
+= GenAurigaX =
+
+22 FF 1B 39 96 00 39 02 2C 01 00 00 00 00 00 00
+
+Colour: Blue
+Element: None
+Class: Mega
+- Display Damage
+- Stop Time
+- Illegal
+- Mega
+- Break
+- Induce I-Frames
+- Flinch
+- Summoning
+Portrait: #150
+Palette: #569
+Damage: 300
+
+= LibraSclsX =
+
+22 FF 1B 38 97 00 3A 02 A0 00 00 00 00 00 00 00
+
+Colour: Blue
+Element: None
+Class: Mega
+- Display Damage
+- Stop Time
+- Illegal
+- Mega
+- Induce I-Frames
+- Flinch
+- Summoning
+Portrait: #151
+Palette: #570
+Damage: 160
+
+= CrwnThndrX =
+
+2E FF 1B 38 98 00 3B 02 90 01 00 00 00 00 00 00
+
+Colour: Blue
+Element: Elec
+Class: Mega
+- Display Damage
+- Stop Time
+- Illegal
+- Mega
+- Induce I-Frames
+- Flinch
+- Summoning
+Portrait: #152
+Palette: #571
+Damage: 400
+
+= RocktLnchX =
+
+2E FF 1B 39 99 00 3C 02 54 01 00 00 00 00 00 00
+
+Colour: Blue
+Element: Elec
+Class: Mega
+- Display Damage
+- Stop Time
+- Illegal
+- Mega
+- Break
+- Induce I-Frames
+- Flinch
+- Summoning
+Portrait: #153
+Palette: #572
+Damage: 340
+
+= IceHammrBX =
+
+22 FF 1B 39 9A 00 3D 02 72 01 00 00 00 00 00 00
+
+Colour: Blue
+Element: None
+Class: Mega
+- Display Damage
+- Stop Time
+- Illegal
+- Mega
+- Break
+- Induce I-Frames
+- Flinch
+- Summoning
+Portrait: #154
+Palette: #573
+Damage: 370
+
+= StrngSwngX =
+
+32 FF 1B 31 9B 00 3E 02 5A 00 00 00 00 00 00 00
+
+Colour: Blue
+Element: Wood
+Class: Mega
+- Display Damage
+- Stop Time
+- Illegal
+- Mega
+- Break
+- Flinch
+- Summoning
+Portrait: #155
+Palette: #574
+Damage: 90
+
+= PegasuMgc[GX] =
+
+4B FF 0B 38 9C 00 E5 01 C2 01 00 00 00 00 00 00
+
+Colour: Red
+Element: Aqua
+Class: Giga
+- Display Damage
+- Stop Time
+- Illegal
+- Induce I-Frames
+- Flinch
+- Summoning
+Portrait: #156
+Palette: #485
+Damage: 450
+
+= LeoKingdm[GX] =
+
+47 FF 0B 38 9D 00 E6 01 28 00 00 00 00 00 00 00
+
+Colour: Red
+Element: Fire
+Class: Giga
+- Display Damage
+- Stop Time
+- Illegal
+- Induce I-Frames
+- Flinch
+- Summoning
+Portrait: #157
+Palette: #486
+Damage: 40
+
+= DragonSky[GX] =
+
+53 FF 0B 34 9E 00 E7 01 32 00 00 00 00 00 00 00
+
+Colour: Red
+Element: Wood
+Class: Giga
+- Display Damage
+- Stop Time
+- Illegal
+- Wind
+- Flinch
+- Summoning
+Portrait: #158
+Palette: #487
+Damage: 50
+
+= GorgonEye =
+
+53 FF 0B 32 9F 00 E8 01 26 02 00 00 00 00 00 00
+
+Colour: Red
+Element: Wood
+Class: Giga
+- Display Damage
+- Stop Time
+- Illegal
+- Ignore I-Frames
+- Flinch
+- Summoning
+Portrait: #159
+Palette: #488
+Damage: 550
+
+= GeminThndr =
+
+4F FF 0B 3A A0 00 E9 01 90 01 00 00 00 00 00 00
+
+Colour: Red
+Element: Elec
+Class: Giga
+- Display Damage
+- Stop Time
+- Illegal
+- Ignore I-Frames
+- Induce I-Frames
+- Flinch
+- Summoning
+Portrait: #160
+Palette: #489
+Damage: 400
+
+= RogueBreak =
+
+43 FF 8B 39 A1 00 EA 01 C2 01 00 00 00 00 00 00
+
+Colour: Red
+Element: None
+Class: Giga
+- Display Damage
+- Stop Time
+- Illegal
+- Sword
+- Break
+- Induce I-Frames
+- Flinch
+- Summoning
+Portrait: #161
+Palette: #490
+Damage: 450
+
+= Avalanche =
+
+4B FF 0B 20 A2 00 EB 01 50 00 00 00 00 00 00 00
+
+Colour: Red
+Element: Aqua
+Class: Giga
+- Display Damage
+- Stop Time
+- Illegal
+- Summoning
+Portrait: #162
+Palette: #491
+Damage: 80
+
+= FlyngImpct =
+
+53 FF 0B 31 A3 00 EC 01 F4 01 00 00 00 00 00 00
+
+Colour: Red
+Element: Wood
+Class: Giga
+- Display Damage
+- Stop Time
+- Illegal
+- Break
+- Flinch
+- Summoning
+Portrait: #163
+Palette: #492
+Damage: 500
+
+= TrrntWave =
+
+4B FF 0B 38 A4 00 ED 01 90 01 00 00 00 00 00 00
+
+Colour: Red
+Element: Aqua
+Class: Giga
+- Display Damage
+- Stop Time
+- Illegal
+- Induce I-Frames
+- Flinch
+- Summoning
+Portrait: #164
+Palette: #493
+Damage: 400
+
+= HolyLight =
+
+43 FF 0B 30 A5 00 EE 01 5A 00 00 00 00 00 00 00
+
+Colour: Red
+Element: None
+Class: Giga
+- Display Damage
+- Stop Time
+- Illegal
+- Flinch
+- Summoning
+Portrait: #165
+Palette: #494
+Damage: 90
+
+= WickdFlame =
+
+47 FF 0B 3A A6 00 EF 01 64 00 00 00 00 00 00 00
+
+Colour: Red
+Element: Fire
+Class: Giga
+- Display Damage
+- Stop Time
+- Illegal
+- Ignore I-Frames
+- Induce I-Frames
+- Flinch
+- Summoning
+Portrait: #166
+Palette: #495
+Damage: 100
+
+
+ARM9 / MESS_STATIC ORDER
+
+001: Cannon
+002: PlusCannon
+003: HevyCannon
+004: PlasmaGun
+005: AirSpread1
+006: AirSpread2
+007: AirSpread3
+008: MiniGrnade
+009: DrillArm1
+010: DrillArm2
+011: DrillArm3
+012: BeastSlap1
+013: BeastSlap2
+014: BeastSlap3
+015: WindyAtk1
+016: WindyAtk2
+017: WindyAtk3
+018: PanicCloud
+019: Sword
+020: WideSword
+021: LongSword
+022: GreatAxe
+023: SyncHook1
+024: SyncHook2
+025: SyncHook3
+026: WhtMeteor
+027: SilvMeteor
+028: BlackInk
+029: DblEater
+030: GrandWave1
+031: GrandWave2
+032: GrandWave3
+033: JetAttack1
+034: JetAttack2
+035: JetAttack3
+036: Buki1
+037: Buki2
+038: Buki3
+039: SmileCoin1
+040: SmileCoin2
+041: SmileCoin3
+042: BigDrop1
+043: BigDrop2
+044: BigDrop3
+045: TimeBomb1
+046: TimeBomb2
+047: TimeBomb3
+048: HeatUppr1
+049: HeatUppr2
+050: HeatUppr3
+051: MechFlame1
+052: MechFlame2
+053: MechFlame3
+054: MadFire1
+055: MadFire2
+056: MadFire3
+057: WideWave1
+058: WideWave2
+059: WideWave3
+060: BubblHook1
+061: BubblHook2
+062: BubblHook3
+063: SharkAtk1
+064: SharkAtk2
+065: SharkAtk3
+066: IceSpin1
+067: IceSpin2
+068: IceSpin3
+069: StlthLzr1
+070: StlthLzr2
+071: StlthLzr3
+072: MummyHand1
+073: MummyHand2
+074: MummyHand3
+075: ThndrHead1
+076: ThndrHead2
+077: ThndrHead3
+078: FlashStrk1
+079: FlashStrk2
+080: FlashStrk3
+081: ArachAtk1
+082: ArachAtk2
+083: ArachAtk3
+084: Shuriken1
+085: Shuriken2
+086: Shuriken3
+087: PollnShot1
+088: PollnShot2
+089: PollnShot3
+090: AcornBomb1
+091: AcornBomb2
+092: AcornBomb3
+093: BuzzSaw1
+094: BuzzSaw2
+095: BuzzSaw3
+096: Bushido1
+097: Bushido2
+098: Bushido3
+099: SkullArrw1
+100: SkullArrw2
+101: SkullArrw3
+102: MadVulcn1
+103: MadVulcn2
+104: MadVulcn3
+105: MuTech1
+106: MuTech2
+107: MuTech3
+108: NoiseWzrd1
+109: NoiseWzrd2
+110: NoiseWzrd3
+111: MalWizard1
+112: MalWizard2
+113: MalWizard3
+114: BlackHole1
+115: BlackHole2
+116: BlackHole3
+117: TyphnDance
+118: TrnadoDnce
+119: DblStone
+120: Bombalizer
+121: DivideLine
+122: PanlFormat
+123: FlameAxe
+124: MegaCrushr
+125: GravtyPlus
+126: Recover10
+127: Recover30
+128: Recover50
+129: Recover80
+130: Recover120
+131: Recover150
+132: Recover200
+133: Recover300
+134: Barrier
+135: SprBarrier
+136: Aura
+137: Invisible
+138: Whistle
+139: SpiritFury
+140: AntiSword
+141: PoisnApple
+142: DoublCross
+143: GigaMine
+144: GrassStage
+145: IceStage
+146: PrlyzeStg
+147: HolyPanel
+148: AtkPanel
+149: ParlyzPlus
+150: Attack+10
+
+151: SpadMagns
+152: SpadMagns[V2]
+153: SpadMagns[V3]
+154: DiamndIce
+155: DiamndIce[V2]
+156: DiamndIce[V3]
+157: ClubStrng
+158: ClubStrng[V2]
+159: ClubStrng[V3]
+160: QueenVrgo
+161: QueenVrgo[V2]
+162: QueenVrgo[V3]
+163: JackCorvs
+164: JackCorvs[V2]
+165: JackCorvs[V3]
+166: DreadJokr
+167: DreadJokr[V2]
+168: DreadJokr[V3]
+169: AcidAce
+170: AcidAce[V2]
+171: AcidAce[V3]
+172: TaursFire
+173: TaursFire[V2]
+174: TaursFire[V3]
+175: CygnsWing
+176: CygnsWing[V2]
+177: CygnsWing[V3]
+178: WolfWoods
+179: WolfWoods[V2]
+180: WolfWoods[V3]
+181: DrkPhntm
+182: DrkPhntm[V2]
+183: DrkPhntm[V3]
+184: Rogue
+185: Rogue[V2]
+186: Rogue[V3]
+187: MoonDstry
+188: MoonDstry[V2]
+189: MoonDstry[V3]
+190: ApolloFlm
+191: ApolloFlm[V2]
+192: ApolloFlm[V3]
+193: Sirius
+194: Sirius[V2]
+195: Sirius[V3]
+
+196: WingBlade
+197: DrknssHole
+198: MilliKick
+199: BrkTmeBmb
+200: MuBarrier
+
+201: DreadLazer
+202: DestrMissl
+203: BusterMax
+204: OxTackle
+205: MirrorsEdg
+
+206: ++++
+207: ++++
+
+208: Scythe1
+209: Scythe2
+210: Scythe3
+211: DanceFire1
+212: DanceFire2
+213: DanceFire3
+214: KiloBomb1
+215: KiloBomb2
+216: KiloBomb3
+217: SnoBall1
+218: SnoBall2
+219: SnoBall3
+220: PiranKss1
+221: PiranKss2
+222: PiranKss3
+223: Squall1
+224: Squall2
+225: Squall3
+226: PuffBlst1
+227: PuffBlst2
+228: PuffBlst3
+229: JngleStorm
+230: SnoStorm
+231: PoisnStorm
+232: HeatGrnde
+233: WoodGrnde
+234: IceGrnde
+235: RdrMissile
+236: StunKnukle
+237: PoisKnukle
+238: FrezKnukle
+239: ElecSlash
+240: WoodSlash
+241: FireSlash
+242: BreakSabre
+243: GreenInk
+244: BlueInk
+245: PurpleInk
+246: VulcnSeed1
+247: VulcnSeed2
+248: VulcnSeed3
+249: DstryUpper
+250: WrriorSoul
+251: Muramasa
+252: ExtiMeteor
+253: AllPoison
+254: Fire+30
+255: Aqua+30
+256: Elec+30
+257: Wood+30
+258: Earthundr1
+259: Earthundr2
+260: Earthundr3
+261: SwrdFghtr1
+262: SwrdFghtr2
+263: SwrdFghtr3
+264: SpinBlade1
+265: SpinBlade2
+266: SpinBlade3
+267: QuickGauge
+268: NormlGauge
+269: SlowGauge
+270: CardRevive
+271: MegaBoost
+
+272: ImpctCanon
+273: PlasmaGunX
+274: AirSpreadX
+275: BigGrenade
+276: DrillArmX
+277: BeastSlapX
+278: WindyAtkX
+279: GiantAxe
+280: SyncHookX
+281: PlatMeteor
+282: GrandWaveX
+283: JetAttackX
+284: BukiX
+285: SmileCoinX
+286: BigDropX
+287: TimeBombX
+288: HeatUpprX
+289: MechFlameX
+290: MadFireX
+291: WideWaveX
+292: BubblHookX
+293: SharkAtkX
+294: IceSpinX
+295: StlthLzrX
+296: MummyHandX
+297: ThndrHeadX
+298: FlashStrkX
+299: ArachAtkX
+300: ShurikenX
+301: PollnShotX
+302: AcornBombX
+303: BuzzSawX
+304: BushidoX
+305: SkullArrwX
+306: MadVulcnX
+307: MuTechX
+308: NoiseWzrdX
+309: MadWizardX
+310: BlackHoleX
+311: HrrcnDance
+312: ScytheX
+313: DanceFireX
+314: KiloBombX
+315: SnoBallX
+316: PiranKssX
+317: SquallX
+318: PuffBlastX
+319: VulcnSeedX
+320: EarthundrX
+321: SwrdFghtrX
+322: SpinBladeX
+323: BreakSabrX
+
+324: YetiBlzrd
+325: YetiBlzrd[V2]
+326: YetiBlzrd[V3]
+327: PlesioSrf
+328: PlesioSrf[V2]
+329: PlesioSrf[V3]
+330: TerraCndr
+331: TerraCndr[V2]
+332: TerraCndr[V3]
+333: QnOphiuca
+334: QnOphiuca[V2]
+335: QnOphiuca[V3]
+336: GeminSprk
+337: GeminSprk[V2]
+338: GeminSprk[V3]
+339: CancrBubl
+340: CancrBubl[V2]
+341: CancrBubl[V3]
+342: GenAuriga
+343: GenAuriga[V2]
+344: GenAuriga[V3]
+345: LibraScls
+346: LibraScls[V2]
+347: LibraScls[V3]
+348: CrwnThndr
+349: CrwnThndr[V2]
+350: CrwnThndr[V3]
+351: RocktLnch
+352: RocktLnch[V2]
+353: RocktLnch[V3]
+354: IceHammrB
+355: IceHammrB[V2]
+356: IceHammrB[V3]
+357: StrngSwng
+358: StrngSwng[V2]
+359: StrngSwng[V3]
+
+360: SpadMgnesX
+361: DiamndIceX
+362: ClubStrngX
+363: QueenVrgoX
+364: JackCorvsX
+365: DreadJokrX
+366: AcidAceX
+367: TaursFireX
+368: CygnsWingX
+369: WolfWoodsX
+370: DrkPhntmX
+371: RogueX
+372: MoonDstryX
+373: ApolloFlmX
+374: SiriusX
+375: YetiBlzrdX
+376: PlesioSrfX
+377: TerraCndrX
+378: QnOphiucaX
+379: GeminSprkX
+380: CancrBublX
+381: GenAurigaX
+382: LibraSclsX
+383: CrwnThndrX
+384: RocktLnchX
+385: IceHammrBX
+386: StrngSwngX
+
+387: PegasuMgc[GX]
+388: LeoKingdm[GX]
+389: DragonSky[GX]
+390: GorgonEye
+391: GeminThndr
+392: RogueBreak
+393: Avalanche
+394: FlyngImpct
+395: TrrntWave
+396: HolyLight
+397: WickdFlame
+
+398: Blank Card
+399: Blank Card
+400: Blank Card
+401: Blank Card
+402: Blank Card
+403: Blank Card
+404: Blank Card
+405: Blank Card
+406: Blank Card
+
+
+IN-GAME CARD FOLDER ORDER
+
+001: Cannon    
+002: PlusCannon
+003: HevyCannon
+004: ImpctCanon
+005: PlasmaGun 
+006: PlasmaGunX
+007: AirSpread1
+008: AirSpread2
+009: AirSpread3
+010: AirSpreadX
+011: MadVulcn1 
+012: MadVulcn2 
+013: MadVulcn3 
+014: MadVulcnX 
+015: BlackInk  
+016: GreenInk  
+017: BlueInk   
+018: PurpleInk 
+019: MiniGrnade
+020: HeatGrnde 
+021: WoodGrnde 
+022: IceGrnde  
+023: BigGrenade
+024: Sword     
+025: WideSword 
+026: LongSword 
+027: Bushido1  
+028: Bushido2  
+029: Bushido3  
+030: ElecSlash 
+031: WoodSlash 
+032: FireSlash 
+033: BreakSabre
+034: BreakSabrX
+035: GreatAxe  
+036: FlameAxe  
+037: GiantAxe  
+038: Muramasa  
+039: SwrdFghtr1
+040: SwrdFghtr2
+041: SwrdFghtr3
+042: SwrdFghtrX
+043: WindyAtk1 
+044: WindyAtk2 
+045: WindyAtk3 
+046: WindyAtkX 
+047: SyncHook1 
+048: SyncHook2 
+049: SyncHook3 
+050: SyncHookX 
+051: StunKnukle
+052: PoisKnukle
+053: FrezKnukle
+054: DstryUpper
+055: DrillArm1 
+056: DrillArm2 
+057: DrillArm3 
+058: DrillArmX 
+059: TyphnDance
+060: TrnadoDnce
+061: HrrcnDance
+062: WhtMeteor 
+063: SilvMeteor
+064: PlatMeteor
+065: ExtiMeteor
+066: RdrMissile
+067: GrandWave1
+068: GrandWave2
+069: GrandWave3
+070: GrandWaveX
+071: JetAttack1
+072: JetAttack2
+073: JetAttack3
+074: JetAttackX
+075: Buki1     
+076: Buki2     
+077: Buki3     
+078: BukiX     
+079: SmileCoin1
+080: SmileCoin2
+081: SmileCoin3
+082: SmileCoinX
+083: BigDrop1  
+084: BigDrop2  
+085: BigDrop3  
+086: BigDropX  
+087: BuzzSaw1  
+088: BuzzSaw2  
+089: BuzzSaw3  
+090: BuzzSawX  
+091: SkullArrw1
+092: SkullArrw2
+093: SkullArrw3
+094: SkullArrwX
+095: MuTech1   
+096: MuTech2   
+097: MuTech3   
+098: MuTechX   
+099: Scythe1   
+100: Scythe2   
+101: Scythe3   
+102: ScytheX   
+103: PuffBlst1 
+104: PuffBlst2 
+105: PuffBlst3 
+106: PuffBlstX 
+107: TimeBomb1 
+108: TimeBomb2 
+109: TimeBomb3 
+110: TimeBombX 
+111: HeatUppr1 
+112: HeatUppr2 
+113: HeatUppr3 
+114: HeatUpprX 
+115: MechFlame1
+116: MechFlame2
+117: MechFlame3
+118: MechFlameX
+119: MadFire1  
+120: MadFire2  
+121: MadFire3  
+122: MadFireX  
+123: DanceFire1
+124: DanceFire2
+125: DanceFire3
+126: DanceFireX
+127: KiloBomb1 
+128: KiloBomb2 
+129: KiloBomb3 
+130: KiloBombX 
+131: WideWave1 
+132: WideWave2 
+133: WideWave3 
+134: WideWaveX 
+135: BubblHook1
+136: BubblHook2
+137: BubblHook3
+138: BubblHookX
+139: SharkAtk1 
+140: SharkAtk2 
+141: SharkAtk3 
+142: SharkAtkX 
+143: IceSpin1  
+144: IceSpin2  
+145: IceSpin3  
+146: IceSpinX  
+147: SnoBall1  
+148: SnoBall2  
+149: SnoBall3  
+150: SnoBallX  
+151: PiranKss1 
+152: PiranKss2 
+153: PiranKss3 
+154: PiranKssX 
+155: StlthLzr1 
+156: StlthLzr2 
+157: StlthLzr3 
+158: StlthLzrX 
+159: MummyHand1
+160: MummyHand2
+161: MummyHand3
+162: MummyHandX
+163: ThndrHead1
+164: ThndrHead2
+165: ThndrHead3
+166: ThndrHeadX
+167: FlashStrk1
+168: FlashStrk2
+169: FlashStrk3
+170: FlashStrkX
+171: Earthundr1
+172: Earthundr2
+173: Earthundr3
+174: EarthundrX
+175: ArachAtk1 
+176: ArachAtk2 
+177: ArachAtk3 
+178: ArachAtkX 
+179: Shuriken1 
+180: Shuriken2 
+181: Shuriken3 
+182: ShurikenX 
+183: PollnShot1
+184: PollnShot2
+185: PollnShot3
+186: PollnShotX
+187: AcornBomb1
+188: AcornBomb2
+189: AcornBomb3
+190: AcornBombX
+191: Squall1   
+192: Squall2   
+193: Squall3   
+194: SquallX   
+195: VulcnSeed1
+196: VulcnSeed2
+197: VulcnSeed3
+198: VulcnSeedX
+199: BeastSlap1
+200: BeastSlap2
+201: BeastSlap3
+202: BeastSlapX
+203: NoiseWzrd1
+204: NoiseWzrd2
+205: NoiseWzrd3
+206: NoiseWzrdX
+207: MalWizard1
+208: MalWizard2
+209: MalWizard3
+210: MalWizardX
+211: SpinBlade1
+212: SpinBlade2
+213: SpinBlade3
+214: SpinBladeX
+215: BlackHole1
+216: BlackHole2
+217: BlackHole3
+218: BlackHoleX
+219: JngleStorm
+220: SnoStorm  
+221: PoisnStorm
+222: DblStone  
+223: Bombalizer
+224: DivideLine
+225: DblEater  
+226: PanlFormat
+227: PanicCloud
+228: Recover10 
+229: Recover30 
+230: Recover50 
+231: Recover80 
+232: Recover120
+233: Recover150
+234: Recover200
+235: Recover300
+236: Barrier   
+237: SprBarrier
+238: Aura      
+239: Invisible 
+240: MegaBoost 
+241: QuickGauge
+242: NormlGauge
+243: SlowGauge 
+244: WrriorSoul
+245: Whistle   
+246: CardRevive
+247: MegaCrushr
+248: SpiritFury
+249: AntiSword 
+250: PoisnApple
+251: DoublCross
+252: GigaMine  
+253: GrassStage
+254: IceStage  
+255: PrlyzeStg 
+256: HolyPanel 
+257: AtkPanel  
+258: AllPoison 
+259: GravtyPlus
+260: ParlyzPlus
+261: Attack+10 
+262: Fire+30   
+263: Aqua+30   
+264: Elec+30   
+265: Wood+30   
+266: SpadMgnes 
+267: SpadMgnes2
+268: SpadMgnes3
+269: SpadMgnesX
+270: DiamndIce 
+271: DiamndIce2
+272: DiamndIce3
+273: DiamndIceX
+274: ClubStrng 
+275: ClubStrng2
+276: ClubStrng3
+277: ClubStrngX
+278: QueenVrgo 
+279: QueenVrgo2
+280: QueenVrgo3
+281: QueenVrgoX
+282: JackCorvs 
+283: JackCorvs2
+284: JackCorvs3
+285: JackCorvsX
+286: DreadJokr 
+287: DreadJokr2
+288: DreadJokr3
+289: DreadJokrX
+290: AcidAce   
+291: AcidAce2  
+292: AcidAce3  
+293: AcidAceX  
+294: TaursFire 
+295: TaursFire2
+296: TaursFire3
+297: TaursFireX
+298: CygnsWing 
+299: CygnsWing2
+300: CygnsWing3
+301: CygnsWingX
+302: WolfWoods 
+303: WolfWoods2
+304: WolfWoods3
+305: WolfWoodsX
+306: DrkPhntm  
+307: DrkPhntm2 
+308: DrkPhntm3 
+309: DrkPhntmX 
+310: Rogue     
+311: Rogue2    
+312: Rogue3    
+313: RogueX    
+314: MoonDstry 
+315: MoonDstry2
+316: MoonDstry3
+317: MoonDstryX
+318: LibraScls 
+319: LibraScls2
+320: LibraScls3
+321: LibraSclsX
+322: QnOphiuca 
+323: QnOphiuca2
+324: QnOphiuca3
+325: QnOphiucaX
+326: GeminSprk 
+327: GeminSprk2
+328: GeminSprk3
+329: GeminSprkX
+330: CancrBubl 
+331: CancrBubl2
+332: CancrBubl3
+333: CancrBublX
+334: CrwnThndr 
+335: CrwnThndr2
+336: CrwnThndr3
+337: CrwnThndrX
+338: YetiBlzrd 
+339: YetiBlzrd2
+340: YetiBlzrd3
+341: YetiBlzrdX
+342: PlesioSrf 
+343: PlesioSrf2
+344: PlesioSrf3
+345: PlesioSrfX
+346: TerraCndr 
+347: TerraCndr2
+348: TerraCndr3
+349: TerraCndrX
+350: GenAuriga 
+351: GenAuriga2
+352: GenAuriga3
+353: GenAurigaX
+354: ApolloFlm 
+355: ApolloFlm2
+356: ApolloFlm3
+357: ApolloFlmX
+358: Sirius    
+359: Sirius2   
+360: Sirius3   
+361: SiriusX   
+362: RocktLnch 
+363: RocktLnch2
+364: RocktLnch3
+365: RocktLnchX
+366: IceHammrB 
+367: IceHammrB2
+368: IceHammrB3
+369: IceHammrBX
+370: StrngSwng 
+371: StrngSwng2
+372: StrngSwng3
+373: StrngSwngX
+374: WingBlade 
+375: DrknssHole
+376: Millikick 
+377: BrkTmeBmb 
+378: MuBarrier 
+
+0x000DCDFC: C3 00 0F 01 67 01 8D 01
+(195, 271, 386, 397)
+(These numbers correspond to the ends of:
+ - Library Block (SiriusV3)
+ - Illegal Standard Block (MegaBoost)
+ - Illegal X/Mega Block (StrngSwngX)
+ - Illegal Giga Block (WickdFlame)
+Unsure of importance, as mostly groups of 3 before these)
+
+10 0D = Noise Frag Reward
+
+Non-Folder Cards:
+
+06 05: AreaEater
+09 05: MteorLight
+0A 05: AtomBlazer
+0B 05: DynaWave
+0C 05: TB Blade
+0D 05: ElemCycln
+0E 05: BlkEndGlxy
+0F 05: RdGaiaErsr
+10 05: hack panel
+11 05 to 37 05: SpadMagns[GA] to WickdFlam[GA]

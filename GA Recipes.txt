@@ -1,0 +1,135 @@
+MEGA MAN STAR FORCE 3: BLACK ACE
+
+GALAXY ADVANCE RECIPES (starts at 0x0016399C)
+
+4E 00 4F 00 50 00 11 05
+FlashStrk1 + FlashStrk2 + FlashStrk3 = SpadMagns[GA]
+
+42 00 43 00 44 00 12 05
+  IceSpin1 +   IceSpin2 +   IceSpin3 = DiamndIce[GA]
+
+57 00 58 00 59 00 13 05
+PollnShot1 + PollnShot2 + PollnShot3 = ClubStrng[GA]
+
+39 00 3A 00 3B 00 14 05
+ WideWave1 +  WideWave2 +  WideWave3 = QueenVrgo[GA]
+
+D6 00 D7 00 D8 00 15 05
+ KiloBomb1 +  KiloBomb2 +  KiloBomb3 = JackCorvs[GA]
+
+60 00 61 00 62 00 16 05
+  Bushido1 +   Bushido2 +   Bushido3 = DreadJokr[GA]
+
+66 00 67 00 68 00 17 05
+ MadVulcn1 +  MadVulcn2 +  MadVulcn3 =   AcidAce[GA]
+
+36 00 37 00 38 00 18 05
+  MadFire1 +   MadFire2 +   MadFire3 = TaursFire[GA]
+
+1E 00 1F 00 20 00 19 05
+GrandWave1 + GrandWave2 + GrandWave3 = CygnsWing[GA]
+
+54 00 55 00 56 00 1A 05
+ Shuriken1 +  Shuriken2 +  Shuriken3 = WolfWoods[GA]
+
+27 00 28 00 29 00 1B 05
+SmileCoin1 + SmileCoin2 + SmileCoin3 =  DrkPhntm[GA]
+
+69 00 6A 00 6B 00 1C 05
+   MuTech1 +    MuTech2 +    MuTech3 =     Rogue[GA]
+
+5D 00 5E 00 5F 00 1D 05
+  BuzzSaw1 +   BuzzSaw2 +   BuzzSaw3 = MoonDstry[GA]
+
+33 00 34 00 35 00 1E 05
+MechFlame1 + MechFlame2 + MechFlame3 = ApolloFlm[GA]
+
+1A 00 1B 00 F2 00 1F 05
+ WhtMeteor + SilvMeteor + BreakSabre =    Sirius[GA]
+
+72 00 72 00 1C 00 20 05
+BlackHole1 + BlackHole1 +   BlackInk = DrknsHole[GA]
+
+22 00 22 00 78 00 21 05
+JetAttack2 + JetAttack2 + Bombalizer = DestrMisl[GA]
+
+2F 00 2F 00 2F 00 22 05
+ TimeBomb3 +  TimeBomb3 +  TimeBomb3 = BrkTmeBmb[GA]
+
+30 00 30 00 21 00 23 05
+ HeatUppr1 +  HeatUppr1 + JetAttack1 =  OxTackle[GA]
+
+DB 00 DB 00 77 00 24 05
+  SnoBall3 +   SnoBall3 +   DblStone = YetiBlzrd[GA]
+
+3F 00 3F 00 3F 00 25 05
+ SharkAtk1 +  SharkAtk1 +  SharkAtk1 = PlesioSrf[GA]
+
+58 00 58 00 75 00 26 05
+PollnShot2 + PollnShot2 + TyphnDance = TerraCndr[GA]
+
+53 00 53 00 53 00 27 05
+ ArachAtk3 +  ArachAtk3 +  ArachAtk3 = QnOphiuca[GA]
+
+77 00 EC 00 EF 00 28 05
+  DblStone + StunKnukle +  ElecSlash = GeminSprk[GA]
+
+39 00 39 00 3C 00 29 05
+ WideWave1 +  WideWave1 + BubblHook1 = CancrBubl[GA]
+
+2C 00 2C 00 2C 00 2A 05
+  BigDrop3 +   BigDrop3 +   BigDrop3 = GenAuriga[GA]
+
+37 00 3A 00 2B 00 2B 05
+  MadFire2 +  WideWave2 +   BigDrop2 = LibraScls[GA]
+
+04 00 04 00 09 00 2C 05
+ PlasmaGun +  PlasmaGun +  DrillArm1 = CrwnThndr[GA]
+
+09 00 09 00 09 00 2D 05
+ DrillArm1 +  DrillArm1 +  DrillArm1 = RocktLnch[GA]
+
+E6 00 E6 00 26 00 2E 05
+  SnoStorm +   SnoStorm +      Buki3 = IceHammrB[GA]
+
+5B 00 5B 00 F0 00 2F 05
+AcornBomb2 + AcornBomb2 +  WoodSlash = StrngSwng[GA]
+
+90 00 6B 00 6B 00 30 05
+GrassStage +    MuTech3 +    MuTech3 = GorgonEye[GA]
+
+4A 00 4A 00 4A 00 31 05
+MummyHand3 + MummyHand3 + MummyHand3 = GmniThndr[GA]
+
+D1 00 D1 00 D1 00 32 05
+   Scythe1 +    Scythe1 +    Scythe1 =  RogueBrk[GA]
+
+DB 00 DB 00 3B 00 33 05
+  SnoBall2 +   SnoBall2 +  WideWave3 = Avalanche[GA]
+
+23 00 23 00 E5 00 34 05
+JetAttack3 + JetAttack3 + JngleStorm = FlygImpct[GA]
+
+DD 00 DD 00 DD 00 35 05
+ PiranKss1 +  PiranKss1 +  PiranKss1 = TrrntWave[GA]
+
+E4 00 E4 00 76 00 36 05
+ PuffBlst3 +  PuffBlst3 + TrnadoDnce = HolyLight[GA]
+
+D5 00 D5 00 D5 00 37 05
+DanceFire3 + DanceFire3 + DanceFire3 = WickdFlam[GA]
+
+01 00 01 00 01 00 10 01
+    Cannon +     Cannon +     Cannon = ImpctCanon
+
+08 00 08 00 08 00 13 01
+MiniGrnade + MiniGrnade + MiniGrnade = BigGrenade
+
+13 00 14 00 15 00 17 01
+     Sword +  WideSword +  LongSword =   GiantAxe
+
+66 00 96 00 1A 00 19 01
+ MadVulcn1 +  Attack+10 +  WhtMeteor = PlatMeteor
+
+13 00 13 00 21 00 37 01
+     Sword +      Sword + JetAttack1 = HrrcnDance

@@ -1,0 +1,623 @@
+MEGA MAN STAR FORCE 3: BLACK ACE
+
+Address start: 0x000D552C
+
+Meteor Light Barrage
+03 FF 4B 1A 66 02 69 02 82 00
+- Red Card
+- Null
+- Dual Version
+- Display Damage
+- Stop Time
+- Illegal
+- Bit 7
+- Ignore I-frames
+- Induce I-frames
+- Flinch
+- 130 Damage
+
+Atom Blazer
+07 FF 4B 1C 66 02 6A 02 90 01
+- Red Card
+- Fire
+- Dual Version
+- Display Damage
+- Stop Time
+- Illegal
+- Bit 7
+- Wind
+- Induce I-frames
+- Flinch
+- 400 Damage
+
+Dyna Wave
+0B FF 4B 18 66 02 6B 02 64 00
+- Red Card
+- Aqua
+- Dual Version
+- Display Damage
+- Stop Time
+- Illegal
+- Bit 7
+- Induce I-frames
+- Flinch
+- 100 Damage
+
+Thunderbolt Blade
+0F FF CB 18 66 02 6C 02 64 00
+- Red Card
+- Elec
+- Dual Version
+- Display Damage
+- Stop Time
+- Illegal
+- Bit 7
+- Sword
+- Induce I-frames
+- Flinch
+- 100 Damage
+
+Elemental Cyclone
+13 FF 4B 14 66 02 6D 02 64 00
+- Red Card
+- Wood
+- Dual Version
+- Display Damage
+- Stop Time
+- Illegal
+- Bit 7
+- Wind
+- Flinch
+- 100 Damage
+
+Black End Galaxy
+03 00 83 1E 66 02 68 02 F4 01
+- Red Card
+- Null
+- Black Ace
+- Display Damage
+- Stop Time
+- Sword
+- Ignore I-Frames
+- Wind
+- Induce I-Frames
+- Flinch
+- 500 Damage
+
+Red Gaia Eraser
+03 01 03 1D 66 02 67 02 C8 00
+- Red Card
+- Null
+- Red Joker
+- Break
+- Wind
+- Induce I-Frames
+- Flinch
+- 200 Damage
+
+hack panel
+00 FF 02 00 03 00 A7 00 00 00
+- White Card
+- Null
+- Dual Version
+- Stop Time
+- No Damage
+
+Spade Magnes GA
+2F FF 83 38 4C 00 3F 02 00 80
+- Red Card
+- Elec
+- Mega
+- Dual Version
+- Display Damage
+- Stop Time
+- Sword
+- Induce I-Frames
+- Flinch
+- Summon
+
+Diamond Ice GA
+2B FF 03 24 4D 00 40 02 01 80
+- Red Card
+- Aqua
+- Mega
+- Dual Version
+- Display Damage
+- Stop Time
+- Wind
+- Summon
+
+Club Strong GA
+33 FF 03 34 4E 00 41 02 02 80
+- Red Card
+- Wood
+- Mega
+- Dual Version
+- Display Damage
+- Stop Time
+- Wind
+- Flinch
+- Summon
+
+Queen Virgo GA
+2B FF 03 39 4F 00 42 02 03 80
+- Red Card
+- Aqua
+- Mega
+- Dual Version
+- Display Damage
+- Stop Time
+- Break
+- Induce I-Frames
+- Flinch
+- Summon
+
+Jack Corvus GA
+27 FF 03 38 50 00 43 02 04 80
+- Red Card
+- Fire
+- Mega
+- Dual Version
+- Display Damage
+- Stop Time
+- Induce I-Frames
+- Flinch
+- Summon
+
+Dread Joker GA
+23 FF 03 39 51 00 44 02 05 80
+- Red Card
+- Null
+- Mega
+- Dual Version
+- Display Damage
+- Stop Time
+- Break
+- Induce I-Frames
+- Flinch
+- Summon
+
+Acid Ace GA
+23 FF 83 39 52 00 45 02 06 80
+- Red Card
+- Null
+- Mega
+- Dual Version
+- Display Damage
+- Stop Time
+- Sword
+- Break
+- Induce I-Frames
+- Flinch
+- Summon
+
+Taurus Fire GA
+27 FF 03 38 53 00 46 02 07 80
+- Red Card
+- Fire
+- Mega
+- Dual Version
+- Display Damage
+- Stop Time
+- Induce I-Frames
+- Flinch
+- Summon
+
+Cygnus Wing GA
+23 FF 03 3D 54 00 47 02 08 80
+- Red Card
+- Null
+- Mega
+- Dual Version
+- Display Damage
+- Stop Time
+- Break
+- Wind
+- Induce I-Frames
+- Flinch
+- Summon
+
+Wolf Woods GA
+33 FF 83 30 55 00 48 02 09 80
+- Red Card
+- Wood
+- Mega
+- Dual Version
+- Display Damage
+- Stop Time
+- Sword
+- Flinch
+- Summon
+
+Dark Phantom GA
+23 FF 03 32 56 00 49 02 0A 80
+- Red Card
+- Null
+- Mega
+- Dual Version
+- Display Damage
+- Stop Time
+- Ignore I-Frames
+- Flinch
+- Summon
+
+Rogue GA
+23 FF 03 31 57 00 4A 02 0B 80
+- Red Card
+- Null
+- Mega
+- Dual Version
+- Display Damage
+- Stop Time
+- Break
+- Flinch
+- Summon
+
+Moon Destroyer GA
+23 FF 83 30 58 00 4B 02 0C 80
+- Red Card
+- Null
+- Mega
+- Dual Version
+- Display Damage
+- Stop Time
+- Sword
+- Flinch
+- Summon
+
+Apollo Flame GA
+27 FF 03 38 59 00 4C 02 0D 80
+- Red Card
+- Fire
+- Mega
+- Dual Version
+- Display Damage
+- Stop Time
+- Flinch
+- Summon
+
+Sirius GA
+23 FF 03 38 5A 00 4D 02 0E 80
+- Red Card
+- Null
+- Mega
+- Dual Version
+- Display Damage
+- Stop Time
+- Flinch
+- Summon
+
+Darkness Hole GA
+43 FF 02 00 5C 00 4E 02 0F 80
+- Red Card
+- Null
+- Giga
+- Dual Version
+- Stop Time
+
+Destroyer Missiles GA
+43 FF 03 1A 61 00 4F 02 10 80
+- Red Card
+- Null
+- Giga
+- Dual Version
+- Display Damage
+- Stop Time
+- Ignore I-Frames
+- Induce I-Frames
+- Flinch
+
+Breaking Time Bomb GA
+47 FF 03 19 5E 00 50 02 11 80
+- Red Card
+- Fire
+- Giga
+- Dual Version
+- Display Damage
+- Stop Time
+- Break
+- Induce I-Frames
+- Flinch
+
+Ox Tackle GA
+47 FF 03 39 63 00 51 02 12 80
+- Red Card
+- Fire
+- Giga
+- Dual Version
+- Display Damage
+- Stop Time
+- Break
+- Induce I-Frames
+- Flinch
+- Summon
+
+Yeti Blizzard GA
+2B FF 03 38 90 00 52 02 13 80
+- Red Card
+- Aqua
+- Mega
+- Dual Version
+- Display Damage
+- Stop Time
+- Induce I-Frames
+- Flinch
+- Summon
+
+Plesio Surf GA
+2B FF 03 38 91 00 53 02 14 80
+- Red Card
+- Aqua
+- Mega
+- Dual Version
+- Display Damage
+- Stop Time
+- Induce I-Frames
+- Flinch
+- Summon
+
+Terra Condor GA
+23 FF 03 34 92 00 54 02 15 80
+- Red Card
+- Null
+- Mega
+- Dual Version
+- Display Damage
+- Stop Time
+- Wind
+- Flinch
+- Summon
+
+Queen Ophiuca GA
+33 FF 03 31 93 00 55 02 16 80
+- Red Card
+- Wood
+- Mega
+- Dual Version
+- Display Damage
+- Stop Time
+- Break
+- Flinch
+- Summon
+
+Gemini Spark GA
+2F FF 83 21 94 00 56 02 17 80
+- Red Card
+- Elec
+- Mega
+- Dual Version
+- Display Damage
+- Stop Time
+- Sword
+- Break
+- Summon
+
+Cancer Bubble GA
+2B FF 03 20 95 00 57 02 18 80
+- Red Card
+- Aqua
+- Mega
+- Dual Version
+- Display Damage
+- Stop Time
+- Summon
+
+General Auriga GA
+23 FF 03 39 96 00 58 02 19 80
+- Red Card
+- Null
+- Mega
+- Dual Version
+- Display Damage
+- Stop Time
+- Break
+- Induce I-Frames
+- Flinch
+- Summon
+
+Libra Scales GA
+23 FF 03 38 97 00 59 02 1A 80
+- Red Card
+- Null
+- Mega
+- Dual Version
+- Display Damage
+- Stop Time
+- Induce I-Frames
+- Flinch
+- Summon
+
+Crown Thunder GA
+2F FF 03 38 98 00 5A 02 1B 80
+- Red Card
+- Elec
+- Mega
+- Dual Version
+- Display Damage
+- Stop Time
+- Induce I-Frames
+- Flinch
+- Summon
+
+Rocket Launch GA
+2F FF 03 39 99 00 5B 02 1C 80
+- Red Card
+- Elec
+- Mega
+- Dual Version
+- Display Damage
+- Stop Time
+- Break
+- Induce I-Frames
+- Flinch
+- Summon
+
+Ice Hammer B GA
+23 FF 03 39 9A 00 5C 02 1D 80
+- Red Card
+- Null
+- Mega
+- Dual Version
+- Display Damage
+- Stop Time
+- Break
+- Induce I-Frames
+- Flinch
+- Summon
+
+Strong Swing GA
+33 FF 03 31 9B 00 5D 02 1E 80
+- Red Card
+- Wood
+- Mega
+- Dual Version
+- Display Damage
+- Stop Time
+- Break
+- Flinch
+- Summon
+
+Gorgon Eye GA
+53 FF 03 32 9F 00 5E 02 1F 80
+- Red Card
+- Wood
+- Giga
+- Dual Version
+- Display Damage
+- Stop Time
+- Ignore I-Frames
+- Flinch
+- Summon
+
+Gemini Thunder GA
+4F FF 03 3A A0 00 5F 02 20 80
+- Red Card
+- Elec
+- Giga
+- Dual Version
+- Display Damage
+- Stop Time
+- Ignore I-Frames
+- Induce I-Frames
+- Flinch
+- Summon
+
+Rogue Break GA
+43 FF 83 39 A1 00 60 02 21 80
+- Red Card
+- Null
+- Giga
+- Dual Version
+- Display Damage
+- Stop Time
+- Sword
+- Break
+- Induce I-Frames
+- Flinch
+- Summon
+
+Avalanche GA
+4B FF 03 20 A2 00 61 02 22 80
+- Red Card
+- Aqua
+- Giga
+- Dual Version
+- Display Damage
+- Stop Time
+- Summon
+
+Flying Impact GA
+53 FF 03 31 A3 00 62 02 23 80
+- Red Card
+- Wood
+- Giga
+- Dual Version
+- Display Damage
+- Stop Time
+- Break
+- Flinch
+- Summon
+
+Torrent Wave GA
+4B FF 03 38 A4 00 63 02 24 80
+- Red Card
+- Aqua
+- Giga
+- Dual Version
+- Display Damage
+- Stop Time
+- Induce I-Frames
+- Flinch
+- Summon
+
+Holy Light GA
+43 FF 03 30 A5 00 64 02 25 80
+- Red Card
+- Null
+- Giga
+- Dual Version
+- Display Damage
+- Stop Time
+- Flinch
+- Summon
+
+Wicked Flame GA
+47 FF 03 3A A6 00 65 02 26 80
+- Red Card
+- Fire
+- Giga
+- Dual Version
+- Display Damage
+- Stop Time
+- Ignore I-Frames
+- Induce I-Frames
+- Flinch
+- Summon
+
+Black End Galaxy GA
+03 00 82 1E 66 02 68 02 01 00
+- Red Card
+- Null
+- Black Ace
+- Stop Time
+- Sword
+- Ignore I-Frames
+- Wind
+- Induce I-Frames
+- Flinch
+
+Red Gaia Eraser GA
+03 01 02 1D 66 02 67 02 01 00
+- Red Card
+- Null
+- Red Joker
+- Break
+- Wind
+- Induce I-Frames
+- Flinch
+
+Acid Arrest GA?
+03 FF 4B 1A 66 02 69 02 32 00
+- Red Card
+- Null
+- Dual Version
+- Display Damage
+- Stop Time
+- Illegal
+- Bit 7
+- Ignore I-Frames
+- Induce I-Frames
+- Flinch
+
+Crimson Meteor GA?
+07 FF 4B 1C 66 02 6A 02 64 00
+- Red Card
+- Fire
+- Dual Version
+- Display Damage
+- Stop Time
+- Illegal
+- Bit 7
+- Wind
+- Induce I-Frames
+- Flinch

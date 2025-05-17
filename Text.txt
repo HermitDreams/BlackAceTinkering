@@ -1,0 +1,1800 @@
+1C 0A
+34 38 0A
+3B 3A 21 0A
+25 3C 36 3E 3C 3B 32 0A
+20 25 0A
+34 0A
+19 20 3B 34 5F
+13 27 34 32 0A
+26 3C 32 3B 34 39 0A
+3C 3B 0A
+21 3D 3C 26 0A
+34 27 30 34 7B
+
+B CD EFG HIJKIEL MH C NMEC OACL PILECQ IE GRIP CASC
+
+J hl onO Spjrpof NS h GNoh AUhf Tpfohm po OqpT hUdh
+
+I am not picking up a Luna Frag signal in this area
+
+05 08 = [V2]
+00 55 = U
+01 55 = T
+02 55 = W
+03 55 = V
+04 55 = Q
+05 55 = P
+06 55 = S
+07 55 = R
+0A 55 =  
+0C 55 = Y
+0D 55 = X
+0F 55 = Z
+10 55 = E
+11 55 = D
+12 55 = G
+13 55 = F
+14 55 = A
+16 55 = C
+17 55 = B
+18 55 = M
+19 55 = L
+1A 55 = O
+1B 55 = N
+1C 55 = I
+1D 55 = H
+1E 55 = K
+1F 55 = J
+20 55 = u
+21 55 = t
+22 55 = w
+23 55 = v
+24 55 = q
+25 55 = p
+26 55 = s
+27 55 = r
+2C 55 = y
+2D 55 = x
+2F 55 = z
+30 55 = e
+31 55 = d
+32 55 = g
+33 55 = f
+34 55 = a
+36 55 = c
+37 55 = b
+38 55 = m
+39 55 = l
+3A 55 = o
+3B 55 = n
+3C 55 = i
+3D 55 = h
+3E 55 = k
+3F 55 = j
+5F 55 = Page Change?
+60 55 = 5
+61 55 = 4
+62 55 = 7
+63 55 = 6
+64 55 = 1
+65 55 = 0
+66 55 = 3
+67 55 = 2
+6A 55 = ?
+6C 55 = 9
+6D 55 = 8
+72 55 = '
+74 55 = !
+78 55 = -
+7B 55 = .
+7C 55 = )
+7D 55 = (
+7E 55 = +
+F6 56 = Σ
+FC 56 = Ω
+92 70 = [V3]
+30 74 = [GA]
+31 74 = [BB]
+33 74 = [ZZ]
+34 74 = [RR]
+36 74 = [GX]
+37 74 = [SP]
+4A AA = +
+67 AA = [R]
+6F AA = [Z]
+** AA is a substitute for 55, just add 60
+
+== mess_static.bin ==
+
+0x01848D78: Virus Busting
+0x01848D94: Wizard
+0x01848DA2: Mobile Terminal
+0x01848DC2: EM body
+0x01848DD2: Visualizer
+0x01848DE8: Virus
+0x01848DF4: Cyber Core
+0x01848E0A: EM Wave Change
+0x01848E28: Wave Station
+0x01848E42: Wave Road
+0x01848E56: Trans out
+0x01848E6A: Pulse out
+0x01848E7E: Purpose
+0x01848E8E: Team
+0x01848E98: Brother
+0x01848EA8: Noise Wave
+0x01848EBE: Hunter-VG
+0x01848ED2: WAZA
+0x01848EDC: Satella Police
+0x01848EFA: Alohaha
+0x01848F0A: Mu
+0x01848F10: Mega
+0x01848F1A: Prez
+0x01848F24: Bud
+0x01848F2C: Zack
+0x01848F36: Sonia
+0x01848F42: Lyra
+0x01848F4C: Boreal
+0x01848F5A: Dubius
+0x01848F68: Damian Wolfe
+0x01848F82: Solo
+0x01848F8C: Kelvin
+0x01848F9A: Ken Suther
+0x01848FB0: 3 Sages of AM
+0x01848FCC: Cepheus
+0x01848FDC: Planet AM
+0x01848FF0: Planet FM
+0x01849004: Copper
+0x01849012: Operator
+0x01849024: White Card
+0x0184903A: Default Card
+0x01849054: Trans in
+0x01849066: Mega Snack
+0x0184907C: Wizard Adapter
+0x0184909A: Keyword44
+0x018490AE: Keyword45
+0x018490C2: Keyword46
+0x018490D6: Keyword47
+0x018490EA: Keyword48
+0x018490FE: Keyword49
+0x01849112: KeywordEnd
+
+0x018492BC: Luna 4 Prez
+0x018492D4: Luna Launch
+0x018492EC: SoniaBackers
+0x01849306: Holiday Pals
+0x01849320: Life 4 Luna
+0x01849338: SP Commandos
+0x01849352: SP Commandos
+0x0184936C: Star Force
+0x01849382: Black Ace
+0x01849396: Red Joker
+
+0x018496B6: Geo Stelar
+0x018496CC: KelvinStelar
+0x018496E6: Hope Stelar
+0x018496FE: Luna Platz
+0x01849714: Bud Bison
+0x01849728: Zack Temple
+0x01849740: Sonia Strumm
+0x0184975A: Solo
+0x01849764: Mr. King
+0x01849776: Jack
+0x01849780: (Queen) Tia
+0x01849798: Joker
+0x018497A4: Heartless
+0x018497B8: A.C. Eos
+0x018497CA: Ken Suther
+0x018497E0: L.M. Shin
+0x018497F4: WAZA Chief
+0x0184980A: Woody Boffin
+0x01849824: Mitch Shepar
+0x0184983E: Lee Stern
+0x01849852: Belle
+0x0184985E: Aaron Boreal
+0x01849878: Bob Copper
+0x0184988E: Dr. Goodall
+0x018498A6: Damian Wolfe
+0x018498C0: Tom Dubius
+0x018498D6: Axe Tagrind
+0x018498EE: Rolly Pollyn
+0x01849908: Pleya Masta
+0x01849920: Flora Petals
+0x0184993A: Brandon Gay
+0x01849952: Janet Hsu
+0x01849966: Iver Gatte
+0x0184997C: Miguel Corti
+0x01849996: Kaori Funa
+0x018499AC: Jax Dubelz
+0x018499C2: Hamer Nayl
+0x018499D8: Hide Seek
+0x018499EC: Amora McCard
+0x01849A06: Jack Flask
+0x01849A1C: Angel Wise
+0x01849A32: Pete Fabiano
+0x01849A4C: Meala DeVour
+0x01849A66: Jon Airhart
+0x01849A7E: Dadd DeChamp
+0x01849A98: Lil O'lady
+0x01849AAE: Andy Alfonso
+0x01849AC8: Kipit Real
+0x01849ADE: Carma Iffy
+0x01849AF4: Rick Stowal
+0x01849B0E: Tru Harmony
+0x01849B26: Cash Money
+0x01849B3C: Candy Bar
+0x01849B50: Autumn Leaf
+0x01849B68: Chery Blosom
+0x01849B82: Han Gard
+0x01849B94: Damon Crow
+0x01849BAA: Trish Trig
+0x01849BC0: Fany Chase
+0x01849BD6: Harry Sasoon
+0x01849BF0: Eatsa Lotte
+0x01849C08: Prima Occhio
+0x01849C22: Mary McLovin
+0x01849C3C: Chatty Ditz
+0x01849C54: Don McCard
+0x01849C6A: Stey Phamish
+0x01849C84: Marian White
+0x01849C9E: Ai Conphes
+0x01849CB4: Roman Sea
+0x01849CC8: Gelb Derby
+0x01849CDE: Lady Like
+0x01849CF2: Max Dubelz
+0x01849D08: Angel Smart
+0x01849D20: Jack Flask
+0x01849D36: Lotta Charm
+0x01849D4E: Stela Beauty
+0x01849D68: Raida Briz
+0x01849D7E: Boss Hawg
+0x01849D92: Lil O'lady
+0x01849DA8: Luvza Deal
+0x01849DBE: Jon Airhart
+0x01849DD6: Fula Hart
+0x01849DEA: Ima Inluv
+0x01849DFE: Bono Chops
+0x01849E14: Miguel Corti
+0x01849E2E: SP Officer M
+0x01849E48: Timus Munny
+0x01849E60: Overob Sesed
+0x01849E7A: SP Officer M
+0x01849E94: SP Officer F
+0x01849EAE: Dewatta Cey
+0x01849EC6: Tap Tappity
+0x01849EDE: Brandon Gay
+0x01849EF6: Janet Hsu
+0x01849F0A: Pete Fabiano
+0x01849F24: Kaori Funa
+0x01849F3A: Max Dubelz
+0x01849F50: Hua Mai
+0x01849F60: Kaori Funa
+0x01849F76: Janet Hsu
+0x01849F8A: Gian Luigi
+0x01849FA0: Kard Kolek
+0x01849FB6: Kaz Nova
+0x01849FC8: Bo Ribbon
+0x01849FDC: Winter Snow
+0x01849FF4: Badatt Cein
+0x0184A00C: Billy Bonka
+0x0184A024: Britta Baker
+0x0184A03E: Lil O'lady
+0x0184A054: Pete Fabiana
+0x0184A06E: Kee Grip
+0x0184A080: Pan Holweet
+0x0184A098: Lotsa Pasta
+0x0184A0B0: Paris Trendy
+0x0184A0CA: Britta Baker
+0x0184A0E4: Ravi Oli
+0x0184A0F6: Summer Camp
+0x0184A10E: SP Officer M
+0x0184A128: SP Officer F
+0x0184A142: Engineer
+0x0184A154: Legse Larga
+0x0184A16C: Lowe Sweet
+0x0184A182: Onda Sette
+0x0184A198: Ben Tou
+0x0184A1A8: Siesta McNap
+0x0184A1C2: Jotthis Daun
+0x0184A1DC: Directa Mann
+0x0184A1F6: Bery Homsik
+0x0184A20E: Chacky Jan
+0x0184A224: Lily Luz
+0x0184A236: Julia Monroe
+0x0184A250: WAZA Staff M
+0x0184A26A: WAZA Staff F
+0x0184A284: SP Officer M
+0x0184A29E: SP Officer F
+0x0184A2B8: Sanc Quatr
+0x0184A2CE: Busy Body
+0x0184A2E2: Marina South
+0x0184A2FC: Isle Briny
+0x0184A312: Lil O'lady
+0x0184A328: Tidal Rider
+0x0184A340: F. Torchwood
+0x0184A35A: Vaga Bonds
+0x0184A370: Sheso Lovely
+0x0184A38A: Brandon Gay
+0x0184A3A2: Hua Mai
+0x0184A3B2: Brandon Gay
+0x0184A3CA: Manny Hunky
+0x0184A3E2: Slinky Lass
+0x0184A3FA: Ray Finn
+0x0184A40C: Butta Flai
+0x0184A422: Balsam Pear
+0x0184A43A: Beach Gal
+0x0184A44E: Buff Biggs
+0x0184A464: Rip Muscle
+0x0184A47A: T. Daimonji
+0x0184A492: Gale Front
+0x0184A4A8: Bill Webster
+0x0184A4C2: Toshi Burns
+0x0184A4DA: Suss Dabest
+0x0184A4F2: Auta Yerleag
+0x0184A50C: Ala Moana
+0x0184A520: Pete Fabiana
+0x0184A53A: Bulk N'Skull
+0x0184A554: SP Officer M
+0x0184A56E: Keapa Winnin
+0x0184A588: WAZA Lt. M
+0x0184A59E: T. Kusanagi
+0x0184A5B6: SP Officer M
+0x0184A5D0: Strong Bicep
+0x0184A5EA: SPOfficer FA
+0x0184A604: Knell Ringer
+0x0184A61E: Vidy Otaku
+0x0184A634: Rob Sidkic
+0x0184A64A: Gent Gallant
+0x0184A664: Ann Prudence
+0x0184A67E: WAZA Col. M
+0x0184A696: WAZA Col. F
+0x0184A6AE: Spunky Noob
+0x0184A6C6: Earl Grey
+0x0184A6DA: Sugar Suet
+0x0184A6F0: SPOfficer MA
+0x0184A70A: Sho Ryuken
+0x0184A720: SPOfficer MC
+0x0184A73A: SPOfficer FA
+0x0184A754: Waye Milky
+0x0184A76A: SPOfficer FC
+0x0184A784: Yung Verdure
+0x0184A79E: Sol Shiner
+0x0184A7B4:  
+0x0184A7B8:  
+0x0184A7BC:  
+
+0x0184AC58: Mettenna
+0x0184AC6A: Mettenna2
+0x0184AC7E: Mettenna3
+0x0184AC92: MettennaG
+0x0184ACA6: Mettenna2G
+0x0184ACBC: Mettenna3G
+0x0184ACD2: Crowcar
+0x0184ACE2: Crowket
+0x0184ACF2: Crowbus
+0x0184AD02: CrowcarG
+0x0184AD14: CrowketG
+0x0184AD26: CrowbusG
+0x0184AD38: Smiler
+0x0184AD46: Smiling
+0x0184AD56: Smiley
+0x0184AD64: SmilerG
+0x0184AD74: SmilingG
+0x0184AD86: SmileyG
+0x0184AD96: Ku'i
+0x0184ADA0: Ku'i-ga
+0x0184ADB0: Ku'i-guru
+0x0184ADC4: Ku'iG
+0x0184ADD0: Ku'i-gaG
+0x0184ADE2: Ku'i-guruG
+0x0184ADF8: DoomCount
+0x0184AE0C: DoomBomber
+0x0184AE22: DoomPlosion
+0x0184AE3B: DoomCountG
+0x0184AE50: DoomBomberG
+0x0184AE68: DoomPlosionG
+0x0184AE82: Boom
+0x0184AE8C: Bang
+0x0184AE96: Ka-Boom
+0x0184AEA6: BoomG
+0x0184AEB2: BangG
+0x0184AEBE: Ka-BoomG
+0x0184AED0: Scorcher
+0x0184AEE2: DlxScorcher
+0x0184AEFA: NeoScorcher
+0x0184AF12: ScorcherG
+0x0184AF26: DlxScorcherG
+0x0184AF40: NeoScorcherG
+0x0184AF5A: Koma
+0x0184AF64: Shisha
+0x0184AF72: Shisa
+0x0184AF7E: KomaG
+0x0184AF8A: ShishaG
+0x0184AF9A: ShisaG
+0x0184AFA8: Wibbledee
+0x0184AFBC: Wibbledoo
+0x0184AFD0: Wibbledum
+0x0184AFE4: WibbledeeG
+0x0184AFFA: WibbledooG
+0x0184B010: WibbledumG
+0x0184B026: StremCancro
+0x0184B03E: RiverCancro
+0x0184B056: SeaCancro
+0x0184B06A: StremCancroG
+0x0184B084: RiverCancroG
+0x0184B09E: SeaCancroG
+0x0184B0B4: BlueShark
+0x0184B0C8: SandShark
+0x0184B0DC: GoblinShark
+0x0184B0F4: BlueSharkG
+0x0184B10A: SandSharkG
+0x0184B120: GoblinSharkG
+0x0184B13A: Spinguin
+0x0184B14C: MidSpinguin
+0x0184B164: TopSpinguin
+0x0184B17C: SpinguinG
+0x0184B190: MidSpinguinG
+0x0184B1AA: TopSpinguinG
+0x0184B1C4: Stealth
+0x0184B1D4: MegaStealth
+0x0184B1EC: GigaStealth
+0x0184B204: StealthG
+0x0184B216: MegaStealthG
+0x0184B230: GigaStealthG
+0x0184B24A: ShockMummy
+0x0184B260: ShockTut
+0x0184B272: ShockSeti
+0x0184B286: ShockMummyG
+0x0184B29E: ShockTutG
+0x0184B2B2: ShockSetiG
+0x0184B2C8: Voltragon
+0x0184B2DC: Wattragon
+0x0184B2F0: Ampragon
+0x0184B302: VoltragonG
+0x0184B318: WattragonG
+0x0184B32E: AmpragonG
+0x0184B342: Zapper
+0x0184B350: Zappster
+0x0184B362: Zappattack
+0x0184B378: ZapperG
+0x0184B388: ZappsterG
+0x0184B39C: ZappattackG
+0x0184B3B4: Arachnid
+0x0184B3C6: Arachnod
+0x0184B3D8: Arachnoid
+0x0184B3EC: ArachnidG
+0x0184B400: ArachnodG
+0x0184B414: ArachnoidG
+0x0184B42A: ShuriKen
+0x0184B43C: ShuriKen-2
+0x0184B452: ShuriKen-3
+0x0184B468: ShuriKenG
+0x0184B47C: ShuriKen-2G
+0x0184B494: ShuriKen-3G
+0x0184B4AC: GrassPollen
+0x0184B4C4: WeedPollen
+0x0184B4DA: TreePollen
+0x0184B4F0: GrassPollenG
+0x0184B50A: WeedPollenG
+0x0184B522: TreePollenG
+0x0184B53A: Nutty
+0x0184B546: Nutsy
+0x0184B552: Nutso
+0x0184B55E: NuttyG
+0x0184B56C: NutsyG
+0x0184B57A: NutsoG
+0x0184B588: Raid
+0x0184B592: Ravage
+0x0184B5A0: Ransack
+0x0184B5B0: RaidG
+0x0184B5BC: RavageG
+0x0184B5CC: RansackG
+0x0184B5DE: Chakram
+0x0184B5EE: BlueChakram
+0x0184B606: OnyxChakram
+0x0184B61E: ChakramG
+0x0184B630: BlueChakramG
+0x0184B64A: OnyxChakramG
+0x0184B664: Musashi
+0x0184B674: Kotetsu
+0x0184B684: Masamune
+0x0184B696: MusashiG
+0x0184B6A8: KotetsuG
+0x0184B6BA: MasamuneG
+0x0184B6CE: BoneArcher
+0x0184B6E4: SkeleArcher
+0x0184B6FC: GhoulArcher
+0x0184B714: BoneArcherG
+0x0184B72C: SkeleArcherG
+0x0184B746: GhoulArcherG
+0x0184B760: BaseMortar
+0x0184B776: BaseGunner
+0x0184B78C: BaseSniper
+0x0184B7A2: BaseMortarG
+0x0184B7BA: BaseGunnerG
+0x0184B7D2: BaseSniperG
+0x0184B7EA: MuDefender
+0x0184B800: MuProtector
+0x0184B818: MuGuardian
+0x0184B82E: MuDefenderG
+0x0184B846: MuProtectorG
+0x0184B860: MuGuardianG
+0x0184B878: NoiseWzrdB1
+0x0184B890: NoiseWzrdB2
+0x0184B8A8: NoiseWzrdR1
+0x0184B8C0: NoiseWzrdR2
+0x0184B8D8: NoiseWzrdS1
+0x0184B8F0: NoiseWzrdS2
+0x0184B908: MalWizard
+0x0184B91C: MalWizard2
+0x0184B932: MalWizard3
+0x0184B948: MalWizardG
+0x0184B95E: MalWizard2G
+0x0184B976: MalWizard3G
+0x0184B98E: Grabity
+0x0184B99E: Grabotron
+0x0184B9B2: Grabaklone
+0x0184B9C8: GrabityG
+0x0184B9DA: GrabotronG
+0x0184B9F0: GrabakloneG
+0x0184BA08: OmegaXCopyG
+0x0184BA20: OmegaXCopyY
+0x0184BA38: OmegaXCopyR
+0x0184BA50: OmegaXCopyW
+0x0184BA68: OmegaXCopyP
+0x0184BA80: OmegaXCopyB
+0x0184BA98: Blank
+0x0184BAA4: Blank
+0x0184BAB0: Blank
+0x0184BABC: Blank
+0x0184BAC8: Blank
+0x0184BAD4: Blank
+0x0184BAE0: Blank
+0x0184BAEC: Mr. Hertz
+0x0184BB00: Mega Man
+0x0184BB12: SpadMgnes
+0x0184BB26: SpadMgnes[V2]
+0x0184BB3C: SpadMgnes[V3]
+0x0184BB52: SpadMgnesR
+0x0184BB68: SpadMgnesΩ
+0x0184BB7E: Blank
+0x0184BB8A: DiamndIce
+0x0184BB9E: DiamndIce[V2]
+0x0184BBB4: DiamndIce[V3]
+0x0184BBCA: DiamndIceR
+0x0184BBE0: DiamndIceΩ
+0x0184BBF6: Blank
+0x0184BC02: ClubStrng
+0x0184BC16: ClubStrng[V2]
+0x0184BC2C: ClubStrng[V3]
+0x0184BC42: ClubStrngR
+0x0184BC58: ClubStrngΩ
+0x0184BC6E: Blank
+0x0184BC7A: QueenVrgo
+0x0184BC8E: QueenVrgo[V2]
+0x0184BCA4: QueenVrgo[V3]
+0x0184BCBA: QueenVrgoR
+0x0184BCD0: QueenVrgoΩ
+0X0184BCE6: Blank
+0x0184BCF2: JackCorvs
+0x0184BD06: JackCorvs[V2]
+0x0184BD1C: JackCorvs[V3]
+0x0184BD32: JackCorvsR
+0x0184BD48: JackCorvsΩ
+0x0184BD5E: Blank
+0x0184BD6A: DreadJokr
+0x0184BD7E: DreadJokr[V2]
+0x0184BD94: DreadJokr[V3]
+0x0184BDAA: DreadJokrR
+0x0184BDC0: DreadJokr[RR]
+0x0184BDD6: Blank
+0x0184BDE2: CrimsnDragn
+0x0184BDFA: CrimsnDragn
+0x0184BE12: CrimsnDragn[SP]
+0x0184BE2C: CrimsnDragn[SP]
+0x0184BE46: CrimsnDragnΣ
+0x0184BE60: Blank
+0x0184BE6C: TaursFire
+0x0184BE80: TaursFire[V2]
+0x0184BE96: TaursFire[V3]
+0x0184BEAC: TaursFireR
+0x0184BEC2: TaursFireΩ
+0x0184BED8: Blank
+0x0184BEE4: Rogue
+0x0184BEF0: Rogue[V2]
+0x0184BEFE: Rogue[V3]
+0x0184BF0C: RogueZ
+0x0184BF1A: Rogue[ZZ]
+0x0184BF28: Blank
+0x0184BF34: AcidAce
+0x0184BF44: AcidAceB
+0x0184BF56: AcidAce[V3]
+0x0184BF68: AcidAceR
+0x0184BF7A: AcidAce[BB]
+0x0184BF8C: Blank
+0x0184BF98: DrkPhntm
+0x0184BFAA: DrkPhntm[V2]
+0x0184BFBE: DrkPhntm[V3]
+0x0184BFD2: DrkPhntmR
+0x0184BFE6: DrkPhntmΩ
+0x0184BFFA: Blank
+0x0184C006: CygnsWing
+0x0184C01A: CygnsWing[V2]
+0x0184C030: CygnsWing[V3]
+0x0184C046: CygnsWingR
+0x0184C05C: CygnsWingΩ
+0x0184C072: Blank
+0x0184C07E: WolfWoods
+0x0184C092: WolfWoods[V2]
+0x0184C0A8: WolfWoods[V3]
+0x0184C0BE: WolfWoodsR
+0x0184C0D2: WolfWoodsΩ
+0x0184C0EA: Blank
+0x0184C0F6: MoonDstry
+0x0184C10A: MoonDstry[V2]
+0x0184C120: MoonDstry[V3]
+0x0184C136: MoonDstryR
+0x0184C14C: MoonDstryΣ
+0x0184C162: Blank
+0x0184C16E: ApolloFlm
+0x0184C182: ApolloFlm[V2]
+0x0184C198: ApolloFlm[V3]
+0x0184C1AE: ApolloFlmR
+0x0184C1C4: ApolloFlmΣ
+0x0184C1DA: Blank
+0x0184C1E6: Sirius
+0x0184C1F4: Sirius[V2]
+0x0184C204: Sirius[V3]
+0x0184C214: SiriusR
+0x0184C224: SiriusΣ
+0x0184C234: Blank
+0x0184C240: Omega-Xis
+0x0184C254: Omega-Xis[V2]
+0x0184C26A: Omega-Xis[V3]
+0x0184C280: Omega-XisR
+0x0184C296: Omega-Xis[V2]
+0x0184C2AC: Blank
+
+0x0184C2E0: Geo
+0x0184C2E8: Mega Man
+0x0184C2FA: Mega
+0x0184C304: Prez
+0x0184C30E: Bud
+0x0184C316: Zack
+0x0184C320: Hunter
+
+0x0184C5FE: Echo Ridge
+0x0184C614: Geo's LvRm
+0x0184C62A: Geo's Room
+0x0184C640: Luna's Room
+0x0184C658: Bud's Room
+0x0184C66E: Zack's Room
+0x0184C686: BIG WAVE
+0x0184C698: Sci. Club Room
+0x0184C6B6: 1st Floor Hall
+0x0184C6D4: 2nd Floor Hall
+0x0184C6F2: Class 5-A
+0x0184C706: Roof
+0x0184C710: Spica Mall
+0x0184C726: Mall Event Area
+0x0184C746: Candy Shop
+0x0184C75C: Roof
+0x0184C766: WBG Studios
+0x0184C77E: WBG Main Bldg
+0x0184C79A: Event Stage
+0x0184C7B2: Event Stage
+0x0184C7CA: Alohaha
+0x0184C7DA: Beach
+0x0184C7E6: Beach
+0x0184C7F2: Alohaha Castle
+0x0184C800: Natl WAZA HQ
+0x0184C82A: SatellaPolice HQ
+0x0184C84C: Command Center
+0x0184C86A: Natl WAZA HQ
+0x0184C884: SatellaPolice HQ
+0x0184C8A6: SatellaPolice HQ
+0x0184C8C8: Command Center
+0x0184C8E6: Secret Shelter
+0x0184C904: Crimson Factory
+0x0184C924: Dealer Base
+0x0184C93C: Orbital Base
+0x0184C956: Outer Space
+0x0184C96E: Meteor Explosion
+0x0184C990: Noise Wave1
+0x0184C9A8: Noise Wave2
+0x0184C9C0: Noise Wave3
+0x0184C9D8: Noise Wave4
+0x0184C9F0: Noise Wave5
+0x0184CA08: Noise Wave6
+0x0184CA20: School Noise
+0x0184CA3A: Doghouse Noise
+0x0184CA58: Principal Noise
+0x0184CA78: Shop Front Noise
+0x0184CA9A: Lighting Noise
+0x0184CAB8: Video Game Noise
+0x0184CADA: Tennis Crt Noise
+0x0184CAFC: Water Ctrl Noise
+0x0184CB1E: Tree Noise
+0x0184CB34: Ctrl Panel Noise
+0x0184CB56: Bud's Bed Noise
+0x0184CB76: Podium Noise
+0x0184CB90: Hoop Noise
+0x0184CBA6: Bathroom Noise
+0x0184CBC4: WBG Logo Noise
+0x0184CBE2: Ship Noise
+0x0184CBF8: Fish Dsply Noise
+0x0184CC1A: World Map Noise
+0x0184CC3A: Cactus Noise
+0x0184CC54: Wooden Box Noise
+0x0184CC76: Coin Noise
+0x0184CC8C: Port Noise
+0x0184CCA2: Jamming Noise1
+0x0184CCC0: Jamming Noise2
+0x0184CCDE: Jamming Noise3
+0x0184CCFC: Jamming Noise4
+0x0184CD1A: Jamming Noise5
+0x0184CD38: Jamming Noise6
+0x0184CD56: Rocket CC1
+0x0184CD6C: Rocket CC2
+0x0184CD82: Event Stage CC1
+0x0184CDA2: Event Stage CC2
+0x0184CDC2: Event Stage CC3
+0x0184CDE2: Enviro Sys CC1
+0x0184CE00: Enviro Sys CC2
+0x0184CE1E: Enviro Sys CC3
+0x0184CE3C: CC Abyss1
+0x0184CE50: CC Abyss2
+0x0184CE64: CC Abyss3
+0x0184CE78: CC Abyss4
+0x0184CE8C: Crimson Mchn CC1
+0x0184CEAE: Crimson Mchn CC2
+0x0184CED0: Crimson Mchn CC3
+0x0184CEF2: Meteor Server1
+0x0184CF10: Meteor Server2
+0x0184CF2E: Meteor Server3
+0x0184CF4C: Meteor Server4
+0x0184CF6A: Black Hole Srvr1
+0x0184CF8C: Black Hole Srvr2
+0x0184CFAE: Luna's House CC
+0x0184CFCE: Memorial Tree CC
+0x0184CFF0: Security Sys CC
+0x0184D010: Stunt Car CC
+0x0184D02A: Prop Cabinet CC
+0x0184D04A: Stone wall CC
+0x0184D066: IslandDisplay CC
+0x0184D088: Info Board CC
+0x0184D0A4: Main Computer CC
+0x0184D0C6: King Wall CC
+0x0184D0E0: Crimson Tank CC
+0x0184D100: Meteor G Ctrl CC
+0x0184D122: Info Kiosk CC
+0x0184D13E: ERidge Wicket CC
+0x0184D160: Trophy CC
+0x0184D174: Moth Display CC
+0x0184D194: Human Model CC
+0x0184D1B2: Sprinkler CC
+0x0184D1CC: Spica Wicket CC
+0x0184D1EC: Trash Can CC
+0x0184D206: Spimo the Cat CC
+0x0184D228: WBG Wicket CC
+0x0184D244: Water Ctrl CC
+0x0184D260: Studio Set CC
+0x0184D27C: Card Vendor CC
+0x0184D29A: Gum Machine CC
+0x0184D2B8: Alohaha Dog CC
+0x0184D2D6: Dragon Statue CC
+0x0184D2F8: Fish CC
+0x0184D308: Antenna CC
+0x0184D31E: Mini Antenna CC
+0x0184D33E: Desk CC
+0x0184D34E: AC System CC
+0x0184D368: Air Duct CC
+0x0184D380: Analysis Unit CC
+0x0184D3A2: Giant Monitor CC
+0x0184D3C4: ?
+0x0184D3C8: ?
+0x0184D3CC: ?
+0x0184D3D0: ?
+0x0184D3D4: ?
+0x0184D3D8: ?
+0x0184D3DC: ?
+0x0184D3E0: ?
+0x0184D3E4: Mr. Hertz Square
+0x0184D406: School Gate CC
+0x0184D424: Dentist CC
+0x0184D43A: Food Stand CC
+0x0184D456: ?
+0x0184D45A: ?
+0x0184D45E: ?
+0x0184D462: ?
+0x0184D466: ?
+0x0184D46A: ?
+0x0184D46E: ?
+0x0184D472: ?
+0x0184D476: ?
+0x0184D47A: ?
+0x0184D47E: ?
+0x0184D482: ?
+0x0184D486: ?
+0x0184D48A: Principal CC
+0x0184D4A4: Shooting Game CC
+0x0184D4C6: Regulator CC
+0x0184D4E0: Admin Monitor CC
+0x0184D502: ?
+0x0184D506: ?
+0x0184D50A: ?
+0x0184D50E: ?
+0x0184D512: ?
+0x0184D516: ?
+0x0184D51A: ?
+0x0184D51E: ?
+0x0184D522: ?
+0x0184D526: ?
+0x0184D52A: ?
+0x0184D52E: ?
+0x0184D532: Natl Astro Wave1
+0x0184D554: Natl Astro Wave2
+0x0184D576: OuterAstro Wave1
+0x0184D598: OuterAstro Wave2
+0x0184D5BA: PlntFMAstroWave1
+0x0184D5DC: PlntFMAstroWave2
+0x0184D5FE: PlntFMAstroWave3
+0x0184D620: Debug
+
+0x0184D66C: Other
+0x0184D678: Echo Ridge
+0x0184D68E: Echo Ridge Elem.
+0x0184D6B0: Spica Mall
+0x0184D6C6: WBG Studios
+0x0184D6DE: Alohaha
+0x0184D6EE: WAZA
+0x0184D6F8: Dealer Base
+0x0184D710: Orbital Base
+0x0184D72A: Natl Astro Wave
+0x0184D74A: Outer Astro Wave
+0x0184D76C: PlntFMAstroWave
+0x0184D78C: Noise Wave
+
+0x0184D88A: Visualizer
+0x0184D8A0: Hunter-VG
+0x0184D8B4: Luna FragA
+0x0184D8CA: Luna FragB
+0x0184D8E0: Luna FragC
+0x0184D8F6: Luna FragD
+0x0184D90C: Luna FragE
+0x0184D922: Luna FragF
+0x0184D938: Mr. Hertz
+0x0184D94C: Noise Code1
+0x0184D964: Noise Code2
+0x0184D97C: Noise Code3
+0x0184D994: Noise Code4
+0x0184D9AC: Noise Frag
+0x0184D9C2: Opp Noise
+0x0184D9D6: -
+0x0184D9DA: -
+0x0184D9DE: -
+0x0184D9E2: -
+0x0184D9E6: -
+0x0184D9EA: -
+0x0184D9EE: -
+0x0184D9F2: -
+0x0184D9F6: -
+0x0184D9FA: Wallpaper
+0x0184DA0E: Sonia Card36
+0x0184DA28: Sonia Card89
+0x0184DA42: Sonia Card03
+0x0184DA5C: Sonia Card99
+0x0184DA76: Test Paper
+0x0184DA8C: MM's Sig.
+0x0184DAA0: Belle's Sig.
+0x0184DABA: Camera
+0x0184DAC8: Beach Photo
+0x0184DAE0: Castle Photo
+0x0184DAFA: Burger Quest
+0x0184DB14: Taco Fantasy
+0x0184DB2E: Coconut
+0x0184DB3E: Hibiscus
+0x0184DB50: Snake Juice
+0x0184DB68: E-Tank Drink
+0x0184DB82: Urban Legend
+0x0184DB9C: Cleaning Set
+0x0184DBB6: Ice Cream
+0x0184DBCA: Lunch Box1
+0x0184DBE0: Lunch Box2
+0x0184DBF6: Lunch Box3
+0x0184DC0C: Memo
+0x0184DC16: G. Beef
+0x0184DC26: Spices
+0x0184DC34: Broke Hunter
+0x0184DC4E: WAZA Key
+0x0184DC60: Dealer Key
+0x0184DC76: Wave LinerID
+0x0184DC90: Omega Piece
+
+0x0184DD0C: PntdFang
+0x0184DD1E: StarHoop
+0x0184DD30: ShadowClaw
+0x0184DD46: Quick Ring
+0x0184DD5C: AquaFang
+0x0184DD6E: StormHoop
+0x0184DD82: ParlyzWing
+0x0184DD98: R-F Claw
+0x0184DDAA: ZennyFindr
+0x0184DDC0: TitnGlve
+0x0184DDD2: FlashBang
+0x0184DDE6: K.Knckle
+0x0184DDF8: VirusClaw
+0x0184DE0C: HypnoEye
+0x0184DE1E: ImpctRoar
+0x0184DE32: CardFindr
+0x0184DE46: CosmicRave
+0x0184DE5C: Chivalry
+0x0184DE6E: WhiteFang
+0x0184DE82: GaleClaw
+0x0184DE94: DangerRing
+0x0184DEAA: BN BlstrEX
+
+0x0184DEE4: SmEnrgy
+0x0184DEF4: LrgEnrgy
+0x0184DF06: D.Enrgy
+0x0184DF16: Unlocker
+0x0184DF28: Cloaker
+0x0184DF38: SrchEye
+
+0x0184DF5C: HPMem10
+0x0184DF6C: HPMem20
+
+0x0184E088: GeoFldr
+0x0184E098: WAZAFldr
+0x0184E0AA: KlvnFldr
+0x0184E0BC: XtraFldr
+0x0184E0CE: TaurusF1
+0x0184E0E0: TaurusF2
+0x0184E0F2: TaurusF3
+0x0184E104: CygnusF1
+0x0184E116: CygnusF2
+0x0184E128: CygnusF3
+0x0184E13A: LibraF1
+0x0184E14A: LibraF2
+0x0184E15A: LibraF3
+0x0184E16A: OphiucF1
+0x0184E17C: OphiucF2
+0x0184E18E: OphiucF3
+0x0184E1A0: GeminiF1
+0x0184E1B2: GeminiF2
+0x0184E1C4: GeminiF3
+0x0184E1D6: CancerF1
+0x0184E1E8: CancerF2
+0x0184E1FA: CancerF3
+0x0184E20C: WolfF1
+0x0184E21A: WolfF2
+0x0184E228: WolfF3
+0x0184E236: CrownF1
+0x0184E246: CrownF2
+0x0184E256: CrownF3
+0x0184E266: VirgoF1
+0x0184E276: VirgoF2
+0x0184E286: VirgoF3
+0x0184E296: CorvusF1
+0x0184E2A8: CorvusF2
+0x0184E2BA: CorvusF3
+0x0184E2CC: Archiv30
+0x0184E2DE: Archiv31
+0x0184E2F0: Archiv32
+0x0184E302: Archiv33
+0x0184E314: Archiv34
+0x0184E326: Archiv35
+0x0184E338: Archiv36
+0x0184E34A: Archiv37
+0x0184E35C: Archiv38
+0x0184E36E: Archiv39
+0x0184E380: Archiv40
+0x0184E392: Archiv41
+0x0184E3A4: Archiv42
+0x0184E3B6: Archiv43
+0x0184E3C8: Archiv44
+0x0184E3DA: Archiv45
+0x0184E3EC: Archiv46
+0x0184E3FE: Archiv47
+0x0184E410: Archiv48
+0x0184E422: Archiv49
+0x0184E434: Archiv50
+0x0184E446: Archiv51
+0x0184E458: Archiv52
+0x0184E46A: Archiv53
+0x0184E47C: Archiv54
+0x0184E48E: Archiv55
+0x0184E4A0: Archiv56
+0x0184E4B2: Archiv57
+0x0184E4C4: Archiv58
+0x0184E4D6: Archiv59
+
+0x0184E740: UndrShrt
+0x0184E752: AirShoes
+0x0184E764: FlotShoe
+0x0184E776: Reflect
+0x0184E786: SprArmr
+0x0184E796: NoFlash
+0x0184E7A6: NoGravty
+0x0184E7B8: NoParlyz
+0x0184E7CA: NoFreeze
+0x0184E7DC: NoBubble
+0x0184E7EE: CardHeal
+0x0184E800: FstBarr
+0x0184E810: FstAura
+0x0184E820: +V-Shot
+0x0184E830: +X-Shot
+0x0184E840: +SprdSht
+0x0184E852: +WoodPnl
+0x0184E864: +IcePnl
+0x0184E874: +ParaPnl
+0x0184E886: +GNulPnl
+0x0184E898: +PoisPnl
+0x0184E8AA: CrsShotC
+0x0184E8BC: SpreadC
+0x0184E8CC: MadVlcnC
+0x0184E8DE: BigDropC
+0x0184E8F0: BuzzSawC
+0x0184E902: MuTechC
+0x0184E912: MchFlmeC
+0x0184E924: ShuriknC
+0x0184E936: IceSpinC
+0x0184E948: FlshStrC
+0x0184E95A: +Wind
+0x0184E966: +Blind
+0x0184E974: +Panic
+0x0184E982: +Gravity
+0x0184E994: +Invis
+0x0184E9A2: +Paralyz
+0x0184E9B4: AutoLock
+0x0184E9C6: QuckGage
+0x0184E9D8: AntiDmg
+0x0184E9E8: DiagLock
+0x0184E9FA: SideLock
+0x0184EA0C: AcePrgm
+0x0184EA1C: HumrWrd
+0x0184EA2E: HumrBstr
+0x0184EA40: HumrBst2
+0x0184EA52: MaxBstr
+0x0184EA62: BodyPack
+0x0184EA74: StatGrd
+0x0184EA84: AreaEtrS
+0x0184EA96: DblStonS
+0x0184EAA8: GrassS
+0x0184EAB6: IceS
+0x0184EAC0: Atk+10S
+0x0184EAD0: PnlFrmtS
+0x0184EAE2: WhistleS
+0x0184EAF4: Recov30S
+0x0184EB06: PnicCldS
+0x0184EB18: BlkInkS
+0x0184EB28: DblEtrS
+0x0184EB38: InvisS
+0x0184EB46: Parlyz+S
+0x0184EB58: PrlyzStS
+0x0184EB6A: AtkPnlS
+0x0184EB7A: DivdeLnS
+0x0184EB8C: BomblzrS
+0x0184EB9E: NrmlGA+
+0x0184EBAE: FireGA+
+0x0184EBBE: AquaGA+
+0x0184EBCE: ElecGA+
+0x0184EBDE: WoodGA+
+0x0184EBEE: CannonCF
+0x0184EC00: MdVlcnCF
+0x0184EC12: MchFlmCF
+0x0184EC24: DrlArmCF
+0x0184EC36: PlsmaSCF
+0x0184EC48: SprBariF
+0x0184EC5A: AuraF
+0x0184EC66: GrssPnlF
+0x0184EC78: IcePnlF
+0x0184EC88: GNulPnlF
+0x0184EC9A: HolyPnlF
+0x0184ECAC: PlyzPnlF
+0x0184ECBE: -
+0x0184ECC2: -
+0x0184ECC6: -
+0x0184ECCA: -
+0x0184ECCE: HP Bug1
+0x0184ECDE: HP Bug2
+0x0184ECEE: HP Bug3
+0x0184ECFE: HP Bug4
+0x0184ED0E: StatBug1
+0x0184ED20: StatBug2
+0x0184ED32: StatBug3
+0x0184ED44: StatBug4
+0x0184ED56: MoveBug1
+0x0184ED68: MoveBug2
+0x0184ED7A: MoveBug3
+0x0184ED8C: MoveBug4
+0x0184ED9E: BstrBug1
+0x0184EDB0: BstrBug2
+0x0184EDC2: BstrBug3
+0x0184EDD4: BstrBug4
+0x0184EDE6: HP+50
+0x0184EDF2: HP+100
+0x0184EE00: HP+150
+0x0184EE0E: HP+200
+0x0184EE1C: HP+250
+0x0184EE2A: HP+300
+0x0184EE38: HP+400
+0x0184EE46: HP+500
+0x0184EE54: MegCls+1
+0x0184EE66: MegCls+2
+0x0184EE78: GigCls+1
+0x0184EE8A: Fire+10
+0x0184EE9A: Fire+20
+0x0184EEAA: Fire+40
+0x0184EEBA: Aqua+10
+0x0184EECA: Aqua+20
+0x0184EEDA: Aqua+40
+0x0184EEEA: Elec+10
+0x0184EEFA: Elec+20
+0x0184EF0A: Elec+40
+0x0184EF1A: Wood+10
+0x0184EF2A: Wood+20
+0x0184EF3A: Wood+40
+0x0184EF4A: Sword+10
+0x0184EF5C: Sword+20
+0x0184EF6E: Sword+40
+0x0184EF80: Break+10
+0x0184EF92: Break+20
+0x0184EFA4: Break+40
+0x0184EFB6: Turn+1F
+0x0184EFC6: Turn+2F
+0x0184EFD6: AcesLV+1
+0x0184EFE8: NrmlStar
+0x0184EFFA: FireStar
+0x0184F00C: AquaStar
+0x0184F01E: ElecStar
+0x0184F030: WoodStar
+0x0184F042: SwrdStar
+0x0184F054: BrkStar
+0x0184F064: -
+0x0184F068: -
+0x0184F06C: -
+0x0184F070: -
+0x0184F074: JokrPrgm
+
+0x0184F206:   
+0x0184F20C: Team
+0x0184F216: Purpose
+0x0184F226: Blossom Code
+0x0184F240: GigaEnrgCard
+0x0184F25A: Gate Key
+0x0184F26C: Studio Pass
+0x0184F284: Stage Pass
+0x0184F29A: SP Key1
+0x0184F2AA: WAZAPasscode
+0x0184F2C4: SP Key2
+0x0184F2D4: Dealer Key
+0x0184F2EA: Kelvin Key
+0x0184F300: Mega Snack
+0x0184F316:   
+0x0184F31C:   
+0x0184F322: School Seal
+0x0184F33A: Spica Shop
+0x0184F350: 77TV
+0x0184F35A: WAZA ID
+0x0184F36A: SP ID
+0x0184F376: Btl Wzrd F
+0x0184F38C: Burger Club
+0x0184F3A4: MM Club ID
+0x0184F3BA: Sonia Fans
+0x0184F3D0: DM
+0x0184F3D6:   
+0x0184F3DC: ERROR!
+0x0184F3EA:   
+0x0184F3F0: WARNING
+0x0184F400: DOWNLOAD!
+0x0184F414: Battle Card
+0x0184F42C:   
+0x0184F432:   
+0x0184F438: Pedia
+0x0184F444: Coil
+0x0184F44E: Magnes
+0x0184F45C: Acid
+0x0184F466: Lyra
+0x0184F470: Vogue
+0x0184F47C: Taurus
+0x0184F48A: Corvus
+0x0184F498: Virgo
+0x0184F4A4: Laplace
+0x0184F4B4: Hang Ten
+0x0184F4C6: Ice
+0x0184F4CE: Cygnus
+0x0184F4DC: Wolf
+0x0184F4E6: ShadowAcid
+0x0184F4FC: ShadowCorvus
+0x0184F516: ShadowVirgo
+0x0184F52E: Wizard
+0x0184F5EC: Boss
+0x0184F546: Name
+0x0184F550: NO ACCESS
+0x0184F564: ACCESS
+0x0184F572:   
+0x0184F578: Destination
+0x0184F590: Echo Ridge
+0x0184F5A6: Spica Mall
+0x0184F5BC: WBG Studios
+0x0184F5D4: Alohaha
+0x0184F5E4: Natl WAZA HQ
+0x0184F5FE: 1F
+0x0184F604: 2F
+0x0184F60A: Roof
+0x0184F614: 1F
+0x0184F61A: 57F
+0x0184F622: 1F
+0x0184F628: 2F
+0x0184F62E: Roof
+0x0184F638: 1F
+0x0184F63E: 57F
+0x0184F646: White Card
+0x0184F65C: Transform ID
+0x0184F676: Folder
+0x0184F684: Luna Display
+0x0184F69E: Noise Key
+0x0184F6B2: NPC Bro.
+0x0184F6C4: NPC Bro. Big
+0x0184F6DE: Team Big
+0x0184F6F0: Keyword
+0x0184F700: Mail1
+0x0184F70C: Mail2
+0x0184F718: Message
+0x0184F728: Keypad
+0x0184F736: Print Reader
+0x0184F750: HELP
+0X0184f75A: Brother
+0x0184F76A: Text1
+0x0184F776: Text2
+0x0184F782: Text3
+0x0184F78E: Menu
+
+0x0184FE00: None
+0x0184FE0A: Cannon
+0x0184FE18: PlusCannon
+0x0184FE2E: HevyCannon
+0x0184FE44: PlasmaGun
+0x0184FE58: AirSpread1
+0x0184FE6E: AirSpread2
+0x0184FE84: AirSpread3
+0x0184FE9A: MiniGrnade
+0x0184FEB0: DrillArm1
+0x0184FEC4: DrillArm2
+0x0184FED8: DrillArm3
+0x0184FEEC: BeastSlap1
+0x0184FF02: BeastSlap2
+0x0184FF18: BeastSlap3
+0x0184FF2E: WindyAtk1
+0x0184FF42: WindyAtk2
+0x0184FF56: WindyAtk3
+0x0184FF6A: PanicCloud
+0x0184FF80: Sword
+0x0184FF8C: WideSword
+0x0184FFA0: LongSword
+0x0184FFB4: GreatAxe
+0x0184FFC6: SyncHook1
+0x0184FFDA: SyncHook2
+0x0184FFEE: SyncHook3
+0x01850002: WhtMeteor
+0x01850016: SilvMeteor
+0x0185002C: BlackInk
+0x0185003E: DblEater
+0x01850050: GrandWave1
+0x01850066: GrandWave2
+0x0185007C: GrandWave3
+0x01850092: JetAttack1
+0x018500A8: JetAttack2
+0x018500BE: JetAttack3
+0x018500D4: Buki1
+0x018500E0: Buki2
+0x018500EC: Buki3
+0x018500F8: SmileCoin1
+0x0185010E: SmileCoin2
+0x01850124: SmileCoin3
+0x0185013A: BigDrop1
+0x0185014C: BigDrop2
+0x0185015E: BigDrop3
+0x01850170: TimeBomb1
+0x01850184: TimeBomb2
+0x01850198: TimeBomb3
+0x018501AC: HeatUppr1
+0x018501C0: HeatUppr2
+0x018501D4: HeatUppr3
+0x018501E8: MechFlame1
+0x018501FE: MechFlame2
+0x01850214: MechFlame3
+0x0185022A: MadFire1
+0x0185023C: MadFire2
+0x0185024E: MadFire3
+0x01850260: WideWave1
+0x01850274: WideWave2
+0x01850288: WideWave3
+0x0185029C: BubblHook1
+0x018502B2: BubblHook2
+0x018502C8: BubblHook3
+0x018502DE: SharkAtk1
+0x018502F2: SharkAtk2
+0x01850306: SharkAtk3
+0x0185031A: IceSpin1
+0x0185032C: IceSpin2
+0x0185033E: IceSpin3
+0x01850350: StlthLzr1
+0x01850364: StlthLzr2
+0x01850378: StlthLzr3
+0x0185038C: MummyHand1
+0x018503A2: MummyHand2
+0x018503B8: MummyHand3
+0x018503CE: ThndrHead1
+0x018503E4: ThndrHead2
+0x018503FA: ThndrHead3
+0x01850410: FlashStrk1
+0x01850426: FlashStrk2
+0x0185043C: FlashStrk3
+0x01850452: ArachAtk1
+0x01850466: ArachAtk2
+0x0185047A: ArachAtk3
+0x0185048E: Shuriken1
+0x018504A2: Shuriken2
+0x018504B6: Shuriken3
+0x018504CA: PollnShot1
+0x018504E0: PollnShot2
+0x018504F6: PollnShot3
+0x0185050C: AcornBomb1
+0x01850522: AcornBomb2
+0x01850538: AcornBomb3
+0x0185054E: BuzzSaw1
+0x01850560: BuzzSaw2
+0x01850572: BuzzSaw3
+0x01850584: Bushido1
+0x01850596: Bushido2
+0x018505A8: Bushido3
+0x018505BA: SkullArrw1
+0x018505D0: SkullArrw2
+0x018505E6: SkullArrw3
+0x018505FC: MadVulcn1
+0x01850610: MadVulcn2
+0x01850624: MadVulcn3
+0x01850638: MuTech1
+0x01850648: MuTech2
+0x01850658: MuTech3
+0x01850668: NoiseWzrd1
+0x0185067E: NoiseWzrd2
+0x01850694: NoiseWzrd3
+0x018506AA: MalWizard1
+0x018506C0: MalWizard2
+0x018506D6: MalWizard3
+0x018506EC: BlackHole1
+0x01850702: BlackHole2
+0x01850718: BlackHole3
+0x0185072E: TyphnDance
+0x01850744: TrnadoDnce
+0x0185075A: DblStone
+0x0185076C: Bombalizer
+0x01850782: DivideLine
+0x01850798: PanlFormat
+0x018507AE: FlameAxe
+0x018507C0: MegaCrushr
+0x018507D6: GravtyPlus
+0x018507EC: Recover10
+0x01850800: Recover30
+0x01850814: Recover50
+0x01850828: Recover80
+0x0185083C: Recover120
+0x01850852: Recover150
+0x01850868: Recover200
+0x0185087E: Recover300
+0x01850894: Barrier
+0x018508A4: SprBarrier
+0x018508BA: Aura
+0x018508C4: Invisible
+0x018508D8: Whistle
+0x018508E8: SpiritFury
+0x018508FE: AntiSword
+0x01850912: PoisnApple
+0x01850928: DoublCross
+0x0185093E: GigaMine
+0x01850950: GrassStage
+0x01850966: IceStage
+0x01850978: PrlyzeStg
+0x0185098C: HolyPanel
+0x018509A0: AtkPanel
+0x018509B2: ParlyzPlus
+0x018509C8: Attack+10
+0x018509DC: SpadMagns
+0x018509F0: SpadMagns[V2]
+0x01850A06: SpadMagns[V3]
+0x01850A1C: DiamndIce
+0x01850A30: DiamndIce[V2]
+0x01850A46: DiamndIce[V3]
+0x01850A5C: ClubStrng
+0x01850A70: ClubStrng[V2]
+0x01850A86: ClubStrng[V3]
+0x01850A9C: QueenVrgo
+0x01850AB0: QueenVrgo[V2]
+0x01850AC6: QueenVrgo[V3]
+0x01850ADC: JackCorvs
+0x01850AF0: JackCorvs[V2]
+0x01850B06: JackCorvs[V3]
+0x01850B1C: DreadJokr
+0x01850B30: DreadJokr[V2]
+0x01850B46: DreadJokr[V3]
+0x01850B5C: AcidAce
+0x01850B6C: AcidAce[V2]
+0x01850B7E: AcidAce[V3]
+0x01850B90: TaursFire
+0x01850BA4: TaursFire[V2]
+0x01850BBA: TaursFire[V3]
+0x01850BD0: CygnsWing
+0x01850BE4: CygnsWing[V2]
+0x01850BFA: CygnsWing[V3]
+0x01850C10: WolfWoods
+0x01850C24: WolfWoods[V2]
+0x01850C3A: WolfWoods[V3]
+0x01850C50: DrkPhntm
+0x01850C62: DrkPhntm[V2]
+0x01850C76: DrkPhntm[V3]
+0x01850C8A: Rogue
+0x01850C96: Rogue[V2]
+0x01850CA4: Rogue[V3]
+0x01850CB2: MoonDstry
+0x01850CC6: MoonDstry[V2]
+0x01850CDC: MoonDstry[V3]
+0x01850CF2: ApolloFlm
+0x01850D06: ApolloFlm[V2]
+0x01850D1C: ApolloFlm[V3]
+0x01850D32: Sirius
+0x01850D40: Sirius[V2]
+0x01850D50: Sirius[V3]
+0x01850D60: WingBlade
+0x01850D74: DrknssHole
+0x01850D8A: MilliKick
+0x01850D9E: BrkTmeBmb
+0x01850DB2: MuBarrier
+0x01850DC6: DreadLazer
+0x01850DDC: DestrMissl
+0x01850DF2: BusterMax
+0x01850E06: OxTackle
+0x01850E18: MirrorsEdg
+0x01850E2E: ++++
+0x01850E38: ++++
+0x01850E42: Scythe1
+0x01850E52: Scythe2
+0x01850E62: Scythe3
+0x01850E72: DanceFire1
+0x01850E88: DanceFire2
+0x01850E9E: DanceFire3
+0x01850EB4: KiloBomb1
+0x01850EC8: KiloBomb2
+0x01850EDC: KiloBomb3
+0x01850EF0: SnoBall1
+0x01850F02: SnoBall2
+0x01850F14: SnoBall3
+0x01850F26: PiranKss1
+0x01850F3A: PiranKss2
+0x01850F4E: PiranKss3
+0x01850F62: Squall1
+0x01850F72: Squall2
+0x01850F82: Squall3
+0x01850F92: PuffBlst1
+0x01850FA6: PuffBlst2
+0x01850FBA: PuffBlst3
+0x01850FCE: JngleStorm
+0x01850FE4: SnoStorm
+0x01850FF6: PoisnStorm
+0x0185100C: HeatGrnde
+0x01851020: WoodGrnde
+0x01851034: IceGrnde
+0x01851046: RdrMissile
+0x0185105C: StunKnukle
+0x01851072: PoisKnukle
+0x01851088: FrezKnukle
+0x0185109E: ElecSlash
+0x018510B2: WoodSlash
+0x018510C6: FireSlash
+0x018510DA: BreakSabre
+0x018510F0: GreenInk
+0x01851102: BlueInk
+0x01851112: PurpleInk
+0x01851126: VulcnSeed1
+0x0185113C: VulcnSeed2
+0x01851152: VulcnSeed3
+0x01851168: DstryUpper
+0x0185117E: WrriorSoul
+0x01851194: Muramasa
+0x018511A6: ExtiMeteor
+0x018511BC: AllPoison
+0x018511D0: Fire+30
+0x018511E0: Aqua+30
+0x018511F0: Elec+30
+0x01851200: Wood+30
+0x01851210: Earthundr1
+0x01851226: Earthundr2
+0x0185123C: Earthundr3
+0x01851252: SwrdFghtr1
+0x01851268: SwrdFghtr2
+0x0185127E: SwrdFghtr3
+0x01851294: SpinBlade1
+0x018512AA: SpinBlade2
+0x018512C0: SpinBlade3
+0x018512D6: QuickGauge
+0x018512EC: NormlGauge
+0x01851302: SlowGauge
+0x01851316: CardRevive
+0x0185132C: MegaBoost
+0x01851340: ImpctCanon
+0x01851356: PlasmaGunX
+0x0185136C: AirSpreadX
+0x01851382: BigGrenade
+0x01851398: DrillArmX
+0x018513AC: BeastSlapX
+0x018513C2: WindyAtkX
+0x018513D6: GiantAxe
+0x018513E8: SyncHookX
+0x018513FC: PlatMeteor
+0x01851412: GrandWaveX
+0x01851428: JetAttackX
+0x0185143E: BukiX
+0x0185144A: SmileCoinX
+0x01851460: BigDropX
+0x01851472: TimeBombX
+0x01851486: HeatUpprX
+0x0185149A: MechFlameX
+0x018514B0: MadFireX
+0x018514C2: WideWaveX
+0x018514D6: BubblHookX
+0x018514EC: SharkAtkX
+0x01851500: IceSpinX
+0x01851512: StlthLzrX
+0x01851526: MummyHandX
+0x0185153C: ThndrHeadX
+0x01851552: FlashStrkX
+0x01851568: ArachAtkX
+0x0185157C: ShurikenX
+0x01851590: PollnShotX
+0x018515A6: AcornBombX
+0x018515BC: BuzzSawX
+0x018515CE: BushidoX
+0x018515E0: SkullArrwX
+0x018515F6: MadVulcnX
+0x0185160A: MuTechX
+0x0185161A: NoiseWzrdX
+0x01851630: MadWizardX
+0x01851646: BlackHoleX
+0x0185165C: HrrcnDance
+0x01851672: ScytheX
+0x01851682: DanceFireX
+0x01851698: KiloBombX
+0x018516AC: SnoBallX
+0x018516BE: PiranKssX
+0x018516D2: SquallX
+0x018516E2: PuffBlastX
+0x018516F8: VulcnSeedX
+0x0185170C: EarthundrX
+0x01851722: SwrdFghtrX
+0x01851738: SpinBladeX
+0x0185174E: BreakSabrX
+0x01851764: YetiBlzrd
+0x01851778: YetiBlzrd[V2]
+0x0185178E: YetiBlzrd[V3]
+0x018517A4: PlesioSrf
+0x018517B8: PlesioSrf[V2]
+0x018517CE: PlesioSrf[V3]
+0x018517E4: TerraCndr
+0x018517F8: TerraCndr[V2]
+0x0185180E: TerraCndr[V3]
+0x01851824: QnOphiuca
+0x01851838: QnOphiuca[V2]
+0x0185184E: QnOphiuca[V3]
+0x01851864: GeminSprk
+0x01851878: GeminSprk[V2]
+0x0185188E: GeminSprk[V3]
+0x018518A4: CancrBubl
+0x018518B8: CancrBubl[V2]
+0x018518CE: CancrBubl[V3]
+0x018518E4: GenAuriga
+0x018518F8: GenAuriga[V2]
+0x0185190E: GenAuriga[V3]
+0x01851924: LibraScls
+0x01851938: LibraScls[V2]
+0x0185194E: LibraScls[V3]
+0x01851964: CrwnThndr
+0x01851978: CrwnThndr[V2]
+0x0185198E: CrwnThndr[V3]
+0x018519A4: RocktLnch
+0x018519B8: RocktLnch[V2]
+0x018519CE: RocktLnch[V3]
+0x018519E4: IceHammrB
+0x018519F8: IceHammrB[V2]
+0x01851A0E: IceHammrB[V3]
+0x01851A24: StrngSwng
+0x01851A38: StrngSwng[V2]
+0x01851A4E: StrngSwng[V3]
+0x01851A64: SpadMgnesX
+0x01851A7A: DiamndIceX
+0x01851A90: ClubStrngX
+0x01851AA6: QueenVrgoX
+0x01851ABC: JackCorvsX
+0x01851AD2: DreadJokrX
+0x01851AE8: AcidAceX
+0x01851AFA: TaursFireX
+0x01851B10: CygnsWingX
+0x01851B26: WolfWoodsX
+0x01851B3C: DrkPhntmX
+0x01851B50: RogueX
+0x01851B5E: MoonDstryX
+0x01851B74: ApolloFlmX
+0x01851B8A: SiriusX
+0x01851B9A: YetiBlzrdX
+0x01851BB0: PlesioSrfX
+0x01851BC6: TerraCndrX
+0x01851BDC: QnOphiucaX
+0x01851BF2: GeminSprkX
+0x01851C08: CancrBublX
+0x01851C1E: GenAurigaX
+0x01851C34: LibraSclsX
+0x01851C4A: CrwnThndrX
+0x01851C60: RocktLnchX
+0x01851C76: IceHammrBX
+0x01851C8C: StrngSwngX
+0x01851CA2: PegasuMgc[GX]
+0x01851CB8: LeoKingdm[GX]
+0x01851CCE: DragonSky[GX]
+0x01851CE4: GorgonEye
+0x01851CF8: GeminThndr
+0x01851D0E: RogueBreak
+0x01851D24: Avalanche
+0x01851D38: FlyngImpct
+0x01851D4E: TrrntWave
+0x01851D62: HolyLight
+0x01851D76: WickdFlame
+0x01851D8C: Blank Card
+0x01851DA2: Blank Card
+0x01851DB8: Blank Card
+0x01851DCE: Blank Card
+0x01851DE4: Blank Card
+0x01851DFA: Blank Card
+0x01851E10: Blank Card
+0x01851E26: Blank Card
+0x01851E3C: Blank Card
+
+0x01851F5E: Satellite Server
+0x01851F80: Meteor Server
+0x01851F9C: Bro.Force3
+0x01851FB2: Bro.Force4
+0x01851FC8: Bro.Force5
+0x01851FDE: AreaEater
+0x01851FF2: Special0
+0x01852004: Special1
+0x01852016: MteorLight
+0x0185202C: AtomBlazer
+0x01852042: DynaWave
+0x01852054: TB Blade
+0x01852066: ElemCycln
+0x0185207A: BlkEndGlxy
+0x01852090: RdGaiaErsr
+0x018520A6: hack panel
+0x018520BC: SpadMgnes[GA]
+0x018520D2: DiamndIce[GA]
+0x018520E8: ClubStrng[GA]
+0x018520FE: QueenVrgo[GA]
+0x01852114: JackCorvs[GA]
+0x0185212A: DreadJokr[GA]
+0x01852140: AcidAce[GA]
+0x01852152: TaursFire[GA]
+0x01852168: CygnsWing[GA]
+0x0185217E: WolfWoods[GA]
+0x01852194: DrkPhntm[GA]
+0x018521A8: Rogue[GA]
+0x018521B6: MoonDstry[GA]
+0x018521CC: ApolloFlm[GA]
+0x018521E2: Sirius[GA]
+0x018521F2: DrknsHole[GA]
+0x01852208: DestrMisl[GA]
+0x0185221E: BrkTmeBmb[GA]
+0x01852234: OxTackle[GA]
+0x01852248: YetiBlzrd[GA]
+0x0185225E: PlesioSrf[GA]
+0x01852274: TerraCndr[GA]
+0x0185228A: QnOphiuca[GA]
+0x018522A0: GeminSprk[GA]
+0x018522B6: CancrBubl[GA]
+0x018522CC: GenAuriga[GA]
+0x018522E2: LibraScls[GA]
+0x018522F8: CrwnThndr[GA]
+0x0185230E: RocktLnch[GA]
+0x01852324: IceHammrB[GA]
+0x0185233A: StrngSwng[GA]
+0x01852350: GorgonEye[GA]
+0x01852366: GmniThndr[GA]
+0x0185237C: RogueBrk[GA]
+0x01852390: Avalanche[GA]
+0x018523A6: FlygImpct[GA]
+0x018523BC: TrrntWave[GA]
+0x018523D2: HolyLight[GA]
+0x018523E8: WickdFlam[GA]
+0x018523FE: BlkEndGlxy
+0x01852414: RdGaiaErsr
+0x0185242A: MteorLight
+0x01852440: AtomBlazer
+0x01852456:  
+0x0185245A: CrmsnMteor
+0x01852470: AcidArrest
+
+0x01852598: Taurus
+0x018525A6: Cancer
+0x018525B4: Diamond
+0x018525C4: Ophiuca
+0x018525D4: Crown
+0x018525E0: Plesio
+0x018525EE: Kidd
+0x018525F8: Cygnus
+0x01852606: Lyra
+0x01852610: Club
+0x0185261A: Apollo
+0x01852628: Phantom
+0x01852638: Leo
+0x01852640: Hollow
+0x0185264E: Wolf
+0x01852658: Gemini
+0x01852666: Libra
+0x01852672: Corvus
+0x01852680: Condor
+0x0185268E: Moon
+0x01852698: Spade
+0x018526A4: Auriga
+0x018526B2: Virgo
+0x018526BE: Pegasus
+0x018526CE: Ace
+0x018526D6: Andromeda
+0x018526EA: Rogue
+0x018526F6: Protoman
+0x01852708: Dragon
+0x01852716: Joker
+0x01852722: Le Mu
+0x0185272E: Bass
+0x01852738: Alpha
+0x01852744: Beta
+0x0185274E: Gamma
+0x0185275A: Delta
+0x01852766: Epsilon
+0x01852776: Zeta
+0x01852780: Eta
+0x01852788: Theta
+0x01852794: Iota
+0x0185279E: Kappa
+0x018527AA: Lambda
+0x018527B8: Mu
+0x018527BE: Nu
+0x018527C4: Xi
+0x018527CA: Omicron
+0x018527DA: Pi
+0x018527E0: Ro
+0x018527E6: Sigma
+0x018527F2: Tau
+0x018527FA: Upsilon
+0x0185280A: Phi
+0x01852812: Kai
+0x0185281A: Psi
+0x01852822: Omega
+0x0185282E:  
+0x01852832:  
+0x01852836:  
+0x0185283A:  
+0x0185283E:  
+0x01852842:  
+0x01852846:  
+
+0x0185288C: Libra
+0x01852898: Corvus
+0x018528A6: Cancer
+0x018528B4: Gemini
+0x018528C2: Ophiuca
+0x018528D2: Cygnus
+0x018528E0: Taurus
+0x018528EE: Virgo
+0x018528FA: Crown
+0x01852906: Wolf
+0x01852910: Rogue
+
+= End mess_static.bin =

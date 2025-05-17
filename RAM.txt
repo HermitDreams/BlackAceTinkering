@@ -1,0 +1,33 @@
+MEGA MAN STAR FORCE 3: BLACK ACE
+
+RAM
+
+* GMD Note: A "1" means to award a chip instead
+
+0x020F7DD4: Currently Selected Card [2 Bytes]
+0x020F8C44: Current Zenny Held
+0x020F93B4: Current Zenny Held
+0x0216104C: Recent GMD Award
+0x02161450: Related to 0x0216104C
+0x02191124: MegaMan's Currently Displayed HP [2 Bytes]
+0x021998F4: Currently Displayed Card Reward In Center [2 Bytes]
+0x021998F6: Currently Displayed Card Reward On Left [2 Bytes]
+0x021998F8: Currently Displayed Card Reward On Right [2 Bytes]
+0x021998FC: Currently Displayed Health/Zenny Reward Amount [2 Bytes]
+0x0219A290: Noise Percent (Displayed?) [2 Bytes]
+0x0219A294: Noise Percent (Displayed?) [2 Bytes]
+0x021B14C4: Current Zenny Held
+0x021DEB34: Natl Astro Wave1 Upper GMD Zenny Amount
+0x021DEC98: Natl Astro Wave1 Lower GMD Zenny Amount
+0x021DFF04: Natl Astro Wave2 Lower GMD Zenny Amount
+0x021E0068: Natl Astro Wave2 Upper GMD Zenny Amount
+0x021E40A4: 1st Floor Hall GMD Zenny Amount
+0x021E40A8: 1st Floor Hall GMD Non-Zenny Reward
+0x021E4378: Sci. Club Room GMD Zenny Amount
+0x021E437C: Sci. Club Room GMD Non-Zenny Reward
+0x021E4798: Duplicate of 0x021E40A4
+0x021E479C: Duplicate of 0x021E40A8
+0x0220DFBC: Echo Ridge Long Gate GMD Zenny Amount
+0x0220E120: Echo Ridge BIG WAVE GMD Zenny Amount
+0x0228C900: Currently Displayed GMD Card Reward?
+0x0228C9A4: Related to 0x0228C900
