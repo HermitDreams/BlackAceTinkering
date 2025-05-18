@@ -390,7 +390,7 @@
 20 00 80 06 01 00 00 00 CF 38 (+IcePnl/160)
 
 
-???
+Spica Mall GMD
 
 20 00 80 06 E0 01 00 00 00 08 (480z)
 20 00 80 06 30 02 00 00 00 08 (560z)
@@ -401,7 +401,7 @@
 20 00 80 06 01 00 00 00 68 38 (HP+100/220)
 
 
-???
+Luna's House CC First GMD
 
 20 00 80 06 2C 01 00 00 00 08 (300z)
 20 00 80 06 54 01 00 00 00 08 (340z)
@@ -412,7 +412,7 @@
 20 00 80 06 01 00 00 00 89 00 (Invisible)
 
 
-???
+Luna's House CC Second GMD
 
 20 00 80 06 04 01 00 00 00 08 (260z)
 20 00 80 06 18 01 00 00 00 08 (280z)
@@ -423,7 +423,7 @@
 20 00 80 06 01 00 00 00 21 00 (JetAttack1)
 
 
-???
+Memorial Tree CC First GMD
 
 20 00 80 06 2C 01 00 00 00 08 (300z)
 20 00 80 06 54 01 00 00 00 08 (340z)
@@ -434,7 +434,7 @@
 20 00 80 06 01 00 00 00 89 00 (Invisible)
 
 
-???
+Memorial Tree CC Second GMD
 
 20 00 80 06 BE 00 00 00 00 08 (190z)
 20 00 80 06 FA 00 00 00 00 08 (250z)
@@ -445,7 +445,7 @@
 20 00 80 06 01 00 00 00 1E 00 (GrandWave1)
 
 
-???
+Security Sys CC First GMD
 
 20 00 80 06 C8 00 00 00 00 08 (200z)
 20 00 80 06 FA 00 00 00 00 08 (250z)
@@ -456,7 +456,7 @@
 20 00 80 06 01 00 00 00 96 00 (Attack+10)
 
 
-???
+Security Sys CC Second GMD
 
 20 00 80 06 B4 00 00 00 00 08 (180z)
 20 00 80 06 E6 00 00 00 00 08 (230z)
@@ -489,7 +489,7 @@ Rocket CC2 Second GMD
 20 00 80 06 01 00 00 00 90 00 (GrassStage)
 
 
-???
+WBG Studios Pond GMD
 
 20 00 80 06 DC 00 00 00 00 08 (220z)
 20 00 80 06 F0 00 00 00 00 08 (240z)
@@ -500,7 +500,7 @@ Rocket CC2 Second GMD
 20 00 80 06 01 00 00 00 06 00 (AirSpread2)
 
 
-???
+WBG Studios Road GMD
 
 20 00 80 06 A0 00 00 00 00 08 (160z)
 20 00 80 06 C8 00 00 00 00 08 (200z)
@@ -511,7 +511,7 @@ Rocket CC2 Second GMD
 20 00 80 06 01 00 00 00 30 00 (HeatUppr1)
 
 
-???
+Event Stage GMD
 
 20 00 80 06 18 01 00 00 00 08 (280z)
 20 00 80 06 40 01 00 00 00 08 (320z)
@@ -522,7 +522,7 @@ Rocket CC2 Second GMD
 20 00 80 06 01 00 00 00 80 00 (Recover50)
 
 
-???
+Event Stage CC1 First GMD
 
 20 00 80 06 C8 00 00 00 00 08 (200z)
 20 00 80 06 18 01 00 00 00 08 (280z)
@@ -533,7 +533,7 @@ Rocket CC2 Second GMD
 20 00 80 06 01 00 00 00 39 00 (WideWave1)
 
 
-???
+Event Stage CC1 Second GMD
 
 20 00 80 06 BE 00 00 00 00 08 (190z)
 20 00 80 06 F0 00 00 00 00 08 (240z)
@@ -599,7 +599,7 @@ Rocket CC2 Second GMD
 20 00 80 06 01 00 00 00 3C 00 (BubblHook1)
 
 
-???
+Natl Astro Wave1 Noise Wave GMD
 
 20 00 80 06 F4 01 00 00 00 08 (500z)
 20 00 80 06 30 02 00 00 00 08 (560z)
@@ -610,7 +610,7 @@ Rocket CC2 Second GMD
 20 00 80 06 01 00 00 00 30 00 (HeatUppr1)
 
 
-???
+Natl Astro Wave1 WAZA GMD
 
 20 00 80 06 1C 02 00 00 00 08 (540z)
 20 00 80 06 58 02 00 00 00 08 (600z)
@@ -621,7 +621,7 @@ Rocket CC2 Second GMD
 20 00 80 06 01 00 00 00 39 00 (WideWave1)
 
 
-???
+Natl Astro Wave2 Top GMD
 
 20 00 80 06 72 01 00 00 00 08 (370z)
 20 00 80 06 B8 01 00 00 00 08 (440z)
@@ -877,7 +877,7 @@ Rocket CC2 First GMD
 20 00 80 06 01 00 00 00 0C 00 (BeastSlap1)
 
 
-???
+WBG Main Bldg Top GMD
 
 20 00 80 06 C8 00 00 00 00 08 (200z)
 20 00 80 06 04 01 00 00 00 08 (260z)
@@ -889,7 +889,7 @@ Rocket CC2 First GMD
 20 00 80 06 01 00 00 00 06 00 (AirSpread2)
 
 
-???
+WBG Main Bldg Bottom GMD
 
 20 00 80 06 A0 00 00 00 00 08 (160z)
 20 00 80 06 B4 00 00 00 00 08 (180z)
@@ -901,7 +901,7 @@ Rocket CC2 First GMD
 20 00 80 06 01 00 00 00 06 00 (AirSpread2)
 
 
-???
+Stunt Car CC GMD
 
 20 00 80 06 B4 00 00 00 00 08 (180z)
 20 00 80 06 F0 00 00 00 00 08 (240z)
@@ -913,7 +913,7 @@ Rocket CC2 First GMD
 20 00 80 06 01 00 00 00 67 38 (HP+50/120)
 
 
-???
+Prop Cabinet CC GMD
 
 20 00 80 06 AA 00 00 00 00 08 (170z)
 20 00 80 06 E6 00 00 00 00 08 (230z)
@@ -1117,7 +1117,7 @@ Rocket CC2 First GMD
 20 00 80 06 01 00 00 00 18 00 (SyncHook2)
 
 
-???
+Natl Astro Wave2 Bottom GMD
 
 20 00 80 06 9A 01 00 00 00 08 (410z)
 20 00 80 06 EA 01 00 00 00 08 (490z)
@@ -1365,7 +1365,7 @@ Rocket CC2 First GMD
 20 00 80 06 01 00 00 00 0E 00 (BeastSlap3)
 
 
-???
+Echo Ridge School Gate GMD
 
 20 00 80 06 78 00 00 00 00 08 (120z)
 20 00 80 06 A0 00 00 00 00 08 (160z)
@@ -1443,7 +1443,7 @@ Sci. Club Room
 20 00 80 06 01 00 00 00 6D 38 (HP+400/490)
 
 
-Echo Ridge
+Echo Ridge BIG WAVE GMD
 
 20 00 80 06 64 00 00 00 00 08 (100z)
 20 00 80 06 96 00 00 00 00 08 (150z)
@@ -1471,7 +1471,7 @@ Echo Ridge
 2A 00 B2 07 01 00 00 00 03 00 (HevyCannon)
 
 
-???
+Roof GMD
 
 20 00 80 06 78 00 00 00 00 08 (120z)
 20 00 80 06 AA 00 00 00 00 08 (170z)

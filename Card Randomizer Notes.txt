@@ -1,0 +1,1004 @@
+RUN LENGTHS
+
+Library Block: 0D54FC, 1CA0
+Battle Block: 0D7274, 0E50
+
+Card Attributes that can be randomized:
+
+- Card Colour
+- Element
+- Class
+- Damage Display
+- Screen Dimming
+- Text Colour
+- Mega?
+- Trap?
+- Is Sword
+- Breaks Guard
+- Ignores Invis
+- Removes Aura
+- Induces I-Frames
+- Flinches
+- Summoning
+- Portrait
+- Palette
+- Damage
+- Star Cards
+- Variant / Tier
+- Reward Group
+- Lock-On Behavior
+- Effect
+- Sub-Effect
+- Unknown Byte 7 (fun!)
+
+
+=== Library Block ===
+
+== Byte 1 ==
+
+= Card Colour =
+
+Yellow, Blue, Red, White
+(Count these up?)
+Bit Range: xxxxxx00 to xxxxxx11
+
+= Elements =
+
+None, Fire, Aqua, Elec, Wood
+(Count these up?)
+Bit Range: xxx000xx to xxx100xx
+
+= Class =
+
+Standard, Mega, Giga
+(Count these up? Blue and Red should match Mega and Giga)
+Bit Options: x00xxxxx, x01xxxxx, x10xxxxx
+
+== Byte 3 ==
+
+= Damage Display =
+
+Boolean
+(Eats PlusCards)
+Bit Flipped: xxxxxxx0
+
+= Dimming =
+
+Boolean
+Bit Flipped: xxxxxx0x
+
+= Text Colour =
+
+Boolean (White or Blue)
+Bit Flipped: xxxx0xxx
+
+= Mega =
+
+Boolean
+Bit Flipped: xxx0xxxx
+
+= Trap =
+
+Boolean
+Bit Flipped: xx0xxxxx
+
+= Is Sword =
+
+Boolean
+Bit Flipped: 0xxxxxxx
+
+== Byte 4 ==
+
+= Breaks Guard =
+
+Boolean
+Bit Flipped: xxxxxxx0
+
+= Ignores Invisibility =
+
+* Not Displayed
+Boolean
+Bit Flipped: xxxxxx0x
+
+= Removes Aura =
+
+Boolean
+Bit Flipped: xxxxx0xx
+
+= Induces I-Frames =
+
+* Not Displayed
+Boolean
+Bit Flipped: xxxx0xxx
+
+= Flinches =
+
+* Not Displayed
+Boolean
+Bit Flipped: xxx0xxxx
+
+= Summoning =
+
+* Not Displayed
+Boolean
+Bit Flipped: xx0xxxxx
+
+
+=== Behavior Block ===
+
+* None of these are Displayed
+
+== Byte 1 ==
+
+= Reward Group =
+
+Range: 0 to 10
+Bit Range: xxxx0000 to xxxx1010
+
+= Variant / Tier =
+
+Range depends on Effect
+Bit Range: 0000xxxx
+
+== Byte 2: Lock-On Behavior ==
+
+* Unsure if table or bits
+* Determine Range based on Effect
+
+00, 01, 02, 03, 07, 11, 16, 23, 34, 35, 44, 51, 61, 74, 84,
+
+== Byte 3: Something about Mega Man's state ==
+
+00, 06, 0A, 14, 1E, 28
+
+== Byte 4: Effects ==
+
+Valid Values: 04 to 60, 64 65
+
+= 04: Uncharged Buster =
+
+* Variants Unknown
+* Lock-On Unknown
+* State Unknown
+* Anim Frames Unknown
+
+= 05: Charged Buster =
+
+* Variants Unknown
+* Lock-On Unknown
+* State Unknown
+* Anim Frames Unknown
+
+= 06: Radiant Fire (Corvus Noise) =
+
+* Variants Unknown
+* Lock-On Unknown
+* State Unknown
+* Anim Frames Unknown
+
+= 07: Feather Storm (Cygnus Noise) =
+
+* Variants Unknown
+* Lock-On Unknown
+* State Unknown
+* Anim Frames Unknown
+
+= 08: Explosive Shot (Taurus Nosie) =
+
+* Variants Unknown
+* Lock-On Unknown
+* State Unknown
+* Anim Frames Unknown
+
+= 09: Piercing Wave (Virgo Noise) =
+
+* Variants Unknown
+* Lock-On Unknown
+* State Unknown
+* Anim Frames Unknown
+
+= 0A: Plasma Shot (Crown Noise) =
+
+* Variants Unknown
+* Lock-On Unknown
+* State Unknown
+* Anim Frames Unknown
+
+= 0B: Wood Slash (Wolf Noise) =
+
+* Variants Unknown
+* Lock-On Unknown
+* State Unknown
+* Anim Frames Unknown
+
+= 0C: MechFlame (Apollo Noise) =
+
+* Variants Unknown
+* Lock-On Unknown
+* State Unknown
+* Anim Frames Unknown
+
+= 0D: Cannon Family =
+
+Fire a hitscan shot at front target
+
+Variants:
+- 0: Cannon     (Push enemy back 1sq)
+- 1: PlusCannon (Push enemy back 1sq)
+- 2: HevyCannon (Push enemy back 1sq)
+- 3: ImpctCanon (full spread)
+
+* Unknown if 0, 1, and 2 have any tangible difference
+
+Lock-Ons Used: 34
+Star Cards: 0A 14 28 32 3C 50
+
+= 0E: AirSpread Family =
+
+Fire a hitscan shot at front target
+Hits 3 times on impact
+
+Variants:
+- 0: AirSpread1 (Spread in V)
+- 1: AirSpread2 (Spread in X)
+- 2: AirSpread3 (Full Spread)
+- 3: ???
+- 4: AirSpreadX (Full Spread)
+
+* Unknown if 2, 3, and 4 have any tangible difference
+
+Lock-Ons Used: 34, 44
+Star Cards: 0A 0F 14 1E 28 32
+
+= 0F: Non-Elemental Grenades =
+
+Throw a bomb at nearest enemy in lane (or 3sq forward)
+Panel must be solid to detonate
+
+Variants:
+- 0: MiniGrnade (hits 6 times)
+- 1: ???
+- 2: ???
+- 3: BigGrenade (3 hits, full spread)
+
+Lock-Ons Used: 34
+Star Cards: 14 1E 28 32 3C 50
+
+= 10: Sword =
+
+Slash 1sq forward
+
+* Unknown Variants
+
+Lock-On Methods: 01
+Star Cards: 14 1E 32 3C 50 64
+
+= 11: LongSword =
+
+Slash 2sq forward
+
+* Unknown Variants
+
+Lock-On Methods: 03
+Star Cards: 14 1E 32 3C 50 64
+
+= 12: WideSword =
+
+Slash front 3sq
+
+* Unknown Variants
+
+Lock-On Methods: 02
+Star Cards: 14 1E 32 3C 50 64
+
+= 13: SyncHook Family =
+
+Punch 1sq forward
+Damage all of same enemy hit
+
+* Variants Unknown
+
+Lock-On Methods: 51
+Star Cards: 0A 1E 28 32 3C 50
+
+= 14: Meteor Family =
+
+Rain Meteors on all non-elemental panels
+
+* Variants Unknown
+
+Lock-On Methods: 00
+Star Cards: 0A 0F 14 1E 28 32
+
+= 15: GrandWave Family =
+
+Shockwave that travels forward unabated
+Turns toward nearest enemy
+Must stay on solid panels
+
+Variants:
+- 0: GrandWave1
+- 1: GrandWave2 (slightly faster)
+- 2: GrandWave3 (even faster)
+- 3: GrandWaveX (fastest)
+
+Lock-On Methods: 34
+Star Cards: 0A 14 1E 32 3C 50
+
+= 16: Buki Family =
+
+Swing a hammer 1sq forward that cracks panel
+
+* Unknown Variants
+
+Lock-On Methods: 11
+Star Cards: 0F 19 23 37 41 50
+
+= 17: SmileCoin Family =
+
+Variants:
+- 0
+- 1
+- 2
+- 3
+
+Lock-On Methods: 00
+Star Cards: 05 0A 0F 14 19 1E
+
+= 18: BigDrop Family =
+
+Variants:
+- 0
+- 1
+- 2
+- 3
+
+Lock-On Methods: 44
+Star Cards: 0A 14 1E 32 46 64
+
+= 19: HeatUppr Family =
+
+* Unknown Variants
+
+Lock-On Methods: 61
+Star Cards: 0A 19 32 3C 55 64
+
+= 1A: WideWave Family =
+
+* Unknown Variants
+
+Lock-On Methods: 44
+Star Cards: 0A 14 28 32 46 5A
+
+= 1B: BubblHook Family =
+
+* Unknown Variants
+
+Lock-On Methods: 16
+Star Cards: 0A 14 1E 28 32 46
+
+= 1C: StlthLzr Family =
+
+Variants:
+- 0
+- 1
+- 2
+- 3
+
+Lock-On Methods: 00
+Star Cards: 0A 0F 14 19 1E 28
+
+= 1D: MummyHand Family =
+
+Variants:
+- 0
+- 1
+- 2
+- 3
+
+Lock-On Methods: 00
+Star Cards: 0A 14 1E 28 3C 50
+
+= 1E: Whistle =
+
+* Unknown Variants
+
+Lock-On Methods: 00
+Star Cards: 00 00 00 00 00 00
+
+= 1F: PlasmaGun =
+
+Variants:
+- 0
+- 3
+
+Lock-On Methods: 34
+Star Cards: 0A 14 28 32 3C 46
+
+= 20: GiantAxe =
+
+* Unknown Variants
+
+Lock-On Methods: 16
+Star Cards: 0A 14 28 46 50 64
+
+= 21: TimeBomb =
+
+* Unknown Variants
+
+Lock-On Methods: 00
+Star Cards: 0A 14 28 32 3C 50
+Uses SubEffect for Bomb HP
+
+= 22: BlackHole =
+
+Variants:
+- 0
+- 1
+
+Lock-On Methods: 00
+Star Cards: 00 00 00 00 00 00
+
+= 23: SpinDance Family =
+
+Variants:
+- 0
+- 1
+- 2
+
+Lock-On Methods: 02
+Star Cards: 05 0A 0F 14 1E 28
+
+= 24: DblStone =
+
+* Unknown Variants
+
+Lock-On Methods: 00
+Star Cards: 00 00 00 00 00 00
+
+= 25: Bombalizer =
+
+* Unknown Variants
+
+Lock-On Methods: 00
+Star Cards: 14 1E 32 3C 50 64
+
+= 26: DivideLine =
+
+Variants:
+- 2
+
+Lock-On Methods: 00
+Star Cards: 00 00 00 00 00 00
+
+= 27: BeastSlap =
+
+Variants:
+- 0
+- 1
+- 2
+- 3
+
+Lock-On Methods: 00
+Star Cards: 0A 14 1E 28 32 46
+
+= 28: JetAttack =
+
+* Unknown Variants
+
+Lock-On Methods: 35
+Star Cards: 0A 14 1E 32 3C 50
+
+= 29: MadVulcn =
+
+Variants:
+- 0
+- 1
+- 2
+- 3
+
+Lock-On Methods: 34
+Star Cards: 05 0A 0F 14 1E 28
+
+= 2A: SharkAtk =
+
+Variants:
+- 0
+- 1
+- 2
+- 3
+
+Lock-On Methods: 00
+Star Cards: 0A 0F 1E 2D 3C 4B
+
+= 2B: ArachAtk =
+
+Variants:
+- 0
+- 1
+- 2
+- 3
+
+Lock-On Methods: 00
+Star Cards: 0A 14 1E 28 32 3C
+
+= 2C: Shuriken =
+
+* Unknown Variants
+
+Lock-On Methods: 00
+Star Cards: 0A 14 1E 32 3C 50
+
+= 2D: BuzzSaw =
+
+* Unknown Variants
+
+Lock-On Methods: 34
+Star Cards: 0A 14 28 32 46 5A
+
+= 2E: Bushido =
+
+* Unknown Variants
+
+Lock-On Methods: 01
+Star Cards: 14 1E 28 32 46 5A
+
+= 2F: Scythe =
+
+* Unknown Variants
+
+Lock-On Methods: 00
+Star Cards: 0A 0F 14 1E 28 3C
+
+= 30: DanceFire =
+
+Variants:
+- 0
+- 1
+- 2
+- 3
+
+Lock-On Methods: 84
+Star Cards: 0A 14 1E 28 32 46
+
+= 31: SnoBall =
+
+Variants:
+- 0
+- 1
+- 2
+- 3
+
+Lock-On Methods: 00
+Star Cards: 0A 14 1E 32 3C 50
+
+= 32: SkullArrw =
+
+* Unknown Variants
+
+Lock-On Methods: 00
+Star Cards: 14 1E 28 32 3C 50
+
+= 33: KiloBomb =
+
+* Unknown Variants
+
+Lock-On Methods: 00
+Star Cards: 0A 14 1E 32 46 64
+SubEffect used for Bomb HP
+
+= 34: Wide Slashes =
+
+Variants:
+- 0
+- 1
+- 2
+
+Lock-On Methods: 02
+Star Cards: 0A 14 1E 28 32 46
+
+= 35: BreakSabre =
+
+* Unknown Variants
+
+Lock-On Methods: 01
+Star Cards: 14 1E 28 32 46 5A
+
+= 36: Seed Grenades =
+
+Variants:
+- 0
+- 1
+- 2
+
+Lock-On Methods: 44
+Star Cards: 0A 14 28 3C 46 5A
+
+= 37: PollnShot =
+
+Variants:
+- 0
+- 1
+- 2
+- 3
+
+Lock-On Methods: 44
+Star Cards: 0A 14 1E 28 3C 50
+
+= 38: MadFire =
+
+* Unknown Variants
+
+Lock-On Methods: 44
+Star Cards: 0F 19 23 37 41 50
+
+= 39: RdrMissile =
+
+* Unknown Variants
+
+Lock-On Methods: 00
+Star Cards: 0A 14 1E 28 32 3C
+
+= 3A: MechFlame =
+
+Variants:
+- 0
+- 1
+- 2
+- 3
+
+Lock-On Methods: 74
+Star Cards: 0A 14 1E 32 46 5A
+
+= 3B: Knukles =
+
+Variants:
+- 0
+- 1
+- 2
+
+Lock-On Methods: 01
+Star Cards: 0A 1E 28 32 3C 50
+
+= 3C: MilliKick =
+
+* Unknown Variants
+
+Lock-On Methods: 01
+Star Cards: 00 00 00 00 00 00
+
+= 3D: BrkTmeBmb =
+
+* Unknown Variants
+
+Lock-On Methods: 00
+Star Cards: 00 00 00 00 00 00
+SubEffect used for Bomb HP
+
+= 3E: ExtiMeteor =
+
+* Unknown Variants
+
+Lock-On Methods: 00
+Star Cards: 0A 0F 14 19 1E 28
+
+= 3F: Squall =
+
+* Unknown Variants
+
+Lock-On Methods: 07
+Star Cards: 05 0A 0F 14 19 1E
+
+= 40: Storms =
+
+Variants:
+- 0
+- 1
+- 2
+
+Lock-On Methods: 00
+Star Cards: 05 0A 0F 0F 14 14
+
+= 41: DstryUpper =
+
+* Unknown Variants
+
+Lock-On Methods: 01
+Star Cards: 14 1E 32 3C 46 5A
+
+= 42: VulcnSeed =
+
+* Unknown Variants
+
+Lock-On Methods: 34
+Star Cards: 05 0A 0F 14 19 1E
+
+= 43: Muramasa =
+
+* Unknown Variants
+
+Lock-On Methods: 03
+Star Cards: 00 00 00 00 00 00
+
+= 44: Inks =
+
+Variants:
+- 0
+- 1
+- 2
+- 3
+
+Lock-On Methods: 34, 44
+Star Cards: 0A 14 1E 28 32 46
+
+= 45: PiranKss =
+
+Variants:
+- 0
+- 1
+- 2
+- 3
+
+Lock-On Methods: 00
+Star Cards: 05 0A 0F 14 14 14
+
+= 46: DestrMissl =
+
+* Unknown Variants
+
+Lock-On Methods: 00
+Star Cards: 00 00 00 00 00 00
+
+= 47: MuTech =
+
+Variants:
+- 0
+- 1
+- 2
+- 3
+
+Lock-On Methods: 00
+Star Cards: 1E 28 3C 46 5A 6E
+
+= 48: PanicCloud =
+
+* Unknown Variants
+
+Lock-On Methods: 00
+
+= 49: IceSpin =
+
+Variants:
+- 0
+- 1
+- 2
+- 3
+
+Lock-On Methods: 00
+
+= 4A: SwrdFghtr =
+
+Variants:
+- 0
+- 1
+- 2
+
+Lock-On Methods: 02
+
+= 4B: ThndrHead =
+
+Variants:
+- 0
+- 1
+- 2
+- 3
+
+Lock-On Methods: 00
+
+SubEffect used for Head HP
+
+= 4C: FlameAxe =
+
+* Unknown Variants
+
+Lock-On Methods: 16
+
+= 4D: SpinBlade =
+
+* Unknown Variants
+
+Lock-On Methods: 00
+
+= 4E: Earthundr =
+
+* Unknown Variants
+
+Lock-On Methods: 00
+
+= 4F: PuffBlast =
+
+Variants:
+- 0
+- 1
+- 2
+- 3
+
+Lock-On Methods: 00
+
+= 50: MegaCrushr =
+
+* Unknown Variants
+
+Lock-On Methods: 00
+
+= 51: FlashStrk =
+
+* Unknown Variants
+
+Lock-On Methods: 23
+
+= 52: WindyAtk =
+
+* Unknown Variants
+
+Lock-On Methods: 02
+
+= 53: DrillArm =
+
+* Unknown Variants
+
+Lock-On Methods: 03
+
+= 54: MirrorEdg =
+
+* Unknown Variants
+
+Lock-On Methods: 00
+
+= 55: Acorn Bomb =
+
+* Unknown Variants
+
+Lock-On Methods: 34
+
+= 56: GreatAxe =
+
+* Unknown Variants
+
+Lock-On Methods: 16
+
+= 57: Recover =
+
+* Unknown Variants
+
+Lock-On Methods: 00
+
+SubEffect used for recovery amount
+
+= 58: Stat Boost =
+
+Variants:
+- 0
+- 1
+- 2
+
+Lock-On Methods: 00
+
+= 59: Barrier =
+
+* Unknown Variants
+
+Lock-On Methods: 00
+
+SubEffect used for barrier strength
+
+= 5A: Invisible =
+
+* Unknown Variants
+
+Lock-On Methods: 00
+
+= 5B: MuBarrier =
+
+* Unknown Variants
+
+Lock-On Methods: 00
+
+= 5C: Gauge =
+
+Variants:
+- 0
+- 1
+- 2
+
+Lock-On Methods: 00
+
+= 5E: Panels =
+
+Variants:
+- 0: Grass Stage
+- 1: Ice Stage
+- 2: Paralyze Stage
+- 3: Attack Panel
+- 4: Holy Panel
+- 5: Spirit Fury Trap
+- 6: Anti Sword Trap
+- 7: Poison Apple Trap
+- 8: Double Cross Trap
+- 9: Giga Mine Trap
+- A: Noise Stage
+- B: All Poison
+
+Lock-On Methods: 00
+
+= 5F: Wave Summons =
+
+SubEffect Range: 00 to 2E
+- 00: Spade Magnes (Variants 0 to 4)
+- 01: Diamond Ice (Variants 0 to 4)
+- 02: Club Strong (Variants 0 to 4)
+- 03: Queen Virgo (Variants 0 to 4)
+- 04: Dread Joker (Variants 0 to 4)
+- 05: Missing? TEST LATER
+- 06: Taurus Fire (Variants 0 to 4)
+- 07: Cygnus Wing (Variants 0 to 4)
+- 08: Jack Corvus (Variants 0 to 4)
+- 09: Wolf Woods (Variants 0 to 4)
+- 0A: Dark Phantom (Variants 0 to 4)
+- 0B: Rogue (Variants 0 to 4)
+- 0C: Moon Destroyer (Variants 0 to 4)
+- 0D: Apollo Flame (Variants 0 to 4)
+- 0E: Sirius (Variants 0 to 4)
+- 0F: Acid Ace (Variants 0 to 4)
+- 10: Wing Blade
+- 11: Dread Lader
+- 12: Ox Tackle
+- 13: Crimson Meteor
+- 14: Ice Hammer Break (Variants 0 to 4)
+- 15: Rocket Launch (Variants 0 to 4)
+- 16: Strong Swing (Variants 0 to 4)
+- 17: Terra Condor (Variants 0 to 4)
+- 18: Cancer Bubble (Variants 0 to 4)
+- 19: Libra Scales (Variants 0 to 4)
+- 1A: General Auriga (Variants 0 to 4)
+- 1B: Queen Ophiuca (Variants 0 to 4)
+- 1C: Gemini Spark (Variants 0 to 4)
+- 1D: Yeti Blizzard (Variants 0 to 4)
+- 1E: Crown Thunder (Variants 0 to 4)
+- 1F: Plesio Surf (Variants 0 to 4)
+- 20: Acid Arrest
+- 21: Flying Impact (Variants 0 and 4)
+- 22: Gemini Thunder (Variants 0 and 4)
+- 23: Rogue Break (Variants 0 and 4)
+- 24: Gorgon Eye (Variants 0 and 4)
+- 25: Pegasus Magic
+- 26: Leo Kingdom
+- 27: Dragon Sky
+- 28: Avalanche (Variants 0 and 4)
+- 29: Wicked Flame (Variants 0 and 4)
+- 2A: Torrent Wave (Variants 0 and 4)
+- 2B: Holy Light (Variants 0 and 4)
+- 2C: Omega-Xis (Variants 2 and A)
+- 2D: Noise Wizard (Variants 0 to 3)
+- 2E: Malice Wizard (Variants 0 to 3)
+
+Lock-On Methods: 00
+
+= 60: Card Revive =
+
+* Unknown Variants
+
+Lock-On Methods: 00
+
+= 64: Noise Force Big Bang =
+
+Variants:
+- 0: Meteor Light Barrage
+- 1: Atom Blazer
+- 2: Dyna Wave
+- 3: Thunderbolt Blade
+- 4: Elemental Cyclone
+- 5: Black End Galaxy
+- 6: Red Gaia Eraser
+
+Lock-On Methods: 00

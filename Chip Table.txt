@@ -12,7 +12,7 @@ Byte4 & Byte5: Portrait
 Byte6 & Byte7: Palette
 Byte8 & Byte9: Damage
 
-ByteA - ByteF: Animation Keyframes
+ByteA - ByteF: Star Card Values
 
 == BYTE0 ==
 
@@ -38,7 +38,7 @@ Gigas in Red Joker Library are 01
 
 == BYTE2 ==
 
-Bit1: Hits Enemy? Display Damage?
+Bit1: Displays Damage & Eats PlusCards
 Bit2: Stop Time / Dimming
 Bit3: Unused?
 Bit4: Blue Text / Illegal
@@ -3644,7 +3644,7 @@ Portrait: #096
 Palette: #378
 Damage: 30
 
-= DstryMissl =
+= DestrMissl =
 
 43 01 03 1A 61 00 7B 01 32 00 00 00 00 00 00 00
 
