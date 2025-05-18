@@ -1,0 +1,7 @@
+C:\Users\Linkshot\Utilities\SF3BATools\CardRandomizer\bin\Debug\ConsoleApplication.exe.config
+C:\Users\Linkshot\Utilities\SF3BATools\CardRandomizer\bin\Debug\ConsoleApplication.exe
+C:\Users\Linkshot\Utilities\SF3BATools\CardRandomizer\bin\Debug\ConsoleApplication.pdb
+C:\Users\Linkshot\Utilities\SF3BATools\CardRandomizer\obj\x86\Debug\Card Shuffler for Black Ace.csproj.AssemblyReference.cache
+C:\Users\Linkshot\Utilities\SF3BATools\CardRandomizer\obj\x86\Debug\Card Shuffler for Black Ace.csproj.CoreCompileInputs.cache
+C:\Users\Linkshot\Utilities\SF3BATools\CardRandomizer\obj\x86\Debug\ConsoleApplication.exe
+C:\Users\Linkshot\Utilities\SF3BATools\CardRandomizer\obj\x86\Debug\ConsoleApplication.pdb
