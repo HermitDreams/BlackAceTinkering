@@ -7120,7 +7120,7 @@ ARM9 / MESS_STATIC ORDER
 306: MadVulcnX
 307: MuTechX
 308: NoiseWzrdX
-309: MadWizardX
+309: MalWizardX
 310: BlackHoleX
 311: HrrcnDance
 312: ScytheX
@@ -7226,384 +7226,392 @@ ARM9 / MESS_STATIC ORDER
 
 IN-GAME CARD FOLDER ORDER
 
-001: Cannon    
-002: PlusCannon
-003: HevyCannon
-004: ImpctCanon
-005: PlasmaGun 
-006: PlasmaGunX
-007: AirSpread1
-008: AirSpread2
-009: AirSpread3
-010: AirSpreadX
-011: MadVulcn1 
-012: MadVulcn2 
-013: MadVulcn3 
-014: MadVulcnX 
-015: BlackInk  
-016: GreenInk  
-017: BlueInk   
-018: PurpleInk 
-019: MiniGrnade
-020: HeatGrnde 
-021: WoodGrnde 
-022: IceGrnde  
-023: BigGrenade
-024: Sword     
-025: WideSword 
-026: LongSword 
-027: Bushido1  
-028: Bushido2  
-029: Bushido3  
-030: ElecSlash 
-031: WoodSlash 
-032: FireSlash 
-033: BreakSabre
-034: BreakSabrX
-035: GreatAxe  
-036: FlameAxe  
-037: GiantAxe  
-038: Muramasa  
-039: SwrdFghtr1
-040: SwrdFghtr2
-041: SwrdFghtr3
-042: SwrdFghtrX
-043: WindyAtk1 
-044: WindyAtk2 
-045: WindyAtk3 
-046: WindyAtkX 
-047: SyncHook1 
-048: SyncHook2 
-049: SyncHook3 
-050: SyncHookX 
-051: StunKnukle
-052: PoisKnukle
-053: FrezKnukle
-054: DstryUpper
-055: DrillArm1 
-056: DrillArm2 
-057: DrillArm3 
-058: DrillArmX 
-059: TyphnDance
-060: TrnadoDnce
-061: HrrcnDance
-062: WhtMeteor 
-063: SilvMeteor
-064: PlatMeteor
-065: ExtiMeteor
-066: RdrMissile
-067: GrandWave1
-068: GrandWave2
-069: GrandWave3
-070: GrandWaveX
-071: JetAttack1
-072: JetAttack2
-073: JetAttack3
-074: JetAttackX
-075: Buki1     
-076: Buki2     
-077: Buki3     
-078: BukiX     
-079: SmileCoin1
-080: SmileCoin2
-081: SmileCoin3
-082: SmileCoinX
-083: BigDrop1  
-084: BigDrop2  
-085: BigDrop3  
-086: BigDropX  
-087: BuzzSaw1  
-088: BuzzSaw2  
-089: BuzzSaw3  
-090: BuzzSawX  
-091: SkullArrw1
-092: SkullArrw2
-093: SkullArrw3
-094: SkullArrwX
-095: MuTech1   
-096: MuTech2   
-097: MuTech3   
-098: MuTechX   
-099: Scythe1   
-100: Scythe2   
-101: Scythe3   
-102: ScytheX   
-103: PuffBlst1 
-104: PuffBlst2 
-105: PuffBlst3 
-106: PuffBlstX 
-107: TimeBomb1 
-108: TimeBomb2 
-109: TimeBomb3 
-110: TimeBombX 
-111: HeatUppr1 
-112: HeatUppr2 
-113: HeatUppr3 
-114: HeatUpprX 
-115: MechFlame1
-116: MechFlame2
-117: MechFlame3
-118: MechFlameX
-119: MadFire1  
-120: MadFire2  
-121: MadFire3  
-122: MadFireX  
-123: DanceFire1
-124: DanceFire2
-125: DanceFire3
-126: DanceFireX
-127: KiloBomb1 
-128: KiloBomb2 
-129: KiloBomb3 
-130: KiloBombX 
-131: WideWave1 
-132: WideWave2 
-133: WideWave3 
-134: WideWaveX 
-135: BubblHook1
-136: BubblHook2
-137: BubblHook3
-138: BubblHookX
-139: SharkAtk1 
-140: SharkAtk2 
-141: SharkAtk3 
-142: SharkAtkX 
-143: IceSpin1  
-144: IceSpin2  
-145: IceSpin3  
-146: IceSpinX  
-147: SnoBall1  
-148: SnoBall2  
-149: SnoBall3  
-150: SnoBallX  
-151: PiranKss1 
-152: PiranKss2 
-153: PiranKss3 
-154: PiranKssX 
-155: StlthLzr1 
-156: StlthLzr2 
-157: StlthLzr3 
-158: StlthLzrX 
-159: MummyHand1
-160: MummyHand2
-161: MummyHand3
-162: MummyHandX
-163: ThndrHead1
-164: ThndrHead2
-165: ThndrHead3
-166: ThndrHeadX
-167: FlashStrk1
-168: FlashStrk2
-169: FlashStrk3
-170: FlashStrkX
-171: Earthundr1
-172: Earthundr2
-173: Earthundr3
-174: EarthundrX
-175: ArachAtk1 
-176: ArachAtk2 
-177: ArachAtk3 
-178: ArachAtkX 
-179: Shuriken1 
-180: Shuriken2 
-181: Shuriken3 
-182: ShurikenX 
-183: PollnShot1
-184: PollnShot2
-185: PollnShot3
-186: PollnShotX
-187: AcornBomb1
-188: AcornBomb2
-189: AcornBomb3
-190: AcornBombX
-191: Squall1   
-192: Squall2   
-193: Squall3   
-194: SquallX   
-195: VulcnSeed1
-196: VulcnSeed2
-197: VulcnSeed3
-198: VulcnSeedX
-199: BeastSlap1
-200: BeastSlap2
-201: BeastSlap3
-202: BeastSlapX
-203: NoiseWzrd1
-204: NoiseWzrd2
-205: NoiseWzrd3
-206: NoiseWzrdX
-207: MalWizard1
-208: MalWizard2
-209: MalWizard3
-210: MalWizardX
-211: SpinBlade1
-212: SpinBlade2
-213: SpinBlade3
-214: SpinBladeX
-215: BlackHole1
-216: BlackHole2
-217: BlackHole3
-218: BlackHoleX
-219: JngleStorm
-220: SnoStorm  
-221: PoisnStorm
-222: DblStone  
-223: Bombalizer
-224: DivideLine
-225: DblEater  
-226: PanlFormat
-227: PanicCloud
-228: Recover10 
-229: Recover30 
-230: Recover50 
-231: Recover80 
-232: Recover120
-233: Recover150
-234: Recover200
-235: Recover300
-236: Barrier   
-237: SprBarrier
-238: Aura      
-239: Invisible 
-240: MegaBoost 
-241: QuickGauge
-242: NormlGauge
-243: SlowGauge 
-244: WrriorSoul
-245: Whistle   
-246: CardRevive
-247: MegaCrushr
-248: SpiritFury
-249: AntiSword 
-250: PoisnApple
-251: DoublCross
-252: GigaMine  
-253: GrassStage
-254: IceStage  
-255: PrlyzeStg 
-256: HolyPanel 
-257: AtkPanel  
-258: AllPoison 
-259: GravtyPlus
-260: ParlyzPlus
-261: Attack+10 
-262: Fire+30   
-263: Aqua+30   
-264: Elec+30   
-265: Wood+30   
-266: SpadMgnes 
-267: SpadMgnes2
-268: SpadMgnes3
-269: SpadMgnesX
-270: DiamndIce 
-271: DiamndIce2
-272: DiamndIce3
-273: DiamndIceX
-274: ClubStrng 
-275: ClubStrng2
-276: ClubStrng3
-277: ClubStrngX
-278: QueenVrgo 
-279: QueenVrgo2
-280: QueenVrgo3
-281: QueenVrgoX
-282: JackCorvs 
-283: JackCorvs2
-284: JackCorvs3
-285: JackCorvsX
-286: DreadJokr 
-287: DreadJokr2
-288: DreadJokr3
-289: DreadJokrX
-290: AcidAce   
-291: AcidAce2  
-292: AcidAce3  
-293: AcidAceX  
-294: TaursFire 
-295: TaursFire2
-296: TaursFire3
-297: TaursFireX
-298: CygnsWing 
-299: CygnsWing2
-300: CygnsWing3
-301: CygnsWingX
-302: WolfWoods 
-303: WolfWoods2
-304: WolfWoods3
-305: WolfWoodsX
-306: DrkPhntm  
-307: DrkPhntm2 
-308: DrkPhntm3 
-309: DrkPhntmX 
-310: Rogue     
-311: Rogue2    
-312: Rogue3    
-313: RogueX    
-314: MoonDstry 
-315: MoonDstry2
-316: MoonDstry3
-317: MoonDstryX
-318: LibraScls 
-319: LibraScls2
-320: LibraScls3
-321: LibraSclsX
-322: QnOphiuca 
-323: QnOphiuca2
-324: QnOphiuca3
-325: QnOphiucaX
-326: GeminSprk 
-327: GeminSprk2
-328: GeminSprk3
-329: GeminSprkX
-330: CancrBubl 
-331: CancrBubl2
-332: CancrBubl3
-333: CancrBublX
-334: CrwnThndr 
-335: CrwnThndr2
-336: CrwnThndr3
-337: CrwnThndrX
-338: YetiBlzrd 
-339: YetiBlzrd2
-340: YetiBlzrd3
-341: YetiBlzrdX
-342: PlesioSrf 
-343: PlesioSrf2
-344: PlesioSrf3
-345: PlesioSrfX
-346: TerraCndr 
-347: TerraCndr2
-348: TerraCndr3
-349: TerraCndrX
-350: GenAuriga 
-351: GenAuriga2
-352: GenAuriga3
-353: GenAurigaX
-354: ApolloFlm 
-355: ApolloFlm2
-356: ApolloFlm3
-357: ApolloFlmX
-358: Sirius    
-359: Sirius2   
-360: Sirius3   
-361: SiriusX   
-362: RocktLnch 
-363: RocktLnch2
-364: RocktLnch3
-365: RocktLnchX
-366: IceHammrB 
-367: IceHammrB2
-368: IceHammrB3
-369: IceHammrBX
-370: StrngSwng 
-371: StrngSwng2
-372: StrngSwng3
-373: StrngSwngX
-374: WingBlade 
-375: DrknssHole
-376: Millikick 
-377: BrkTmeBmb 
-378: MuBarrier 
+001: Cannon       (01 00)
+002: PlusCannon   (02 00)
+003: HevyCannon   (03 00)
+004: ImpctCanon   (10 01)
+005: PlasmaGun    (04 00)
+006: PlasmaGunX   (11 01)
+007: AirSpread1   (05 00)
+008: AirSpread2   (06 00)
+009: AirSpread3   (07 00)
+010: AirSpreadX   (12 01)
+011: MadVulcn1    (66 00)
+012: MadVulcn2    (67 00)
+013: MadVulcn3    (68 00)
+014: MadVulcnX    (32 01)
+015: BlackInk     (1C 00)
+016: GreenInk     (F3 00)
+017: BlueInk      (F4 00)
+018: PurpleInk    (F5 00)
+019: MiniGrnade   (08 00)
+020: HeatGrnde    (E8 00)
+021: WoodGrnde    (E9 00)
+022: IceGrnde     (EA 00)
+023: BigGrenade   (13 01)
+024: Sword        (13 00)
+025: WideSword    (14 00)
+026: LongSword    (15 00)
+027: Bushido1     (60 00)
+028: Bushido2     (61 00)
+029: Bushido3     (62 00)
+030: BushidoX     (30 01)
+031: ElecSlash    (EF 00)
+032: WoodSlash    (F0 00)
+033: FireSlash    (F1 00)
+034: BreakSabre   (F2 00)
+035: BreakSabrX   (43 01)
+036: GreatAxe     (16 00)
+037: FlameAxe     (7B 00)
+038: GiantAxe     (17 01)
+039: Muramasa     (FB 00)
+040: SwrdFghtr1   (05 01)
+041: SwrdFghtr2   (06 01)
+042: SwrdFghtr3   (07 01)
+043: SwrdFghtrX   (41 01)
+044: WindyAtk1    (0F 00)
+045: WindyAtk2    (10 00)
+046: WindyAtk3    (11 00)
+047: WindyAtkX    (16 01)
+048: SyncHook1    (17 00)
+049: SyncHook2    (18 00)
+050: SyncHook3    (19 00)
+051: SyncHookX    (18 01)
+052: StunKnukle   (EC 00)
+053: PoisKnukle   (ED 00)
+054: FrezKnukle   (EE 00)
+055: DstryUpper   (F9 00)
+056: DrillArm1    (09 00)
+057: DrillArm2    (0A 00)
+058: DrillArm3    (0B 00)
+059: DrillArmX    (14 01)
+060: TyphnDance   (75 00)
+061: TrnadoDnce   (76 00)
+062: HrrcnDance   (37 01)
+063: WhtMeteor    (1A 00)
+064: SilvMeteor   (1B 00)
+065: PlatMeteor   (19 01)
+066: ExtiMeteor   (FC 00)
+067: RdrMissile   (EB 00)
+068: GrandWave1   (1E 00)
+069: GrandWave2   (1F 00)
+070: GrandWave3   (20 00)
+071: GrandWaveX   (1A 01)
+072: JetAttack1   (21 00)
+073: JetAttack2   (22 00)
+074: JetAttack3   (23 00)
+075: JetAttackX   (1B 01)
+076: Buki1        (24 00)
+077: Buki2        (25 00)
+078: Buki3        (26 00)
+079: BukiX        (1C 01)
+080: SmileCoin1   (27 00)
+081: SmileCoin2   (28 00)
+082: SmileCoin3   (29 00)
+083: SmileCoinX   (1D 01)
+084: BigDrop1     (2A 00)
+085: BigDrop2     (2B 00)
+086: BigDrop3     (2C 00)
+087: BigDropX     (1E 01)
+088: BuzzSaw1     (5D 00)
+089: BuzzSaw2     (5E 00)
+090: BuzzSaw3     (5F 00)
+091: BuzzSawX     (2F 01)
+092: SkullArrw1   (63 00)
+093: SkullArrw2   (64 00)
+094: SkullArrw3   (65 00)
+095: SkullArrwX   (31 01)
+096: MuTech1      (69 00)
+097: MuTech2      (6A 00)
+098: MuTech3      (6B 00)
+099: MuTechX      (33 01)
+100: Scythe1      (D0 00)
+101: Scythe2      (D1 00)
+102: Scythe3      (D2 00)
+103: ScytheX      (38 01)
+104: PuffBlst1    (E2 00)
+105: PuffBlst2    (E3 00)
+106: PuffBlst3    (E4 00)
+107: PuffBlstX    (3E 01)
+108: TimeBomb1    (2D 00)
+109: TimeBomb2    (2E 00)
+110: TimeBomb3    (2F 00)
+111: TimeBombX    (1F 01)
+112: HeatUppr1    (30 00)
+113: HeatUppr2    (31 00)
+114: HeatUppr3    (32 00)
+115: HeatUpprX    (20 01)
+116: MechFlame1   (33 00)
+117: MechFlame2   (34 00)
+118: MechFlame3   (35 00)
+119: MechFlameX   (21 01)
+120: MadFire1     (36 00)
+121: MadFire2     (37 00)
+122: MadFire3     (38 00)
+123: MadFireX     (22 01)
+124: DanceFire1   (D3 00)
+125: DanceFire2   (D4 00)
+126: DanceFire3   (D5 00)
+127: DanceFireX   (39 01)
+128: KiloBomb1    (D6 00)
+129: KiloBomb2    (D7 00)
+130: KiloBomb3    (D8 00)
+131: KiloBombX    (3A 01)
+132: WideWave1    (39 00)
+133: WideWave2    (3A 00)
+134: WideWave3    (3B 00)
+135: WideWaveX    (23 01)
+136: BubblHook1   (3C 00)
+137: BubblHook2   (3D 00)
+138: BubblHook3   (3E 00)
+139: BubblHookX   (24 01)
+140: SharkAtk1    (3F 00)
+141: SharkAtk2    (40 00)
+142: SharkAtk3    (41 00)
+143: SharkAtkX    (25 01)
+144: IceSpin1     (42 00)
+145: IceSpin2     (43 00)
+146: IceSpin3     (44 00)
+147: IceSpinX     (26 01)
+148: SnoBall1     (D9 00)
+149: SnoBall2     (DA 00)
+150: SnoBall3     (DB 00)
+151: SnoBallX     (3B 01)
+152: PiranKss1    (DC 00)
+153: PiranKss2    (DD 00)
+154: PiranKss3    (DE 00)
+155: PiranKssX    (3C 01)
+156: StlthLzr1    (45 00)
+157: StlthLzr2    (46 00)
+158: StlthLzr3    (47 00)
+159: StlthLzrX    (27 01)
+160: MummyHand1   (48 00)
+161: MummyHand2   (49 00)
+162: MummyHand3   (4A 00)
+163: MummyHandX   (28 01)
+164: ThndrHead1   (4B 00)
+165: ThndrHead2   (4C 00)
+166: ThndrHead3   (4D 00)
+167: ThndrHeadX   (29 01)
+168: FlashStrk1   (4E 00)
+169: FlashStrk2   (4F 00)
+170: FlashStrk3   (50 00)
+171: FlashStrkX   (2A 01)
+172: Earthundr1   (02 01)
+173: Earthundr2   (03 01)
+174: Earthundr3   (04 01)
+175: EarthundrX   (40 01)
+176: ArachAtk1    (51 00)
+177: ArachAtk2    (52 00)
+178: ArachAtk3    (53 00)
+179: ArachAtkX    (2B 01)
+180: Shuriken1    (54 00)
+181: Shuriken2    (55 00)
+182: Shuriken3    (56 00)
+183: ShurikenX    (2C 01)
+184: PollnShot1   (57 00)
+185: PollnShot2   (58 00)
+186: PollnShot3   (59 00)
+187: PollnShotX   (2D 01)
+188: AcornBomb1   (5A 00)
+189: AcornBomb2   (5B 00)
+190: AcornBomb3   (5C 00)
+191: AcornBombX   (2E 01)
+192: Squall1      (DF 00)
+193: Squall2      (E0 00)
+194: Squall3      (E1 00)
+195: SquallX      (3D 01)
+196: VulcnSeed1   (F6 00)
+197: VulcnSeed2   (F7 00)
+198: VulcnSeed3   (F8 00)
+199: VulcnSeedX   (3F 01)
+200: BeastSlap1   (0C 00)
+201: BeastSlap2   (0D 00)
+202: BeastSlap3   (0E 00)
+203: BeastSlapX   (15 01)
+204: NoiseWzrd1   (6C 00)
+205: NoiseWzrd2   (6D 00)
+206: NoiseWzrd3   (6E 00)
+207: NoiseWzrdX   (34 01)
+208: MalWizard1   (6F 00)
+209: MalWizard2   (70 00)
+210: MalWizard3   (71 00)
+211: MalWizardX   (35 01)
+212: SpinBlade1   (08 01)
+213: SpinBlade2   (09 01)
+214: SpinBlade3   (0A 01)
+215: SpinBladeX   (42 01)
+216: BlackHole1   (72 00)
+217: BlackHole2   (73 00)
+218: BlackHole3   (74 00)
+219: BlackHoleX   (36 01)
+220: JngleStorm   (E5 00)
+221: SnoStorm     (E6 00)
+222: PoisnStorm   (E7 00)
+223: DblStone     (77 00)
+224: Bombalizer   (78 00)
+225: DivideLine   (79 00)
+226: DblEater     (1D 00)
+227: PanlFormat   (7A 00)
+228: PanicCloud   (12 00)
+229: Recover10    (7E 00)
+230: Recover30    (7F 00)
+231: Recover50    (80 00)
+232: Recover80    (81 00)
+233: Recover120   (82 00)
+234: Recover150   (83 00)
+235: Recover200   (84 00)
+236: Recover300   (85 00)
+237: Barrier      (86 00)
+238: SprBarrier   (87 00)
+239: Aura         (88 00)
+240: Invisible    (89 00)
+241: MegaBoost    (0F 01)
+242: QuickGauge   (0B 01)
+243: NormlGauge   (0C 01)
+244: SlowGauge    (0D 01)
+245: WrriorSoul   (FA 00)
+246: Whistle      (8A 00)
+247: CardRevive   (0E 01)
+248: MegaCrushr   (7C 00)
+249: SpiritFury   (8B 00)
+250: AntiSword    (8C 00)
+251: PoisnApple   (8D 00)
+252: DoublCross   (8E 00)
+253: GigaMine     (8F 00)
+254: GrassStage   (90 00)
+255: IceStage     (91 00)
+256: PrlyzeStg    (92 00)
+257: HolyPanel    (93 00)
+258: AtkPanel     (94 00)
+259: AllPoison    (FD 00)
+260: GravtyPlus   (7D 00)
+261: ParlyzPlus   (95 00)
+262: Attack+10    (96 00)
+263: Fire+30      (FE 00)
+264: Aqua+30      (FF 00)
+265: Elec+30      (00 01)
+266: Wood+30      (01 01)
+267: SpadMgnes    (97 00)
+268: SpadMgnes2   (98 00)
+269: SpadMgnes3   (99 00)
+270: SpadMgnesX   (68 01)
+271: DiamndIce    (9A 00)
+272: DiamndIce2   (9B 00)
+273: DiamndIce3   (9C 00)
+274: DiamndIceX   (69 01)
+275: ClubStrng    (9D 00)
+276: ClubStrng2   (9E 00)
+277: ClubStrng3   (9F 00)
+278: ClubStrngX   (6A 01)
+279: QueenVrgo    (A0 00)
+280: QueenVrgo2   (A1 00)
+281: QueenVrgo3   (A2 00)
+282: QueenVrgoX   (6B 01)
+283: JackCorvs    (A3 00)
+284: JackCorvs2   (A4 00)
+285: JackCorvs3   (A5 00)
+286: JackCorvsX   (6C 01)
+287: DreadJokr    (A6 00)
+288: DreadJokr2   (A7 00)
+289: DreadJokr3   (A8 00)
+290: DreadJokrX   (6D 01)
+291: AcidAce      (A9 00)
+292: AcidAce2     (AA 00)
+293: AcidAce3     (AB 00)
+294: AcidAceX     (6E 01)
+295: TaursFire    (AC 00)
+296: TaursFire2   (AD 00)
+297: TaursFire3   (AE 00)
+298: TaursFireX   (6F 01)
+299: CygnsWing    (AF 00)
+300: CygnsWing2   (B0 00)
+301: CygnsWing3   (B1 00)
+302: CygnsWingX   (70 01)
+303: WolfWoods    (B2 00)
+304: WolfWoods2   (B3 00)
+305: WolfWoods3   (B4 00)
+306: WolfWoodsX   (71 01)
+307: DrkPhntm     (B5 00)
+308: DrkPhntm2    (B6 00)
+309: DrkPhntm3    (B7 00)
+310: DrkPhntmX    (72 01)
+311: Rogue        (B8 00)
+312: Rogue2       (B9 00)
+313: Rogue3       (BA 00)
+314: RogueX       (73 01)
+315: MoonDstry    (BB 00)
+316: MoonDstry2   (BC 00)
+317: MoonDstry3   (BD 00)
+318: MoonDstryX   (74 01)
+319: LibraScls    (59 01)
+320: LibraScls2   (5A 01)
+321: LibraScls3   (5B 01)
+322: LibraSclsX   (7E 01)
+323: QnOphiuca    (4D 01)
+324: QnOphiuca2   (4E 01)
+325: QnOphiuca3   (4F 01)
+326: QnOphiucaX   (7A 01)
+327: GeminSprk    (50 01)
+328: GeminSprk2   (51 01)
+329: GeminSprk3   (52 01)
+330: GeminSprkX   (7B 01)
+331: CancrBubl    (53 01)
+332: CancrBubl2   (54 01)
+333: CancrBubl3   (55 01)
+334: CancrBublX   (7C 01)
+335: CrwnThndr    (5C 01)
+336: CrwnThndr2   (5D 01)
+337: CrwnThndr3   (5E 01)
+338: CrwnThndrX   (7F 01)
+339: YetiBlzrd    (44 01)
+340: YetiBlzrd2   (45 01)
+341: YetiBlzrd3   (46 01)
+342: YetiBlzrdX   (77 01)
+343: PlesioSrf    (47 01)
+344: PlesioSrf2   (48 01)
+345: PlesioSrf3   (49 01)
+346: PlesioSrfX   (78 01)
+347: TerraCndr    (4A 01)
+348: TerraCndr2   (4B 01)
+349: TerraCndr3   (4C 01)
+350: TerraCndrX   (79 01)
+351: GenAuriga    (56 01)
+352: GenAuriga2   (57 01)
+353: GenAuriga3   (58 01)
+354: GenAurigaX   (7D 01)
+355: ApolloFlm    (BE 00)
+356: ApolloFlm2   (BF 00)
+357: ApolloFlm3   (C0 00)
+358: ApolloFlmX   (75 01)
+359: Sirius       (C1 00)
+360: Sirius2      (C2 00)
+361: Sirius3      (C3 00)
+362: SiriusX      (76 01)
+363: RocktLnch    (5F 01)
+364: RocktLnch2   (60 01)
+365: RocktLnch3   (61 01)
+366: RocktLnchX   (80 01)
+367: IceHammrB    (62 01)
+368: IceHammrB2   (63 01)
+369: IceHammrB3   (64 01)
+370: IceHammrBX   (81 01)
+371: StrngSwng    (65 01)
+372: StrngSwng2   (66 01)
+373: StrngSwng3   (67 01)
+374: StrngSwngX   (82 01)
+375: ++++         (CF 00)
+376: WingBlade    (C4 00)
+377: DrknssHole   (C5 00)
+378: Millikick    (C6 00)
+379: BrkTmeBmb    (C7 00)
+380: MuBarrier    (C8 00)
+381: DreadLazer   (C9 00)
+382: DestrMissl   (CA 00)
+383: BusterMAX    (CB 00)
+384: OxTackle     (CC 00)
+385: MirrorsEdg   (CD 00)
+386: ++++         (CE 00)
 
 0x000DCDFC: C3 00 0F 01 67 01 8D 01
 (195, 271, 386, 397)
