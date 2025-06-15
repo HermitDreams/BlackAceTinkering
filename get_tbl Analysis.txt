@@ -389,6 +389,20 @@ unsure how it handles card IDs above 255.
 
 Next Block starts at 0xD9C
 
+(Bit 1) 01 = group 1 additional?
+(Bit 5) 10 = group 2 additional?
+(Bit 7) 40 = read as group?
+(Other) 2X = rarity weight?
+55 = group 3 additional + Bit 3
+41 = group 1 additional
+50 = group 2 additional
+03 = within group?
+Higher bits = ID in group?
+20 03 = Inherit former rarity?
+E0 9F = End of a Table?
+Formatting incorrect? Should be 20 03 XX?
+
+
 00 D0 00 00 20 D3 00 00 18 55 D6 20 03 D9 20 0B
 DC 20 0F DF 20 13 55 E2 20 13 E5 20 1B E8 20 1B
 EF 20 23 00 D1 00 00 0C D4 00 00 08 41 D7 20 03
@@ -398,46 +412,543 @@ DA 00 00 02 DD 20 03 50 D2 20 07 D5 20 0B DB 00
 4E 20 67 55 42 20 6B 60 20 6F 67 20 73 17 20 73
 55 18 20 77 30 20 7B 1F 20 7F 22 20 87 36 0D 10
 00 10 03 30 7F EC 20 A3 30 83 F3 A0 20 A7 F6 20
+AF 02 01 00 20 08 D5 20 03 20 BB 10 20 B7 0C 20
+B3 10 20 9F 55 02 20 9F 02 20 9F 02 20 9F 06 20
+9F 55 08 20 9F 06 20 9F 06 20 9F 02 00 70 9F 6D
+4E 20 A3 20 7F 20 30 7F 70 A7 5D 21 0F EB 30 AB
+30 A7 30 AF 3F 21 23 3C 00 60 9F 00 F1 3F 90 60
 
 * incrementing as D0 D3 D6 D9 DC DF E2 E5 E8
 * EF starts next line, then D1. Breaks pattern.
-* D0 = 208 = Scythe1. 20?
-* D3 = 211 = DanceFire1. 18?
-* D6 = 214 = KiloBomb1. 20 03?
-* D9 = 217 = SnoBall1. 20 0B?
-* DC = 220 = PiranKss1. 20 0F?
-* DF = 223 = Squall1. 20 13?
-* E2 = 226 = PuffBlst1. 20 13?
-* E5 = 229 = JngleStorm. 20 1B?
-* E8 = 232 = HeatGrnde. 20 1B?
-* EF = 239 = ElecSlash. 20 23?
-* D1 = 209 = Scythe2. 0C?
-* D4 = 212 = DanceFire2. 08?
-* D7 = 215 = KiloBomb2. 20 03?
-* DA = 218 = SnoBall2. 02?
-* DD = 221 = PiranKss2. 20 03?
-* D2 = 210 = Scythe3. 20 07?
-* D5 = 213 = DanceFire3. 20 0B?
-* DB = 219 = SnoBall3. 06?
-* 10 = 272 = ImpctCanon
-* 11 = 273 = PlasmaGunX
-* 44 = 324 = YetiBlzrd
-* 4A = 330 = TerraCndr
-* 4D = 333 = QnOphiuca
-* 45 = 325 = YetiBlzrd[V2]
-* 4B = 331 = TerraCndr[V2]
-* 39 = 57 = WideWave1
-* 4E = 78 = FlashStrk1
-* 42 = 66 = IceSpin1
-* 60 = 96 = Bushido1
-* 67 = 103 = MadVulcn2
-* 17 = 23 or 279 = SyncHook1 or GiantAxe
-* 18 = 24 = SyncHook2
-* 30 = 48 = HeatUppr1
-* 1F = 31 = GrandWave2
-* 22 = 34 = JetAttack2
-* EC = 236 = StunKnukle
-* F6 = 246 = VulcnSeed1
+* 00
+   + D0 00 00 20 = 208 = Scythe1. Weight 32?
+   + D3 00 00 18 = 211 = DanceFire1. Weight 24?
+* 55
+   + D6 20 03 = 214 =  KiloBomb1. Weight 32? 00100000 00000011?
+   + D9 20 0B = 217 =   SnoBall1. Weight 32? 00100000 00001011?
+   + DC 20 0F = 220 =  PiranKss1. Weight 32? 00100000 00001111?
+   + DF 20 13 = 223 =    Squall1. Weight 32? 00100000 00010011?
+* 55
+   + E2 20 13 = 226 =  PuffBlst1. Weight 32? 00100000 00010011?
+   + E5 20 1B = 229 = JngleStorm. Weight 32? 00100000 00011011? Why skip 00010111?
+   + E8 20 1B = 232 =  HeatGrnde. Weight 32? 00100000 00011011?
+   + EF 20 23 = 239 =  ElecSlash. Weight 32? 00100000 00100011?
+* 00
+   + D1 00 00 0C = 209 = Scythe2. Weight 12?
+   + D4 00 00 0B = 212 = DanceFire2. Weight 11?
+* 41
+   + D7 20 03 = 215 =  KiloBomb2. Weight 32? 00100000 00000011?
+* DA 00 00 02 = 218 =   SnoBall2. Weight  2?
+   + DD 20 03 = 221 =  PiranKss2. Weight 32? 00100000 00000011?
+* 50
+   + D2 20 07 = 210 =    Scythe3. Weight 32? 00100000 00000111?
+   + D5 20 0B = 213 = DanceFire3. Weight 32? 00100000 00001011?
+* DB 00 00 06 = 219 =   SnoBall3. Weight  6?
+* 04
+* 10 01 00 05 = 272 = ImpctCanon. Weight  5?
+   + 11 20 03 = 273 = PlasmaGunX.   Inherit? 00100000 00000011?
+* 44 01 14 00 = 324 =  YetiBlzrd. 14 00? A group?
+* 04 (Weight 4?)
+   + 4A 20 03 = 330 =  TerraCndr.   Inherit? 00100000 00000011?
+   + 4D 20 07 = 333 =  QnOphiuca.   Inherit? 00100000 00000111?
+* 45 01 15 00 = 325 = YetiBlzrd2. 15 00?
+* 02 (Weight 2?)
+   + 4B 20 03 = 331 = TerraCndr2.   Inherit? 00100000 00000011?
+   + 39 20 63 =  57 =  WideWave1.   Inherit? 00100000 01100011?
+   + 4E 20 67 =  78 = FlashStrk1.   Inherit? 00100000 01100111?
+* 55
+   + 42 20 6B =  66 =   IceSpin1.   Inherit? 00100000 01101011?
+   + 60 20 6F =  96 =   Bushido1.   Inherit? 00100000 01101111?
+   + 67 20 73 = 103 =  MadVulcn2.   Inherit? 00100000 01110011?
+   + 17 20 73 =  23 =  SyncHook1.   Inherit? 00100000 01110011?
+* 55
+   + 18 20 77 =  24 =  SyncHook2.   Inherit? 00100000 01110111?
+   + 30 20 7B =  48 =  HeatUppr1.   Inherit? 00100000 01111011?
+   + 1F 20 7F =  31 = GrandWave2.   Inherit? 00100000 01111111?
+   + 22 20 87 =  34 = JetAttack2.   Inherit? 00100000 10000111? Where did 10000011 go?
+* 36 0D 10 00 10 03 30 7F (BeastSlap2 and WindyAtk2?)
+   + EC 20 A3 = 236 = StunKnukle.   Inherit? 00100000 10010011?
+* 30 83
+   + F3 A0 20 A7 = 243 = GreenInk.  Inherit? 00100000 10010111? Why the 160 there?
+   + F6 20 AF = 246 = VulcnSeed1.   Inherit? 00100000 10011111?
+* 02 01 00 20 = 258 = Earthundr1.
+   + 08 D5 20 03 = 264 = SpinBlade1.         00100000 00000011? What is the 213 for?
+* 20 BB 10 20 B7 0C 20 B3 10 20 9F
+   How does this get chopped up? 20 BB -> 20 B7 -> 20 B3? -> 20 9F?
+   02 01 is probably Earthundr1. The rest don't look like SwrdFghtr1 nor SpinBlade1
+   Why is it 10 -> 0C -> 10? What syntax is this?
+* 55
+   + 02 20 9F
+   + 02 20 9F
+   + 02 20 9F
+   + 06 20 9F
+   Why so many 02 20 9F? Why is the last 06?
+* 55
+   + 08 20 9F
+   + 06 20 9F
+   + 06 20 9F
+* 02 00 70 9F
+* 6D 4E 20 A3 = QnOphiuca2?
+* 20 7F 20 30 7F 70 A7
+   + 5D 21 0F =  93 =   BuzzSaw1.   Inherit? 00100001 00001111?
+   + EB 30 AB = 235 = RdrMissile.            00110000 10101011?
+   + 30 A7
+   + 30 AF
+
+30 A7 30 AF 3F 21 23 3C 00 60 9F 00 F1 3F 90 60
+AF 10 E9 21 3B EA 00 00 0A 40 EB 20 03 F0 00 00
+04 F4 00 14 00 05 F7 20 03 03 21 37 05 01 15 00
+0A D8 20 13 DE 21 47 E1 21 4B 55 12 21 4B 13 21
+4F 47 21 4B 50 21 4F 56 53 21 53 48 21 4B 51 21
+4F 21 27 10 B5 21 37 10 31 4B 30 97 45 21 BF 57
+21 07 5B 8A 01 91 3F 10 71 3F 61 EB 10 31 FF 20
+
+   + 3F 21 23 =  63 =  SharkAtk1?            00100001 00100011?
+* 3C 00 60 9F =  60 = BubblHook1?
+* 00 F1 3F
+   + 90 60 AF = 144 = GrassStage?
+* 10 
+   + E9 21 3B = 233 =  WoodGrnde
+* EA 00 00 0A = 234 =   IceGrnde
+* 40
+   + EB 20 03 = 236 = RdrMissile
+* F0 00 00 04 = 240 =  WoodSlash
+* F4 00 14 00 05 = 244 = BlueInk
+   + F7 20 03 = 247 = VulcnSeed2
+   + 03 21 37 = 259 = Earthundr2
+* 05 01 15 00 = 261 = SwrdFghtr1
+* 0A
+   + D8 20 13 = 216 =  KiloBomb3
+   + DE 21 47 = 222 =  PiranKss3
+   + E1 21 4B = 225 =    Squall3
+* 55
+   + 12 21 4B = 274 = AirSpreadX
+   + 13 21 4F = 275 = BigGrenade
+   + 47 21 4B = 327 =  PlesioSrf
+   + 50 21 4F = 336 =  GeminSprk
+* 56
+   + 53 21 53 = 342 =  CancrBubl
+   + 48 21 4B = 328 = PlesioSrf2
+   + 51 21 4F = 337 = GeminSprk2
+*
+   + 4B 30 97 =  75 = ThndrHead1
+   + 45 21 BF =  69 =  StlthLzr1
+   + 57 21 07 =  87 = PollnShot1
+
+
+9F 52 03 20 9F 05 20 9F 05 ED 90 A3 0A 9B 20 A3
+0A 09 01 20 9F 30 9B 54 21 EF 21 27 A5 30 9B 10
+21 D7 20 09 61 EF 0F 21 A7 7E 36 00 E1 3F 31 CF
+31 DB 32 6B 32 73 22 7F 20 A9 22 6F 18 22 6B 20
+22 6B 20 E3 22 A3 AA 21 3F 20 20 9B 20 21 3B 20
+21 37 20 A5 21 37 20 21 2F 10 E4 22 9B E7 22 0B
+55 EE 22 0F 1A 22 87 1B 22 8B 1E 22 87 55 56 21
+57 59 21 5B 5C 21 5F 57 22 97 55 5A 22 9B 4F 22
+EF 07 22 F3 0A 22 F7 55 5E 22 FB 94 22 FF 27 23
+03 31 00 62 7F FE 73 17 32 73 32 7F 32 8B 33 17
+33 27 23 13 20 96 23 0F 18 E0 23 43 E6 23 47 21
+
+* ED 90 A3 = PoisKnukle?
+* 09 01 20 9F = SpinBlade2?
+* 54 21 EF = CancrBubl2?
+* 73 22 7F = BlackHole2?
+* E3 22 A3 = PuffBlst2?
+
+* 10
+   + E4 22 9B = 228 = PuffBlst3
+   + E7 22 0B = 231 = PoisnStorm
+* 55
+   + EE 22 0F = 238 = FrezKnukle
+   + 1A 22 87 = 282 = GrandWaveX
+   + 1B 22 8B = 283 = JetAttackX
+   + 1E 22 87 = 286 =   BigDropX
+* 55
+   + 56 21 57 =     =  GenAuriga
+   + 59 21 5B =     =  LibraScls
+   + 5C 21 5F =     =  CrwnThndr
+   + 57 22 97 =     = GenAuriga2
+* 55
+   + 5A 22 9B =  90 = LibraScls2
+   + 4F 22 EF =  79 = FlashStrk2 or QnOphiuca3
+   + 07 22 F3 =   7 = AirSpread3 or SwrdFghtr3
+   + 0A 22 F7 =  10 =  DrillArm2 or SpinBlade3
+* 55
+   + 5E 22 FB =  94 =   BuzzSaw2
+   + 94 22 FF = 148 =   AtkPanel
+   + 27 23 03 =  39 = SmileCoin1
+* 31 00 62 7F =  49 =  HeatUppr2
+
+* 17 33 27 23 =     =  GiantAxe?
+
+* 18
+   + E0 23 43 = 224 =    Squall2
+   + E6 23 47 = 230 =   SnoStorm
+
+
+E3 20 AA 21 DF 18 21 DF 18 21 DB 20 21 37 20 AD
+
+* E3 20 AA = PuffBlst2?
+
+30 93 F1 23 3B F5 22 AB 30 AB 1C 23 1F 5A 1D 23
+2B 1F E0 9F 30 9B 5D 23 3B 10 AA 23 8F 2D 23 93
+46 23 97 40 23 9B 2A AD 23 9F 54 23 A3 92 00 63
+1F 23 07 1C 33 1F B5 23 A7 16 31 0F 22 5F 16 23
+
+   + F1 23 3B =     =  HeatSlash
+   + F5 22 AB =     =  PurpleInk
+   + 1C 23 1F =     =      BukiX
+   + 1D 23 2B =     = SmileCoinX
+   + 1F E0 9F =     =  TimeBombX
+* 10 AA 23 8F =  16 =  WindyAtk2
+   + 2D 23 93 =  45 =  TimeBomb1
+   + 46 23 97 =  70 =  StlthLzr2
+   + 40 23 9B =  64 =  SharkAtk2
+* 2A AD 23 9F =  42 =   BigDrop1
+   + 54 23 A3 =  84 =  Shuriken1 or CancrBubl2
+* 92 00 63 1F = 146 =  PrlyzeStg
+
+
+A3 16 21 C3 55 1C 23 A3 1C 21 37 16 23 A7 10 23
+
+* 1C 23 A3 = BukiX?
+* or 1C 21 37
+
+
+A7 74 0C 23 A7 40 83 71 2B 04 22 97 0B 01 15 00
+08 0C 20 03 0D 20 07 14 23 BB 54 15 23 BF 20 23
+C3 21 23 C7 5F 01 19 00 0C 65 20 03 22 87 0C 63
+
+   + 04 22 97 = 260 = Earthundr3?
+* 0B 01 15 00 = 267 = QuickGauge
+* 08
+   + 0C 20 03 = 268 = NormlGauge
+   + 0D 20 07 = 269 =  SlowGauge
+
+   + 14 23 BB = 276 =  DrillArmX
+* 54
+   + 15 23 BF = 277 = BeastSlapX
+   + 20 23 C3 = 288 =  HeatUpprX
+   + 21 23 C7 = 289 = MechFlameX
+* 5F 01 19 00 =     = RocktLnch?
+   + 65 20 03 =     = StrngSwng?
+
+
+20 27 60 66 20 2B 22 83 08 4C 01 00 06 55 51 24
+37 24 24 3B 6C 24 3F 33 24 43 77 48 00 63 BF 33
+
+* 60 66 20 2B =     = StrngSwng2?
+* 4C 01 00 06 =     = TerraCndr3?
+* 55
+   + 51 24 37 =  81 =  ArachAtk1
+   + 24 24 3B =  36 =      Buki1
+   + 6C 24 3F = 108 = NoiseWzrd1
+   + 33 24 4E =  51 = MechFlame1
+
+
+AF 34 4F 0A 23 03 31 23 22 EF 55 1C 24 47 16 23
+0B 1C 23 03 1C 23 0B 5D 16 22 FB 0C 22 FB 41 C7
+
+* 0A 23 03 = SpinBlade3?
+
+
+71 2B F8 23 DB 55 06 23 37 F2 24 73 F9 24 77 07
+
+   + F8 23 DB =     = VulcnSeed3
+* 55
+   + 06 23 37 = 262 = SwrdFghtr2
+   + F2 24 73 = 242 = BreakSabre
+   + F9 24 77 = 249 = DstryUpper
+   + 07 20 A7 = 263 = SwrdFghtr3?
+
+
+20 A7 55 16 24 5B 18 24 5F 22 24 63 23 24 67 69
+
+* 55
+   + 16 24 5B = 278 =  WindyAtkX
+   + 18 24 5F = 280 =  SyncHookX
+   + 22 24 63 = 290 =   MadFireX
+   + 23 24 67 = 291 =  WideWaveX
+
+
+62 20 9F 24 67 0C 21 DF 0C 60 20 C7 A5 24 6B 08
+
+* 62 20 9F = IceHammrB?
+* 60 20 C7 = RocktLnch2?
+
+
+23 27 08 46 20 9F 23 61 D3 57 63 24 DF 5A 24 E3
+
+   + 46 20 9F =     = YetiBlzrd3?
+* 57
+   + 63 24 DF = 355 = IceHammrB2
+   + 5A 24 E3 = 346 = LibraScls2
+
+
+6F 00 64 5F 34 DB 20 9B 75 12 23 9F 42 6B 20 73
+18 24 D3 14 22 4B 21 18 FE 23 AF FF 00 00 0E 20
+7F 2B 0A FA 20 07 0E 21 2B FD 25 07 20 7F 4A 0C
+
+* FE 23 AF = Fire+30?
+* FF 00 00 0E = Aqua+30?
+* FA 20 07 = WrriorSoul?
+* FD 25 07 = AllPoison?
+
+
+20 7F 10 24 23 D7 25 23 DB 26 DA 23 DF 23 AB 10
+
+* 10
+   + 24 23 D7 = 292 = BubblHookX
+   + 25 23 DB = 293 =  SharkAtkX
+* 26 DA 23 DF = 294 =   IceSpinX
+
+
+30 8B 23 AB 10 22 6F 10 AA 20 9B 10 24 5B 0A 23
+13 0E 20 9B 0E 95 21 3F 0E 49 21 37 52 23 EB 68
+
+* 68 25 23 = SpadMagnsX?
+* 49 21 37 = PlesioSrf3?
+* 52 23 EB = GeminSprk3?
+
+
+25 23 55 6D 25 77 50 25 7B 3B 25 7F 38 25 83 7D
+
+* 55
+   + 6D 25 77 = 109 = NoiseWzrd2
+   + 50 25 7B =  80 = FlashStrk3
+   + 3B 25 7F =  59 =  WideWave3
+   + 38 25 83 =  56 =   MadFire3
+
+
+56 00 64 FF 35 8F 34 EB 32 FB 23 03 20 22 E7 52
+20 25 77 20 21 1F 20 00 20 5B 01 AB 24 3B FB 20
+A3 FC 24 5B 0F 21 CB 21 2F 2A 0C 27 24 6F 28 24
+73 29 24 77 2A B5 24 7B 2B 24 7F 25 93 10 24 4B
+
+   + 00 20 5B = 256 = Elec+30?
+* 01 AB 24 3B = 257 = Wood+30?
+   + FB 20 A3 = 251 = Muramasa?
+   + FC 24 5B = 252 = ExtiMeteor?
+   + 0F 21 CB = 271 = MegaBoost?
+* 0C
+   + 27 24 6F = 295 =  StlthLzrX
+   + 28 24 73 = 296 = MummyHandX
+   + 29 24 77 = 297 = ThndrHeadX
+* 2A B5 24 7B = 298 = FlashStrkX
+   + 2B 24 7F = 299 =  ArachAtkX
+
+
+10 23 13 5A 0C 21 D7 10 31 D7 24 53 0E 23 13 0E
+A5 21 D7 0A 25 AB 0E 4F 21 D7 55 24 8B 55 69 25
+
+* 55 24 8B = CancrBubl3?
+* 69 25 C3 = DiamndIceX?
+
+
+C3 71 26 17 32 26 1B 44 26 1F 5A 62 26 23 3E 00
+
+* C3
+   + 71 26 17 = 113 = MalWizard3
+   + 32 26 1B =  50 =  HeatUppr3
+   + 44 26 1F =  68 =   IceSpin3
+* 5A
+   + 62 26 23 =  98 =   Bushido3
+
+
+65 9F 21 6B 10 20 D7 10 A5 20 D7 10 20 3B 10 5E
+24 EB 61 24 EF AA 25 F7 14 25 5B 14 23 77 14 23
+
+* 10
+   + 5E 24 EB = 350 = CrwnThndr3
+   + 61 24 EF = 353 = RocktLnch3
+
+
+77 18 AA 22 3F 18 22 3F 14 22 FB 18 20 9B 18 A9
+
+* Unknown
+
+
+20 9B 18 20 9B 18 20 9B 18 2C 21 73 55 2F 21 77
+35 21 7B 38 21 7F 3A 21 83 6B 3D 21 87 21 F3 18
+
+* 18
+   + 2C 21 73 = 300 =  ShurikenX
+* 55
+   + 2F 21 77 = 303 =   BuzzSawX
+   + 35 21 7B = 309 = MalWizardX
+   + 38 21 7F = 312 =    ScytheX
+   + 3A 21 83 = 314 =  KiloBombX
+* 6B
+   + 3D 21 87 = 317 =    SquallX
+
+
+20 D3 18 36 A3 26 87 F2 86 43 24 EF 43 B3 21 47
+
+* Unknown
+
+
+08 6B 22 BF 70 86 22 C3 8C 01 00 01 00 36 3F 22
+
+* 08
+   + 6B 22 BF = 363 = QueenVrgoX
+* 70
+   + 86 22 C3 = 390 =  GorgonEye
+* 8C 01 00 01 = 396 =  HolyLight
+
+
+AB 0C 95 20 D7 0C 58 22 CB 5B 22 CF 64 22 D3 6A
+67 22 D7 26 AF 18 26 AF 18 25 6B 18 AA 25 6B 18
+
+* 0C
+   + 58 22 CB = 344 = GenAuriga3
+   + 5B 22 CF = 347 = LibraScls3
+   + 64 22 D3 = 356 = IceHammrB3
+* 6A
+   + 67 22 D7 = 359 = StrngSwng3
+
+
+22 FB 18 24 37 18 24 37 18 AA 23 9B 18 23 03 18
+
+* Unknown
+
+
+23 03 18 22 6B 18 55 2D 22 13 30 22 17 33 22 1B
+34 22 1F 5E 3B 22 23 3E 22 27 33 F7 27 3B 43 F7
+
+* 55
+   + 2D 22 13 = 301 = PollnShotX
+   + 30 22 17 = 304 =   BushidoX
+   + 33 22 1B = 307 =    MuTechX
+   + 34 22 1F = 308 = NoiseWzrdX
+* 5E
+   + 3B 22 23 = 315 =   SnoBallX
+   + 3E 22 27 = 318 =  PuffBlstX
+
+
+21 F9 66 3F 36 DF 36 2B 32 73 21 47 08 6C 23 5F
+5A 71 23 63 8D 00 60 9F 27 23 18 25 DB 18 AA 25
+
+* 08
+   + 6C 23 5F = 364 = JackCorvsX
+* 5A
+   + 71 23 63 = 369 = WolfWoodsX
+* 8D 00 60 9F = 397 = WickdFlame?
+
+
+DB 18 25 3F 18 24 03 18 22 CB 18 A6 23 87 18 22
+EF 18 17 22 8F 22 F3 18 AA 24 D7 18 24 3B 18 22
+
+* 17 22 8F = GiantAxe?
+
+
+F7 18 22 77 18 A9 22 77 18 22 77 18 21 EB 18 2E
+22 B3 55 31 22 B7 32 22 BB 39 22 BF 3C 22 C3 74
+3F 22 C7 35 2F 22 B3 10 23 3F 18 4B F5 64 57 33
+
+* 18
+   + 2E 22 B3 = 302 = AcornBombX
+* 55
+   + 31 22 B7 = 305 = SkullArrwX
+   + 32 22 BB = 306 =  MadVulcnX
+   + 39 22 BF = 313 = DanceFireX
+   + 3C 22 C3 = 316 =  PiranKssX
+   + 3F 22 C7 = 319 = VulcnSeedX
+
+
+A7 34 53 35 8F 6A 23 FB 6F 23 FF 5F 72 24 03 88
+00 61 3F 38 1F 38 0B 34 D7 35 6F FE 37 77 35 97
+
+* 8F
+   + 6A 23 FB = 362 = ClubStrngX 
+   + 6F 23 FF = 367 = TaursFireX
+   + 72 24 03 = 370 =  DrkPhntmX
+* 88 00 61 3F = 392 = RogueBreak
+
+
+34 F7 75 9B 34 FF 34 EF 65 93 18 AA 28 03 18 26
+BB 18 28 07 18 26 BB 18 AA 25 87 18 23 C3 0C 23
+
+* Unknown
+
+
+43 0C 23 53 0C 95 23 53 10 19 24 43 36 24 47 37
+24 4B 56 40 24 4F 25 28 87 70 28 8B B3 17 55 BF
+
+* 10
+   + 19 24 43 = 281 = PlatMeteor
+   + 36 24 47 = 310 = BlackHoleX
+   + 37 24 4B = 311 = HrrcnDance
+* 56
+   + 40 24 4F = 320 = EarthundrX
+
+* 70 28 8B = CygnsWingX?
+
+
+28 9B 73 00 68 17 78 2B 00 38 BB 78 23 35 9F 36
+37 FA 35 93 24 4B 45 8F 33 DF 27 53 18 26 13 18
+AA 24 DF 18 24 43 18 24 E3 18 23 43 0C A9 23 43
+
+* Unknown
+
+
+0C 23 53 10 23 53 0C 41 24 E3 56 42 24 E7 43 24
+EB 4D 60 9B 36 23 6A D6 A3 0F 33 1B 59 00 E0 9F
+
+* 0C
+   + 41 24 E3 = 321 = SwrdFghtrX
+* 56
+   + 42 24 E7 = 322 = SpinBladeX
+   + 43 24 EB = 323 = BreakSabrX
+
+
+86 29 0F 21 5B 08 6A 8A 29 17 22 A3 08 20 F7 20
+20 F3 20 AA 20 5F 20 20 5B 20 21 7F 18 22 BF 18
+
+* 8A 29 17 = FlyngImpct?
+
+
+A5 22 23 18 21 87 18 73 24 7F 75 24 83 55 77 24
+87 78 24 8B 79 24 8F 7D 24 93 54 7E 24 97 7F 24
+9B 82 24 9F 01 48 35 00 20 02 F0 03 79 6B 87 25
+FF 89 26 03 55 8B 52 A3 08 21 93 20 21 8F 20 20
+
+* 18
+   + 73 24 7F = 371 =     RogueX
+   + 75 24 83 = 373 = ApolloFlmX
+* 55
+   + 77 24 87 = 375 = YetiBlzrdX
+   + 78 24 8B = 376 = PlesioSrfX
+   + 79 24 8F = 377 = TerraCndrX
+   + 7D 24 93 = 381 = GenAurigaX
+* 54
+   + 7E 24 97 = 382 = LibraSclsX
+   + 7F 24 9B = 383 = CrwnThndrX
+   + 82 24 9F = 386 = StrngSwngX
+* 6B
+   + 87 25 FF = 391 = GeminThndr
+   + 89 26 03 = 393 =  Avalanche
+* 55
+         + 8B = 395 =  TrrntWave?
+
+FB AA 33 5F 18 24 0B 18 22 27 18 23 67 18 95 22
+
+* Unknown
+
+
+CB 18 6D 25 1F 6E 25 23 74 25 27 55 76 25 2B 7A
+25 2F 7B 25 33 7C 25 37 50 80 25 3B 81 03 E0 9F
+
+* 18
+   + 6D 25 1F = 365 = DreadJokrX
+   + 6E 25 23 = 366 =   AcidAceX
+   + 74 25 27 = 372 = MoonDstryX
+* 55
+   + 76 25 2B = 374 =    SiriusX
+   + 7A 25 2F = 378 = QnOphiucaX
+   + 7B 25 33 = 379 = GeminSprkX
+   + 7C 25 37 = 380 = CancrBublX
+* 50
+   + 80 25 3B = 384 = RocktLnchX
+* 81 03 E0 9F = 385 = IceHammrBX
 
 
 ROM Address 0x788334: set to DC, changing it potentially removes PiranKss1 from the Mettenna1 Noise pool, but doesn't actually place the new card in?

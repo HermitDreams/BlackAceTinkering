@@ -1,0 +1,506 @@
+Group A:
++ SyncHook2
++ GrandWave2
++ JetAttack2
++ HeatUppr1
++ WideWave1
++ SharkAtk1
++ IceSpin1
++ FlashStrk1
++ BuzzSaw1
++ Bushido1
++ MadVulcn2
++ Scythe1
++ Scythe2
++ Scythe3
++ DanceFire1
++ DanceFire2
++ DanceFire3
++ KiloBomb1
++ KiloBomb2
++ SnoBall1
++ SnoBall2
++ SnoBall3
++ PiranKss1
++ PiranKss2
++ VulcnSeed1
++ PuffBlst1
++ JngleStorm
++ HeatGrnde
++ StunKnukle
++ ElecSlash
++ Earthundr1
++ SpinBlade1
++ ImpctCanon
++ PlasmaGunX
++ YetiBlzrd
++ YetiBlzrd[V2]
++ TerraCndr
++ TerraCndr[V2]
++ QnOphiuca
+
+Potential Group B:
++ KiloBomb3
++ PiranKss3
++ Squall3
++ PuffBlst2
++ PoisnStorm
++ WoodGrnde
++ IceGrnde
++ RdrMissile
++ PoisKnukle
++ FrezKnukle
++ WoodSlash
++ BlueInk
++ VulcnSeed2
++ Earthundr2
++ SwrdFghtr1
++ SpinBlade2
++ AirSpreadX
++ BigGrenade
++ SmileCoinX
++ PlesioSrf
++ PlesioSrf[V2]
++ GeminSprk
++ GeminSprk[V2]
++ GenAuriga
+
+Potential Group C:
++ AirSpread3
++ DrillArm2
++ WindyAtk2
++ SmileCoin1
++ BigDrop1
++ TimeBomb1
++ HeatUppr2
++ SharkAtk2
++ StlthLzr2
++ FlashStrk2
++ BuzzSaw2
++ AtkPanel
++ PrlyzeStg
++ Squall2
++ PuffBlst2
++ SnoStorm
++ PoisnStorm
++ PoisKnukle
++ FrezKnukle
++ SpinBlade2
++ LibraScls
++ CrwnThndr
++ CrwnThndr[V2]
+
+
+- 2 Bang
++ BlueInk
++ FrezKnukle
++ Earthundr2
+
+- Crowket, Mettenna2, Mr. Hertz
++ HeatUppr1
++ SyncHook2
++ StunKnukle
++ KiloBomb3
+
+- CrowketG, Mettenna2G, Mr. Hertz
++ PoisKnukle
+
+- 2 Musashi
++ GreenInk
++ HeatGrnde
++ IceGrnde
++ PiranKss3
++ JngleStorm
++ Earthundr1
+
+- Bang, 2 MegaStealth
++ TimeBomb1
++ StlthLzr2
++ AtkPanel
+
+- Crowket, DoomCount, Ku'i
++ SharkAtk2
++ PiranKss2
++ SpinBlade1
++ CrwnThndr
+
+- CrowketG, DoomCountG, Ku'iG
++ SmileCoin1
++ DanceFire2
+
+- Stealth, Mettenna2, Boom
++ ElecSlash
++ SharkAtk1
++ PiranKss1
++ Earthundr1
++ PlesioSrf
++ GeminSprk
+
+- 3 BlueChakram
++ IceGrnde
++ VulcnSeed2
++ PoisnStorm
++ Earthundr1
+
+- DoomCount, Bang, MegaStealth
++ BigDrop1
++ AtkPanel
++ Scythe2
++ IceGrnde
++ VulcnSeed1
+
+- 2 BlueChakram
++ FlashStrk2
++ Scythe2
++ WoodSlash
++ ElecSlash
++ StunKnukle
++ SnoBall2
++ SpinBlade1
+
+- Ku'i, 2 MegaStealth
++ AirSpread3
+
+- 3 MegaStealth
++ WoodSlash
++ Scythe1
++ IceGrnde
++ BlueInk
++ RdrMissile
++ PiranKss1
++ PuffBlst2
++ Squall3
++ VulcnSeed1
++ VulcnSeed2
++ GenAuriga
++ CrwnThndr
++ SmileCoinX
+
+- Mettenna2, 2 Stealth
++ Bushido1
++ StlthLzr1
++ DanceFire1
++ JngleStorm
+
+- 3 DoomCount
++ DrillArm2
++ StlthLzr2
++ FrezKnukle
++ KiloBomb1
++ PuffBlst2
++ JngleStorm
++ PrlyzeStg
++ SwrdFghtr1
+
+- 3 MegaStealthG
++ IceGrnde
+
+- Crowket, Mettenna2, BaseGunner
++ DrillArm1
++ WindyAtk1
++ MadFire1
++ BubblHook1
++ Bushido1
++ Whistle
++ DanceFire1
++ VulcnSeed2
++ Squall1
+
+- BaseGunnerG, 2 StealthG
++ WindyAtk1
++ Bushido1
+
+- BaseGunner, 2 Stealth
++ Scythe1
++ PiranKss1
+
+- 2 DoomCount
++ SmileCoin1
++ SharkAtk2
++ BuzzSaw2
++ AtkPanel
++ GreenInk
++ WoodGrnde
++ DanceFire2
++ SnoBall1
++ SnoBall2
++ PiranKss1
++ CrwnThndr
+
+- Bang, 2 Ku'i
++ WoodGrnde
++ RdrMissile
++ Squall2
++ SnoStorm
++ LibraScls
+
+- DoomCount, BaseGunner, Bang
++ WindyAtk2
++ PoisKnukle
++ Squall3
+
+- BlueChakram, BaseGunner, MegaStealth
++ SmileCoin1
++ TimeBomb1
++ SnoBall2
++ JngleStorm
++ SnoStorm
++ RdrMissile
++ SpinBlade1
++ SpinBlade2
++ SmileCoinX
+
+- BlueChakramG, BaseGunnerG, MegaStealthG
++ GreenInk
+
+- Crowket, 2 Mettenna2, Mr. Hertz
++ IceSpin1
++ Scythe1
++ PuffBlst1
++ SnoBall1
++ SharkAtk1
++ PiranKss1
++ Earthundr1
+
+- 2 BangG, MegaStealthG
++ DanceFire1
+
+- 2 Bang, MegaStealth
++ SmileCoin1
+
+- MegaStealth, Ku'i
++ HeatUppr2
+
+- BlueChakram, MegaStealth, Ku'i
++ BuzzSaw2
++ CrwnThndr[V2]
+
+- Crowket, Mettenna2, Stealth
++ BubblHook1
+
+- Stealth, MegaStealth
++ TimeBomb1
+
+- MegaStealth, BlueChakram, DoomCount
++ ElecSlash
+
+- 3 Musashi
++ HeatGrnde
++ KiloBomb3
++ JngleStorm
++ Earthundr1
+
+
+- TaursFire[V3]
++ JetAttack1
++ RocktLnch[V2]
++ JetAttackX
++ PiranKssX
++ ThndrHeadX
++ MalWizardX
++ DrkPhntmX
+
+- CygnusWing[V3]
++ SquallX
+
+- DiamondIce[V3]
++ IceSpin1
++ Scythe1
++ QnOphiuca[V2]
++ LibraScls[V2]
+
+
+ACCOUNTED FOR IN get_tbl Analysis:
+
+07 00 (AirSpread3)
+0A 00 (DrillArm2)
+10 00 (WindyAtk2)
+17 00 (SyncHook1)
+18 00 (SyncHook2)
+1F 00 (GrandWave2)
+22 00 (JetAttack2)
+24 00 (Buki1)
+27 00 (SmileCoin1)
+2A 00 (BigDrop1)
+2D 00 (TimeBomb1)
+30 00 (HeatUppr1)
+31 00 (HeatUppr2)
+32 00 (HeatUppr3)
+33 00 (MechFlame1)
+38 00 (MadFire3)
+39 00 (WideWave1)
+3B 00 (WideWave3)
+3C 00 (BubblHook1)
+3F 00 (SharkAtk1)
+40 00 (SharkAtk2)
+42 00 (IceSpin1)
+44 00 (IceSpin3)
+45 00 (StlthLzr1)
+46 00 (StlthLzr2)
+4B 00 (ThndrHead1)
+4E 00 (FlashStrk1)
+4F 00 (FlashStrk2)
+50 00 (FlashStrk3)
+51 00 (ArachAtk1)
+54 00 (Shuriken1)
+57 00 (PollnShot1)
+5A 00 (AcornBomb1)
+5D 00 (BuzzSaw1)
+5E 00 (BuzzSaw2)
+60 00 (Bushido1)
+62 00 (Bushido3)
+67 00 (MadVulcn2)
+6C 00 (NoiseWzrd1)
+6D 00 (NoiseWzrd2)
+71 00 (MalWizard3)
+92 00 (PrlyzeStg)
+94 00 (AtkPanel)
+
+D0 00 (Scythe1)
+D1 00 (Scythe2)
+D2 00 (Scythe3)
+D3 00 (DanceFire1)
+D4 00 (DanceFire2)
+D5 00 (DanceFire3)
+D6 00 (KiloBomb1)
+D7 00 (KiloBomb2)
+D8 00 (KiloBomb3)
+D9 00 (SnoBall1)
+DA 00 (SnoBall2)
+DB 00 (SnoBall3)
+DC 00 (PiranKss1)
+DD 00 (PiranKss2)
+DE 00 (PiranKss3)
+DF 00 (Squall1)
+E0 00 (Squall2)
+E1 00 (Squall3)
+E2 00 (PuffBlst1)
+E4 00 (PuffBlst3)
+E5 00 (JngleStorm)
+E6 00 (SnoStorm)
+E7 00 (PoisnStorm)
+E8 00 (HeatGrnde)
+E9 00 (WoodGrnde)
+EA 00 (IceGrnde)
+EB 00 (RdrMissile)
+EC 00 (StunKnukle)
+EE 00 (FrezKnukle)
+EF 00 (ElecSlash)
+F0 00 (WoodSlash)
+F2 00 (BreakSabre)
+F3 00 (GreenInk)
+F4 00 (BlueInk)
+F6 00 (VulcnSeed1)
+F7 00 (VulcnSeed2)
+F9 00 (DstryUpper)
+02 01 (Earthundr1)
+03 01 (Earthundr2)
+05 01 (SwrdFghtr1)
+08 01 (SpinBlade1)
+0B 01 (QuickGauge)
+0C 01 (NormlGauge)
+0D 01 (SlowGauge)
+10 01 (ImpctCanon)
+11 01 (PlasmaGunX)
+12 01 (AirSpreadX)
+13 01 (BigGrenade)
+14 01 (DrillArmX)
+15 01 (BeastSlapX)
+16 01 (WindyAtkX)
+18 01 (SyncHookX)
+19 01 (PlatMeteor)
+1A 01 (GrandWaveX)
+1B 01 (JetAttackX)
+1C 01 (BukiX)
+1D 01 (SmileCoinX)
+1E 01 (BigDropX)
+1F 01 (TimeBombX)
+20 01 (HeatUpprX)
+21 01 (MechFlameX)
+22 01 (MadFireX)
+23 01 (WideWaveX)
+24 01 (BubblHookX)
+25 01 (SharkAtkX)
+26 01 (IceSpinX)
+27 01 (StlthLzrX)
+28 01 (MummyHandX)
+29 01 (ThndrHeadX)
+2A 01 (FlashStrkX)
+2B 01 (ArachAtkX)
+2C 01 (ShurikenX)
+2D 01 (PollnShotX)
+2E 01 (AcornBombX)
+2F 01 (BuzzSawX)
+30 01 (BushidoX)
+31 01 (SkullArrwX)
+32 01 (MadVulcnX)
+33 01 (MuTechX)
+34 01 (NoiseWzrdX)
+35 01 (MalWizardX)
+36 01 (BlackHoleX)
+37 01 (HrrcnDance)
+38 01 (ScytheX)
+39 01 (DanceFireX)
+3A 01 (KiloBombX)
+3B 01 (SnoBallX)
+3C 01 (PiranKssX)
+3D 01 (SquallX)
+3E 01 (PuffBlstX)
+3F 01 (VulcnSeedX)
+40 01 (EarthundrX)
+41 01 (SwrdFghtrX)
+42 01 (SpinBladeX)
+43 01 (BreakSabrX)
+44 01 (YetiBlzrd)
+45 01 (YetiBlzrd[V2])
+47 01 (PlesioSrf)
+48 01 (PlesioSrf[V2])
+4A 01 (TerraCndr)
+4B 01 (TerraCndr[V2])
+4D 01 (QnOphiuca)
+50 01 (GeminSprk)
+51 01 (GeminSprk[V2])
+53 01 (CancrBubl)
+56 01 (GenAuriga)
+57 01 (GenAuriga[V2])
+58 01 (GenAuriga[V3])
+59 01 (LibraScls)
+5A 01 (LibraScls[V2])
+5B 01 (LibraScls[V3])
+5C 01 (CrwnThndr)
+5E 01 (CrwnThndr[V3])
+61 01 (RocktLnch[V3])
+63 01 (IceHammrB[V2])
+64 01 (IceHammrB[V3])
+67 01 (StrngSwng[V3])
+6A 01 (ClubStrngX)
+6B 01 (QueenVrgoX)
+6C 01 (JackCorvsX)
+6D 01 (DreadJokrX)
+6E 01 (AcidAceX)
+6F 01 (TaursFireX)
+71 01 (WolfWoodsX)
+72 01 (DrkPhntmX)
+73 01 (RogueX)
+74 01 (MoonDstryX)
+75 01 (ApolloFlmX)
+76 01 (SiriusX)
+77 01 (YetiBlzrdX)
+78 01 (PlesioSrfX)
+79 01 (TerraCndrX)
+7A 01 (QnOphiucaX)
+7B 01 (GeminSprkX)
+7C 01 (CancrBublX)
+7D 01 (GenAurigaX)
+7E 01 (LibraSclsX)
+7F 01 (CrwnThndrX)
+80 01 (RocktLnchX)
+81 01 (IceHammrBX)
+82 01 (StrngSwngX)
+86 01 (GorgonEye)
+87 01 (GeminThndr)
+88 01 (RogueBreak)
+89 01 (Avalanche)
+8B 01 (TrrntWave)
+8C 01 (HolyLight)
+8D 01 (WickdFlame)
